@@ -13,6 +13,12 @@ const soligant = localFont({
   variable: '--font-soligant'
 })
 
+const humane = localFont({
+  src: '../../public/assets/fonts/humane/Humane-VF.ttf',
+  display: 'swap',
+  variable: '--font-humane'
+})
+
 export const metadata = {
   title: 'Main',
   description: 'main',
@@ -21,7 +27,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${satoshi.className} ${soligant.variable}`}>{children}</body>
+      <body className={`${satoshi.className} ${soligant.variable} ${humane.variable}`}>{children}</body>
     </html>
   )
 }

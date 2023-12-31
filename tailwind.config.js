@@ -9,6 +9,16 @@ module.exports = {
     extend: {
       fontFamily: {
         soligant: ['var(--font-soligant)'],
+        humane: ['var(--font-humane)'],
+      },
+      backgroundColor: {
+        'charcoal': '#212121',
+        'coffe': '#A38758',
+        'sand': '#DBD7CC',
+      },
+      borderRadius: {
+        'small': '10px',
+        'large': '20px',
       }
     },
   },
