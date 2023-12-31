@@ -5,7 +5,7 @@ import NavbarMobile from '@/components/NavbarMobile';
 
 const Catalog = () => {
     return (
-        <main className='mih-h-screen w-full bg-sand pt-4'>
+        <main className='mih-h-screen w-full bg-sand pt-4 text-charcoal'>
             <div className='w-full px-4'>
                 <Navbar />
                 <NavbarMobile />
@@ -22,7 +22,7 @@ const Catalog = () => {
 
             <div className='mt-10 lg:mt-8 font-soligant w-full flex flex-col justify-center items-center'>
                 <h2 className='text-xl lg:text-[3.5rem] translate-x-11 lg:translate-x-24'>Creating Futures</h2>
-                <h1 className='flex items-center text-3xl lg:text-8xl gap-x-5 lg:gap-x-32 mt-10 lg:mt-2'>Collection
+                <h1 className='flex items-center text-3xl lg:text-8xl gap-x-5 lg:gap-x-32 mt-10 lg:mt-5'>Collection
                     <Image src={'/assets/shape/shape5.svg'} className='w-8 lg:w-14' height={'400'} width={'400'} quality={100} alt='flower' />
                     Edition
                 </h1>

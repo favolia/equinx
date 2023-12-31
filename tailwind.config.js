@@ -16,6 +16,9 @@ module.exports = {
         'coffe': '#A38758',
         'sand': '#DBD7CC',
       },
+      colors: {
+        'charcoal': '#212121',
+      },
       borderRadius: {
         'small': '10px',
         'large': '20px',
