@@ -88,7 +88,7 @@ const About = () => {
                 </div>
 
                 <div className='w-full mt-7'>
-                    <ul className='w-full flex flex-col gap-y-6'>
+                    <ul className='w-full flex flex-col gap-y-6 text-sm'>
                         <li className='flex justify-around items-center border-b border-black pb-4'>
                             <p>Frontend</p>
                             <p>Wordpress</p>
