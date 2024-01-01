@@ -15,6 +15,8 @@ module.exports = {
         'charcoal': '#212121',
         'coffe': '#A38758',
         'sand': '#DBD7CC',
+        'taupe-blue': '#778F95',
+        'ocean-mist': '#B8CBD0',
       },
       colors: {
         'charcoal': '#212121',

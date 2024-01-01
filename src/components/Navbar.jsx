@@ -1,9 +1,9 @@
 import React from 'react'
 import Link from "next/link";
 
-const Navbar = () => {
+const Navbar = ({ background = 'bg-coffe' }) => {
     return (
-        <nav className='text-white hidden lg:flex justify-between items-center bg-coffe relative py-4 px-10 rounded-[15px]'>
+        <nav className={`${background} text-white hidden lg:flex justify-between items-center relative py-4 px-10 rounded-[15px]`}>
             <ul className='text-sm z-20 flex gap-x-8'>
                 <li>
                     <Link href='#'>Home</Link>
