@@ -10,6 +10,7 @@ module.exports = {
       fontFamily: {
         soligant: ['var(--font-soligant)'],
         humane: ['var(--font-humane)'],
+        abril_fatface: ['var(--font-abril_fatface)'],
       },
       backgroundColor: {
         'charcoal': '#212121',
@@ -19,6 +20,13 @@ module.exports = {
         'ocean-mist': '#B8CBD0',
         'sky-blue': '#5D95A3',
         'corn-yellow': '#FEAD37',
+        'slate-grey': '#414042',
+        'camel': '#C7BE9C',
+        'cream': '#F5EFE9',
+        'seashell-whisper': '#E8DDC1',
+        'coffee-bean': '#80744B',
+        'dark-coffee': '#816940',
+        'pearl': '#D9D9D9',
       },
       colors: {
         'charcoal': '#212121',

@@ -1,10 +1,17 @@
 import './globals.css'
 import localFont from "next/font/local";
+import { Abril_Fatface } from "next/font/google";
 
 const satoshi = localFont({
   src: '../../public/assets/fonts/satoshi/Satoshi-Variable.ttf',
   display: 'swap',
   variable: '--font-satoshi'
+})
+
+const abril_fatface = Abril_Fatface({
+  subsets: ['latin'],
+  weight: ['400'],
+  variable: '--font-abril_fatface'
 })
 
 const soligant = localFont({
@@ -27,7 +34,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${satoshi.className} ${soligant.variable} ${humane.variable}`}>{children}</body>
+      <body className={`${satoshi.className} ${soligant.variable} ${abril_fatface.variable} ${humane.variable}`}>{children}</body>
     </html>
   )
 }
