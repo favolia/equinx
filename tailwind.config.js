@@ -17,6 +17,8 @@ module.exports = {
         'sand': '#DBD7CC',
         'taupe-blue': '#778F95',
         'ocean-mist': '#B8CBD0',
+        'sky-blue': '#5D95A3',
+        'corn-yellow': '#FEAD37',
       },
       colors: {
         'charcoal': '#212121',

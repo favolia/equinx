@@ -3,6 +3,7 @@ import NavbarMobile from '@/components/NavbarMobile'
 import React from 'react'
 import Link from "next/link";
 import StarRing from '@/components/ui/StarRing';
+import ButtonStar from '@/components/ui/ButtonStar';
 
 const About = () => {
     return (
@@ -105,12 +106,7 @@ const About = () => {
                 </div>
 
                 <div className='self-center mt-6'>
-                    <Link href='#' className='gap-x-5 h-10 w-48 border border-black rounded-2xl flex justify-center items-center'>
-                        <div className='w-7'>
-                            <StarRing color='fill-black' />
-                        </div>
-                        Contact Us
-                    </Link>
+                    <ButtonStar text='Contact Us' href='/contact-us' />
                 </div>
             </div>
         </main>
