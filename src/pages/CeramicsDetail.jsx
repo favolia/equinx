@@ -6,7 +6,7 @@ import Link from "next/link";
 import ButtonOutline from '@/components/ui/ButtonOutline';
 import { PiHouseFill } from "react-icons/pi";
 
-const InteriorDetail = () => {
+const CeramicsDetail = () => {
     return (
         <main className='w-full bg-coppertone'>
             <div className='px-4 py-5 lg:py-6'>
@@ -217,4 +217,4 @@ const InteriorDetail = () => {
     )
 }
 
-export default InteriorDetail
+export default CeramicsDetail
