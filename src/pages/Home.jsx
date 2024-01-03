@@ -3,6 +3,8 @@ import Image from 'next/image'
 import Link from "next/link";
 import Navbar from '@/components/Navbar';
 import { IoArrowRedoSharp } from "react-icons/io5";
+import { AiOutlineSearch } from "react-icons/ai";
+import { MdArrowRightAlt } from "react-icons/md";
 import ButtonStar from '@/components/ui/ButtonStar';
 import BlurButton from '@/components/ui/BlurButton';
 import AkioLabel from '@/components/ui/AkioLabel';
@@ -190,6 +192,101 @@ const Home = () => {
 
 
                 <div className='bg-camel w-full h-[84vh] lg:h-[145vh]'></div>
+            </div>
+
+            <div className='w-full flex-col flex lg:flex-row h-screen relative text-white'>
+                <div className='absolute top-0 left-0 w-full hidden lg:flex justify-between items-center text-sm p-6'>
+                    <p className='text-lg font-soligant'>intuitive</p>
+                    <p>aesthetics</p>
+                    <p>visionary</p>
+                </div>
+
+                <div className='w-full h-full bg-dark-coffee pt-8 pb-12 lg:pt-0 lg:pb-4 px-4 lg:px-0'>
+                    <div className='w-full h-full flex flex-col lg:justify-end items-center lg:items-start'>
+                        <h1 className='w-48 text-3xl lg:text-4xl font-soligant text-center lg:text-start px-4'>
+                            Personalized
+                            Adventure
+                        </h1>
+
+                        <div className='flex gap-x-20 self-center px-4 mt-5 lg:mt-10'>
+                            <div className='w-36 h-44 lg:w-44 lg:h-56 rounded-small bg-seashell-whisper relative'>
+                                <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center'>
+                                    <Image className='w-20 lg:w-28' src={'/assets/images/3.png'} width={400} height={400} priority quality={100} loading='eager' alt='Akio brown bottle' />
+                                </div>
+
+                                <div className='w-full h-full text-charcoal pt-4 pb-3 text-xs flex flex-col justify-between items-center'>
+                                    <p className='z-10'>Product</p>
+                                    <p className='z-10'>Akio Bottle</p>
+                                </div>
+                            </div>
+
+                            <ul className='hidden lg:block space-y-2 text-sm -translate-y-7 translate-x-8'>
+                                <li>
+                                    <Link href={'https://akio-ds.vercel.app/'}>
+                                        Akio
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href={'https://ceramics-ds.vercel.app/'}>
+                                        Ceramics
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href={'https://interior-ds.vercel.app/'}>
+                                        Interior
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href={'#'}>
+                                        Restaurant
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href={'#'}>
+                                        Megazine
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href={'#'}>
+                                        Glowing
+                                    </Link>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                        <div className='w-full hidden lg:flex translate-x-9 justify-between items-center mt-6'>
+                            <Link href='#'>
+                                <div className='h-11 w-11 bg-coffee-bean rounded-full flex justify-center items-center'>
+                                    <AiOutlineSearch />
+                                </div>
+                            </Link>
+
+                            <button>
+                                <div className='h-[4.5rem] w-[4.5rem] flex justify-center items-center rounded-full text-charcoal bg-cream'>
+                                    <MdArrowRightAlt className='text-3xl' />
+                                </div>
+                            </button>
+                        </div>
+
+                        <div className='w-full mt-10 lg:mt-4'>
+                            <p className='text-xs lg:text-center'>
+                                Eco-friendly bottles that are durable and can b c<br />customized according to
+                                your taste
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='w-full lg:min-w-[38rem] h-full bg-[url(/assets/images/Leonardo_Diffusion_XL_product_photograph_where_there_is_a_bott_0.jpeg)] bg-cover bg-center relative lg:static'>
+                    <div className='absolute -translate-y-8 right-4 top-0 -rotate-45 lg:hidden'>
+                        <button>
+                            <div className='h-[4.5rem] w-[4.5rem] flex justify-center items-center rounded-full text-charcoal bg-cream'>
+                                <MdArrowRightAlt className='text-3xl' />
+                            </div>
+                        </button>
+                    </div>
+                </div>
             </div>
 
         </main>
