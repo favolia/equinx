@@ -2,7 +2,9 @@ import NavbarDetail from '@/components/NavbarDetail'
 import NavbarMobile from '@/components/NavbarMobile'
 import React from 'react'
 import Image from "next/image";
+import Link from "next/link";
 import ButtonOutline from '@/components/ui/ButtonOutline';
+import { PiHouseFill } from "react-icons/pi";
 
 const InteriorDetail = () => {
     return (
@@ -74,6 +76,142 @@ const InteriorDetail = () => {
                     <Image className='w-96 order-3 lg:order-4' src={'/assets/images/Firefox_Screenshot_2023-12-28T13-57-55.416Z.png'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 2' />
                 </div>
             </div>
+
+            <div className='w-full bg-desert-rose flex flex-col items-center py-20 gap-y-12'>
+
+                <div className='flex flex-col justify-center items-center gap-y-6'>
+                    <h1 className='text-white font-soligant text-2xl lg:text-3xl'>Website Description</h1>
+                    <p className='text-charcoal text-xs lg:text-sm w-[14rem] lg:w-[23rem] text-center'>
+                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin  01
+                    </p>
+                    <Link href='https://interior-ds.vercel.app/' className='py-2 px-14 rounded-small text-sm bg-cream'>
+                        Visit Site
+                    </Link>
+                </div>
+
+                <div className='w-full flex flex-col gap-y-10 px-2 lg:px-4'>
+                    <div className='hidden lg:flex justify-between items-center'>
+                        <h1 className='text-4xl text-white font-light'>Information</h1>
+                        <Link href='https://interior-ds.vercel.app/' className='py-2 px-14 rounded-small text-sm bg-cream'>
+                            Visit Site
+                        </Link>
+                    </div>
+
+                    <div className='lg:h-[35rem] flex flex-col lg:flex-row gap-x-5 w-full gap-y-10 lg:gap-y-0'>
+                        <div className='w-full h-72 lg:h-full rounded-small bg-[url(/assets/images/anita-austvika-1u_jqIVZWLQ-unsplash.jpg)] bg-cover bg-center'>
+                            <h4 className='lg:hidden text-white text-3xl mt-7 ml-5'>Ceramics</h4>
+                        </div>
+                        <div className='w-full flex flex-col gap-y-10 lg:gap-y-5 h-full bg-coppertone rounded-small py-12 lg:pt-4 px-4 lg:px-5 lg:pb-3'>
+                            <div className='w-full h-72 flex justify-center items-center overflow-hidden bg-seashell-whisper rounded-large lg:hidden text-charcoal relative'>
+                                <div className='absolute top-0 left-0 flex flex-col justify-between items-center rounded-large h-full w-full py-6'>
+                                    <p className=''>Product</p>
+                                    <p className=''>Vase</p>
+                                </div>
+                                <Image className='w-36' src={'/assets/images/floral-design-vase-flower-bouquet-glass-white-soft-mounted-decorative-glass-vase-426dd00beafd5fc7a6d031271466211f.png'} width={400} height={400} quality={100} priority loading='eager' alt='Ceramics floral vas product' />
+                            </div>
+
+                            <div className='flex gap-x-2 lg:gap-x-4 w-full h-52 lg:h-full'>
+
+                                <div className='bg-mango w-full h-full rounded-large text-white flex flex-col justify-between items-center p-4'>
+                                    <p className='text-sm font-light'>Color Pallete</p>
+                                    <h4 className='text-3xl'>Aa</h4>
+                                    <div className='w-full flex justify-between items-center text-sm font-light'>
+                                        <p>Hex</p>
+                                        <p>#CE9C1D</p>
+                                    </div>
+                                </div>
+
+                                <div className='bg-cream w-full h-full rounded-large text-charcoal flex flex-col justify-between items-center p-4'>
+                                    <p className='text-sm font-light'>Color Pallete</p>
+                                    <h4 className='text-3xl'>Aa</h4>
+                                    <div className='w-full flex justify-between items-center text-sm font-light'>
+                                        <p>Hex</p>
+                                        <p>#F5EFE9</p>
+                                    </div>
+                                </div>
+
+                                <div className='bg-seashell-whisper w-full h-full rounded-large text-charcoal hidden lg:flex flex-col justify-between items-center p-4'>
+                                    <p className='text-sm font-light'>Product</p>
+                                    <Image src={'/assets/images/floral-design-vase-flower-bouquet-glass-white-soft-mounted-decorative-glass-vase-426dd00beafd5fc7a6d031271466211f.png'} width={400} height={400} quality={100} priority loading='eager' alt='Ceramics floral vas product' />
+                                    <p className='text-sm font-light'>Vase</p>
+                                </div>
+
+                            </div>
+
+                            <div className='bg-desert-rose hidden lg:flex flex-col justify-between rounded-small w-full h-full px-5 pt-5 pb-4'>
+                                <p className='text-sm text-white'>Technology</p>
+                                <div className='text-white flex px-4 justify-between text-center'>
+                                    <div className='space-y-1'>
+                                        <h3 className='text-4xl'>Next.js</h3>
+                                        <p className='text-sm'>Front</p>
+                                    </div>
+                                    <div className='space-y-1'>
+                                        <h3 className='text-4xl'>Tailwind</h3>
+                                        <p className='text-sm'>Styling</p>
+                                    </div>
+                                    <div className='space-y-1'>
+                                        <h3 className='text-4xl'>Vercel</h3>
+                                        <p className='text-sm'>Deploy</p>
+                                    </div>
+                                </div>
+
+                                <div className='w-full flex flex-col justify-center items-center bg-cream rounded-large font-light py-3 gap-y-4'>
+                                    <p>HIGHLIGHT</p>
+                                    <ul className='flex gap-x-10 text-sm'>
+                                        <li>Ecommerce</li>
+                                        <li>Photography</li>
+                                        <li>Products</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div className='w-full flex justify-center lg:justify-between items-center px-4'>
+                    <ButtonOutline href='https://interior-ds.vercel.app/' />
+                    <p className='hidden lg:block font-soligant text-lg text-white'>Catalog 01</p>
+                </div>
+
+            </div>
+
+            <footer className='lg:min-h-screen w-full flex flex-col gap-y-4 lg:gap-y-0 bg-coppertone pt-8'>
+                <ul className='w-full flex justify-between items-center font-soligant text-lg text-white px-4 lg:px-6'>
+                    <li>Catalog 01</li>
+                    <li>Interior Website</li>
+                    <li className='hidden lg:flex'>Catalog 01</li>
+                </ul>
+
+                <Link href='#' className='bg-cream w-fit rounded-full py-2 px-10 text-charcoal text-sm self-end lg:hidden mr-4 translate-y-8'>
+                    Contact Us
+                </Link>
+
+                <div className='text-white flex justify-between items-end px-4 lg:px-10 lg:mt-24'>
+                    <h1 className='font-soligant text-4xl lg:text-9xl'>Greater<br />Freedom</h1>
+                    <p className='font-soligant text-lg hidden lg:flex'>New Catalog</p>
+
+                    <div className='bg-seashell-whisper flex justify-center items-center rounded-large w-28 h-32 lg:w-40 lg:h-48 relative translate-y-24 lg:translate-y-28 z-10'>
+                        <div className='absolute text-sm top-0 left-0 h-full w-full flex flex-col justify-between items-center py-2 lg:py-4 text-charcoal'>
+                            <p>Product</p>
+                            <p>Furniture</p>
+                        </div>
+                        <Image className='w-20 lg:w-32' src={'/assets/detail-interior/table-couch-chair-furniture-ottoman-orange-sofa-b51551a372295ae2b1e763c2fea1ab05.png'} height={400} width={400} quality={100} priority loading='eager' alt='interior table product' />
+                    </div>
+                </div>
+
+                <div className='h-72 lg:h-[30rem] w-full bg-[url(/assets/images/spacejoy-c0JoR_-2x3E-unsplash.jpg)] bg-cover bg-center mt-3 relative'>
+                    <Link href={'/'} className='absolute bottom-20 right-40 w-44 h-11 hidden lg:flex rounded-full gap-x-2 justify-start items-center bg-cream px-2'>
+                        <div className='bg-coppertone h-8 w-8 flex justify-center items-center text-white rounded-full'>
+                            <PiHouseFill />
+                        </div>
+                        <div className='text-xs flex flex-col justify-start items-start h-8'>
+                            <p>Back To Home</p>
+                            <p className='font-light'>EQUINX</p>
+                        </div>
+                    </Link>
+                </div>
+            </footer>
 
         </main>
     )
