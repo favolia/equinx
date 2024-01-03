@@ -156,6 +156,42 @@ const Home = () => {
 
             </div>
 
+            <div className='w-full h-[120vh] lg:h-[220vh] bg-coffe flex justify-center items-end relative'>
+
+                <div className='absolute top-0 left-0 h-full w-full pt-10 lg:pt-16'>
+                    <div className='w-full flex flex-col justify-center gap-y-2 items-center px-4 lg:px-6'>
+                        <h1 className='lg:hidden text-3xl text-white font-soligant w-64 -translate-x-3'>Digital Odyssey Awaits</h1>
+
+                        <div className='w-full h-60 lg:h-[35rem] flex flex-col justify-between items-start bg-[url(/assets/images/katelyn-perry-8gvg4nouS3k-unsplash.jpg)] bg-center bg-cover px-3 py-6 lg:px-10 lg:py-8 z-20 rounded-small'>
+                            <div></div>
+                            <h1 className='hidden lg:flex font-soligant text-6xl w-96 text-white'>Digital Odyssey Awaits</h1>
+                            <div>
+                                <ButtonStar text='Visit Site' color='black' />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='w-full flex justify-between items-center px-2 mt-8 lg:mt-12'>
+                        <h1 className='font-soligant text-3xl lg:text-5xl text-charcoal'>Catalogue</h1>
+                        <div className='hidden lg:flex'>
+                            <ButtonStar text='Visit Site' color='black' />
+                        </div>
+                    </div>
+
+                    <div className='w-full h-60 lg:h-[30rem] [&>div]:rounded-small px-2 flex gap-x-3 lg:gap-x-5 mt-6 lg:mt-10'>
+
+                        <div className='w-full h-full bg-[url(/assets/images/Leonardo_Diffusion_XL_product_photograph_where_there_is_a_bott_0.jpeg)] bg-cover bg-center'></div>
+                        <div className='w-full h-full bg-[url(/assets/images/anita-austvika-1u_jqIVZWLQ-unsplash.jpg)] bg-cover bg-center'></div>
+                        <div className='w-full h-full hidden lg:flex bg-[url(/assets/images/jonathan-borba-YdomJdFdbDo-unsplash.jpg)] bg-cover bg-center'></div>
+                        <div className='w-full h-full hidden lg:flex bg-[url(/assets/images/no-revisions-Pu0sndkokuA-unsplash.jpg)] bg-cover bg-center'></div>
+
+                    </div>
+                </div>
+
+
+                <div className='bg-camel w-full h-[84vh] lg:h-[145vh]'></div>
+            </div>
+
         </main>
     )
 }
