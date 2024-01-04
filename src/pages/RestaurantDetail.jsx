@@ -83,7 +83,7 @@ const RestaurantDetail = () => {
                 <div className='flex flex-col justify-center items-center gap-y-6'>
                     <h1 className='text-charcoal font-soligant text-2xl lg:text-3xl'>Website Description</h1>
                     <p className='text-charcoal text-xs lg:text-sm w-[14rem] lg:w-[32.5rem] text-center'>
-                        Restaurant is a culinary crossroads where local and global cuisines converge. Whether you're seeking a quick bite, a leisurely lunch, or a special dinner, our diverse offerings cater to every palate.
+                        {"Restaurant is a culinary crossroads where local and global cuisines converge. Whether you're seeking a quick bite, a leisurely lunch, or a special dinner, our diverse offerings cater to every palate."}
                     </p>
                     <Link href='https://interior-ds.vercel.app/' className='py-2 px-14 rounded-small text-sm bg-cream'>
                         Visit Site
