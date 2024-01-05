@@ -10,21 +10,21 @@ import PageIdRounded from '@/components/ui/PageIdRounded';
 const AkioDetail = () => {
     return (
         <main className='w-full bg-[#3F646B]'>
-            <div className='px-4 py-5 lg:py-6'>
+            <div className='px-4 py-5 lg:pt-6 lg:pb-0'>
                 <NavbarDetail />
                 <NavbarMobile style={'text-white'} />
             </div>
 
-            <header className='w-full h-[165vh] lg:h-[200vh] flex items-end relative text-white'>
-                <div className='bg-[#D8E0E2] flex justify-center lg:justify-between items-end pb-10 lg:pb-20 w-full h-[110vh] lg:h-screen px-6'>
-                    <div className='-translate-y-12 text-charcoal hidden lg:flex flex-col gap-y-4'>
-                        <h1 className='text-6xl font-soligant'>Akio</h1>
-                        <div className='w-[17rem] h-36 bg-[url(/assets/akio/10.jpg)] rounded-small bg-cover bg-center'></div>
+            <header className='w-full h-[165vh] lg:h-screen flex items-end relative text-white'>
+                <div className='bg-[#D8E0E2] flex justify-center lg:justify-between items-end lg:items-center pb-10 lg:pb-10 w-full h-[110vh] lg:h-[50vh] px-6'>
+                    <div className='text-charcoal hidden lg:flex flex-col gap-y-4'>
+                        <h1 className='text-6xl lg:text-3xl font-soligant'>Akio</h1>
+                        <div className='w-60 h-28 bg-[url(/assets/akio/10.jpg)] rounded-small bg-cover bg-center'></div>
                     </div>
 
-                    <div className='flex flex-col items-center justify-center lg:justify-start lg:items-end gap-y-10 lg:gap-y-10 text-charcoal'>
-                        <h1 className='text-3xl lg:text-6xl font-soligant'>Catalog 04</h1>
-                        <p className='text-center lg:text-left w-[15.8rem] lg:w-64 text-sm'>
+                    <div className='flex flex-col items-center justify-center lg:justify-start lg:items-end gap-y-10 lg:gap-y-5 text-charcoal'>
+                        <h1 className='text-3xl lg:text-4xl font-soligant'>Catalog 04</h1>
+                        <p className='text-center lg:text-left w-[15.8rem] lg:w-56 text-sm lg:text-xs'>
                             Akio, where innovation meets hydration. We believe in redefining how you experience hydration, offering a range of thoughtfully designed bottles catering to your lifestyle.
                         </p>
                         <div className='lg:hidden'>
@@ -35,9 +35,9 @@ const AkioDetail = () => {
 
                 </div>
 
-                <div className='content absolute flex flex-col justify-start items-center h-full w-full top-0 left-0 mt-10 lg:mt-36 gap-y-20 lg:gap-y-8'>
+                <div className='content absolute flex flex-col justify-start items-center h-full w-full top-0 left-0 mt-10 gap-y-20 lg:gap-y-8'>
                     <div className=''>
-                        <h1 className='text-3xl lg:text-8xl font-soligant'>Akio Ecommerce</h1>
+                        <h1 className='text-3xl lg:text-4xl font-soligant'>Akio Ecommerce</h1>
                         <div className='mt-4 flex justify-center items-center gap-x-5 font-soligant'>
                             <h4>2024</h4>
                             <div className='bg-cream h-2 w-2 rounded-full'></div>
@@ -45,16 +45,16 @@ const AkioDetail = () => {
                         </div>
                     </div>
 
-                    <div className='w-80 h-80 lg:min-w-[38rem] lg:max-w-[38rem] lg:min-h-[38rem] lg:max-h-[38rem] flex justify-center items-center bg-[#F0A645] rounded-full'>
-                        <Image className='w-24 lg:w-48' src={'/assets/akio/akio.png'} width={800} height={800} quality={100} priority loading='eager' alt='Interior chair product' />
+                    <div className='w-80 h-80 lg:min-w-[22rem] lg:max-w-[22rem] lg:min-h-[22rem] lg:max-h-[22rem] flex justify-center items-center bg-[#F0A645] rounded-full'>
+                        <Image className='w-24 lg:w-28' src={'/assets/akio/akio.png'} width={800} height={800} quality={100} priority loading='eager' alt='Interior chair product' />
                     </div>
 
-                </div>
+                </div> 
             </header>
 
-            <div className='w-full text-white px-4 lg:px-10 pt-10 pb-20'>
+            <div className='w-full text-white px-4 lg:px-10 pt-10 lg:pt-7 pb-20'>
                 <div className='w-full flex justify-between items-center'>
-                    <h1 className='hidden lg:flex font-soligant text-8xl'>Catalog 04</h1>
+                    <h1 className='hidden lg:flex font-soligant text-6xl'>Catalog 04</h1>
                     <div className='w-full lg:w-fit flex flex-col items-center lg:items-start gap-y-4'>
                         <div className='flex justify-between w-full lg:w-fit'>
                             <h2 className='text-2xl lg:text-4xl font-soligant'>About</h2>
@@ -66,8 +66,8 @@ const AkioDetail = () => {
                     </div>
                 </div>
 
-                <div className='w-full lg:px-8 mt-12 lg:mt-20'>
-                    <Image className='w-full rounded-small overflow-hidden' src={'/assets/akio/6.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior home page' />
+                <div className='w-full flex justify-center lg:px-8 mt-12 lg:mt-5'>
+                    <Image className='w-full lg:w-[40rem] rounded-small overflow-hidden' src={'/assets/akio/6.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior home page' />
                 </div>
 
                 <div className='w-full grid grid-rows-4 lg:grid-rows-2 grid-cols-1 lg:grid-cols-2 place-items-center lg:gap-y-10 mt-12 lg:mt-48 px-4 lg:px-0'>
