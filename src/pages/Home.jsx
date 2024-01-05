@@ -213,7 +213,7 @@ const Home = () => {
                             <div className='flex gap-x-20 self-center px-4 mt-5 lg:mt-10'>
                                 <div className='w-36 h-44 lg:w-44 lg:h-56 rounded-small bg-seashell-whisper relative'>
                                     <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center'>
-                                        <Image className='w-20 lg:w-28' src={'/assets/images/3.png'} width={400} height={400} priority quality={100} loading='eager' alt='Akio brown bottle' />
+                                        <Image className='w-9 lg:w-12' src={'/assets/images/3.png'} width={400} height={400} priority quality={100} loading='eager' alt='Akio brown bottle' />
                                     </div>
 
                                     <div className='w-full h-full text-charcoal pt-4 pb-3 text-xs flex flex-col justify-between items-center'>

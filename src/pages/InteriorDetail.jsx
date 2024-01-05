@@ -196,7 +196,7 @@ const InteriorDetail = () => {
                             <p>Product</p>
                             <p>Akio Bottle</p>
                         </div>
-                        <Image className='w-20 lg:w-32' src={'/assets/images/3.png'} height={400} width={400} quality={100} priority loading='eager' alt='Akio bottle product' />
+                        <Image className='w-6 lg:w-10' src={'/assets/images/3.png'} height={400} width={400} quality={100} priority loading='eager' alt='Akio bottle product' />
                     </div>
                 </div>
 
