@@ -17,7 +17,7 @@ const MegazineDetail = () => {
             </div>
 
             <header className='w-full h-[165vh] lg:h-[200vh] flex items-end relative text-white'>
-                <div className='bg-[#C0CDE2] flex justify-center lg:justify-between items-end pb-10 lg:pb-20 w-full h-[110vh] lg:h-screen px-6'>
+                <div className='bg-[#C0CDE2] flex justify-center lg:justify-between items-end pb-10 lg:pb-20 w-full h-[110vh] lg:h-screen px-6 lg:pl-6 lg:pr-16'>
                     <div className='-translate-y-12 text-charcoal hidden lg:flex flex-col gap-y-4'>
                         <h1 className='text-6xl font-soligant'>Megazine</h1>
                         <div className='w-[17rem] h-36 bg-[url(/assets/megazine/sebin-thomas-OdBFUurPHjo-unsplash.jpg)] rounded-small bg-cover bg-center'></div>
@@ -53,7 +53,7 @@ const MegazineDetail = () => {
                 </div>
             </header>
 
-            <div className='w-full text-white px-4 lg:px-10 pt-10 pb-20'>
+            <div className='w-full text-white px-4 lg:pl-10 lg:pr-16 pt-10 pb-20'>
                 <div className='w-full flex justify-between items-center'>
                     <h1 className='hidden lg:flex font-soligant text-8xl'>Catalog 03</h1>
                     <div className='w-full lg:w-fit flex flex-col items-center lg:items-start gap-y-4'>
