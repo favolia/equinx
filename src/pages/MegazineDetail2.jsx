@@ -66,12 +66,14 @@ const MegazineDetail2 = () => {
                     </div>
                 </div>
 
-                <div className='w-full flex flex-col justify-center items-center gap-y-7 lg:px-8 mt-12 lg:mt-8'>
-                    <Image className='w-[46rem]' src={'/assets/megazine/1.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior home page' />
-                    <Image className='w-[46rem]' src={'/assets/megazine/4.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 1' />
-                    <Image className='w-[46rem]' src={'/assets/megazine/2.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 2' />
-                    <Image className='w-[46rem]' src={'/assets/megazine/5.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 2' />
-                    <Image className='w-[46rem]' src={'/assets/megazine/3.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 2' />
+                <div className='w-full flex flex-col justify-center items-center gap-y-4 lg:gap-y-7 lg:px-8 mt-12 lg:mt-8'>
+                    <Image className='w-full lg:w-[46rem]' src={'/assets/megazine/1.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior home page' />
+                    <div className='lg:w-full flex flex-col justify-center items-center px-3 lg:px-0 mt-5 lg:mt-0 gap-y-4 lg:gap-y-7'>
+                        <Image className='w-full lg:w-[46rem]' src={'/assets/megazine/4.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 1' />
+                        <Image className='w-full lg:w-[46rem]' src={'/assets/megazine/2.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 2' />
+                        <Image className='w-full lg:w-[46rem]' src={'/assets/megazine/5.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 2' />
+                        <Image className='w-full lg:w-[46rem]' src={'/assets/megazine/3.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 2' />
+                    </div>
                 </div>
             </div>
 
