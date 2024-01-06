@@ -6,38 +6,39 @@ import Link from "next/link";
 import ButtonOutline from '@/components/ui/ButtonOutline';
 import { PiHouseFill } from "react-icons/pi";
 import PageIdRounded from '@/components/ui/PageIdRounded';
+import Navbar from '@/components/Navbar';
 
 const AkioDetail = () => {
     return (
         <main className='w-full bg-[#3F646B]'>
-            <div className='px-4 py-5 lg:pt-6 lg:pb-0'>
-                <NavbarDetail />
+            <div className='px-4 py-5 lg:py-4'>
+                <Navbar background='bg-transparent' />
                 <NavbarMobile style={'text-white'} />
             </div>
 
-            <header className='w-full h-[165vh] lg:h-screen flex items-end relative text-white'>
-                <div className='bg-[#D8E0E2] flex justify-center lg:justify-between items-end lg:items-center pb-10 lg:pb-10 w-full h-[110vh] lg:h-[50vh] px-6'>
-                    <div className='text-charcoal hidden lg:flex flex-col gap-y-4'>
-                        <h1 className='text-6xl lg:text-3xl font-soligant'>Akio</h1>
-                        <div className='w-60 h-28 bg-[url(/assets/akio/10.jpg)] rounded-small bg-cover bg-center'></div>
+            <header className='w-full h-[165vh] lg:h-[200vh] flex items-end relative text-white'>
+                <div className='bg-[#D8E0E2] flex justify-center lg:justify-between items-end pb-10 lg:pb-20 w-full h-[110vh] lg:h-screen px-6 lg:pl-6 lg:pr-16'>
+                    <div className='-translate-y-12 text-charcoal hidden lg:flex flex-col gap-y-4'>
+                        <h1 className='text-6xl font-soligant'>Akio</h1>
+                        <div className='w-[17rem] h-36 bg-[url(/assets/megazine/sebin-thomas-OdBFUurPHjo-unsplash.jpg)] rounded-small bg-cover bg-center'></div>
                     </div>
 
-                    <div className='flex flex-col items-center justify-center lg:justify-start lg:items-end gap-y-10 lg:gap-y-5 text-charcoal'>
-                        <h1 className='text-3xl lg:text-4xl font-soligant'>Catalog 04</h1>
-                        <p className='text-center lg:text-left w-[15.8rem] lg:w-56 text-sm lg:text-xs'>
+                    <div className='flex flex-col items-center justify-center lg:justify-start lg:items-start gap-y-10 lg:gap-y-10 text-charcoal'>
+                        <h1 className='text-3xl lg:text-6xl font-soligant'>Catalog 04</h1>
+                        <p className='text-center lg:text-left w-72 lg:w-64 text-sm'>
                             Akio, where innovation meets hydration. We believe in redefining how you experience hydration, offering a range of thoughtfully designed bottles catering to your lifestyle.
                         </p>
                         <div className='lg:hidden'>
-                            <div className='w-[17rem] h-40 bg-[url(/assets/akio/10.jpg)] rounded-small bg-cover bg-center'></div>
+                            <div className='w-[17rem] h-40 bg-[url(/assets/megazine/sebin-thomas-OdBFUurPHjo-unsplash.jpg)] rounded-small bg-cover bg-center'></div>
                         </div>
                         <ButtonOutline style={'bg-cream text-charcoal border-none w-36 z-30'} href='https://interior-ds.vercel.app/' />
                     </div>
 
                 </div>
 
-                <div className='content absolute flex flex-col justify-start items-center h-full w-full top-0 left-0 mt-10 gap-y-20 lg:gap-y-8'>
-                    <div className=''>
-                        <h1 className='text-3xl lg:text-4xl font-soligant'>Akio Ecommerce</h1>
+                <div className='content absolute flex flex-col justify-start items-center h-full w-full top-0 left-0 mt-10 lg:mt-36 gap-y-20 lg:gap-y-8'>
+                    <div className='text-white'>
+                        <h1 className='text-3xl lg:text-8xl text-center font-soligant'>Akio Ecommerce</h1>
                         <div className='mt-4 flex justify-center items-center gap-x-5 font-soligant'>
                             <h4>2024</h4>
                             <div className='bg-cream h-2 w-2 rounded-full'></div>
@@ -45,36 +46,35 @@ const AkioDetail = () => {
                         </div>
                     </div>
 
-                    <div className='w-80 h-80 lg:min-w-[22rem] lg:max-w-[22rem] lg:min-h-[22rem] lg:max-h-[22rem] flex justify-center items-center bg-[#F0A645] rounded-full'>
-                        <Image className='w-24 lg:w-28' src={'/assets/akio/akio.png'} width={800} height={800} quality={100} priority loading='eager' alt='Interior chair product' />
+                    <div className='w-80 h-80 lg:min-w-[43rem] lg:max-w-[43rem] lg:min-h-[43rem] lg:max-h-[43rem] flex justify-center items-center bg-[#F0A645] rounded-full'>
+                        <Image className='w-24 lg:w-[13rem]' src={'/assets/akio/akio.png'} width={800} height={800} quality={100} priority loading='eager' alt='Interior chair product' />
                     </div>
 
-                </div> 
+                </div>
             </header>
 
-            <div className='w-full text-white px-4 lg:px-10 pt-10 lg:pt-7 pb-20'>
+            <div className='w-full text-white px-4 lg:pl-10 lg:pr-16 pt-10 pb-20'>
                 <div className='w-full flex justify-between items-center'>
-                    <h1 className='hidden lg:flex font-soligant text-6xl'>Catalog 04</h1>
+                    <h1 className='hidden lg:flex font-soligant text-8xl'>Catalog 04</h1>
                     <div className='w-full lg:w-fit flex flex-col items-center lg:items-start gap-y-4'>
                         <div className='flex justify-between w-full lg:w-fit'>
                             <h2 className='text-2xl lg:text-4xl font-soligant'>About</h2>
                             <h2 className='lg:hidden text-2xl lg:text-4xl font-soligant'>Catalog 04</h2>
                         </div>
-                        <p className='text-center lg:text-left text-xs w-64 mt-6 lg:mt-0'>
+                        <p className='text-center lg:text-left text-xs w-64 lg:w-72 mt-6 lg:mt-0'>
                             Crafted with precision and passion, each bottle from Akio is a testament to our unwavering commitment to quality. We believe that every detail matters, from the design aesthetics to the durability of the materials.
                         </p>
                     </div>
                 </div>
 
-                <div className='w-full flex justify-center lg:px-8 mt-12 lg:mt-5'>
-                    <Image className='w-full lg:w-[40rem] rounded-small overflow-hidden' src={'/assets/akio/6.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior home page' />
-                </div>
-
-                <div className='w-full grid grid-rows-4 lg:grid-rows-2 grid-cols-1 lg:grid-cols-2 place-items-center lg:gap-y-10 mt-12 lg:mt-48 px-4 lg:px-0'>
-                    <Image className='w-96 order-1 lg:translate-x-5 lg:-translate-y-16' src={'/assets/akio/7.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 1' />
-                    <Image className='w-96 order-2 lg:-translate-x-10' src={'/assets/akio/8.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 2' />
-                    <Image className='w-96 order-4 lg:order-3 lg:-translate-x-12 lg:-translate-y-16' src={'/assets/akio/9.png'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 2' />
-                    <Image className='w-96 order-3 lg:order-4' src={'/assets/akio/10.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 2' />
+                <div className='w-full flex flex-col justify-center items-center gap-y-4 lg:gap-y-7 lg:px-8 mt-12 lg:mt-28'>
+                    <Image className='w-full lg:w-[55rem]' src={'/assets/akio/6.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior home page' />
+                    <div className='lg:w-full flex flex-col justify-center items-center px-3 lg:px-0 mt-5 lg:mt-0 gap-y-4 lg:gap-y-7'>
+                        <Image className='w-full lg:w-[55rem]' src={'/assets/akio/7.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 1' />
+                        <Image className='w-full lg:w-[55rem]' src={'/assets/akio/8.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 2' />
+                        <Image className='w-full lg:w-[55rem]' src={'/assets/akio/9.png'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 2' />
+                        <Image className='w-full lg:w-[55rem]' src={'/assets/akio/10.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 2' />
+                    </div>
                 </div>
             </div>
 
@@ -85,7 +85,7 @@ const AkioDetail = () => {
                     <p className='text-charcoal text-xs lg:text-sm w-60 lg:w-[32.5rem] text-center'>
                         Akio is a solution for your hydration needs. From smart features that monitor your water intake to sleek, space-saving designs, our bottles are designed to enhance your daily routine.
                     </p>
-                    <Link href='https://akio-ds.vercel.app/' className='py-2 px-14 rounded-small text-sm bg-cream'>
+                    <Link href='https://interior-ds.vercel.app/' className='py-2 px-14 rounded-small text-sm bg-cream'>
                         Visit Site
                     </Link>
                 </div>
@@ -93,7 +93,7 @@ const AkioDetail = () => {
                 <div className='w-full flex flex-col gap-y-10 px-2 lg:px-4'>
                     <div className='hidden lg:flex justify-between items-center'>
                         <h1 className='text-4xl text-charcoal font-light'>Information</h1>
-                        <Link href='https://akio-ds.vercel.app/' className='py-2 px-14 rounded-small text-sm bg-cream'>
+                        <Link href='https://interior-ds.vercel.app/' className='py-2 px-14 rounded-small text-sm bg-cream'>
                             Visit Site
                         </Link>
                     </div>
@@ -108,26 +108,26 @@ const AkioDetail = () => {
                                     <p className=''>Product</p>
                                     <p className=''>Bottle</p>
                                 </div>
-                                <Image className='w-16 lg:w-36' src={'/assets/akio/akio.png'} width={400} height={400} quality={100} priority loading='eager' alt='Akio floral brown bottle product' />
+                                <Image className='w-16' src={'/assets/akio/akio.png'} width={400} height={400} quality={100} priority loading='eager' alt='Ceramics floral vas product' />
                             </div>
 
                             <div className='flex gap-x-2 lg:gap-x-4 w-full h-52 lg:h-full'>
 
-                                <div className='bg-[#17586B] w-full h-full rounded-large text-white flex flex-col justify-between items-center p-4'>
+                                <div className='bg-[#296C77] w-full h-full rounded-large text-white flex flex-col justify-between items-center p-4'>
                                     <p className='text-sm font-light'>Color Pallete</p>
                                     <h4 className='text-3xl'>Aa</h4>
                                     <div className='w-full flex justify-between items-center text-sm font-light'>
                                         <p>Hex</p>
-                                        <p>#17586B</p>
+                                        <p>#296C77</p>
                                     </div>
                                 </div>
 
-                                <div className='bg-[#EAEAEA] w-full h-full rounded-large text-charcoal flex flex-col justify-between items-center p-4'>
+                                <div className='bg-[#D8E0E2] w-full h-full rounded-large text-charcoal flex flex-col justify-between items-center p-4'>
                                     <p className='text-sm font-light'>Color Pallete</p>
                                     <h4 className='text-3xl'>Aa</h4>
                                     <div className='w-full flex justify-between items-center text-sm font-light'>
                                         <p>Hex</p>
-                                        <p>#EAEAEA</p>
+                                        <p>#D8E0E2</p>
                                     </div>
                                 </div>
 
@@ -171,17 +171,17 @@ const AkioDetail = () => {
                 </div>
 
                 <div className='w-full flex justify-center lg:justify-between items-center text-charcoal px-4'>
-                    <ButtonOutline href='https://akio-ds.vercel.app/' color='black' />
+                    <ButtonOutline href='https://interior-ds.vercel.app/' color='black' />
                     <p className='hidden lg:block font-soligant text-lg'>Catalog 04</p>
                 </div>
 
             </div>
 
-            <footer className='lg:min-h-screen w-full flex flex-col gap-y-4 lg:gap-y-0 bg-[#3F646B] pt-8'>
+            <footer className='lg:min-h-screen w-full flex flex-col gap-y-4 lg:gap-y-0 pt-8'>
                 <ul className='w-full flex justify-between items-start font-soligant text-lg text-white px-4 lg:px-6'>
-                    <li>Catalog 03</li>
+                    <li>Catalog 02</li>
                     <li>Adventure<br />Alcove</li>
-                    <li className='hidden lg:flex'>Catalog 03</li>
+                    <li className='hidden lg:flex'>Catalog 02</li>
                 </ul>
 
                 <Link href='#' className='bg-cream w-fit rounded-full py-2 px-10 text-charcoal text-sm self-end lg:hidden mr-4 translate-y-8'>
@@ -197,7 +197,7 @@ const AkioDetail = () => {
                             <p>Product</p>
                             <p>Megazine</p>
                         </div>
-                        <Image className='w-[5rem] lg:w-36' src={'/assets/akio/travel-agent-world-tourism-organization-stock-photography-tourist-a30b2c94a5d082eccd6a845f3d68d7e9.png'} height={400} width={400} quality={100} priority loading='eager' alt='Akio bottle product' />
+                        <Image className='w-20 lg:w-32' src={'/assets/akio/travel-agent-world-tourism-organization-stock-photography-tourist-a30b2c94a5d082eccd6a845f3d68d7e9.png'} height={400} width={400} quality={100} priority loading='eager' alt='Akio bottle product' />
                     </div>
                 </div>
 
@@ -212,7 +212,7 @@ const AkioDetail = () => {
                         </div>
                     </Link>
 
-                    <PageIdRounded text='/03' isDefault={false} />
+                    <PageIdRounded isDefault={false} text='/05' />
                 </div>
             </footer>
 

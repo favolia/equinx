@@ -15,19 +15,19 @@ const InteriorDetail = () => {
             </div>
 
             <header className='w-full h-[165vh] lg:h-[200vh] flex items-end relative text-white'>
-                <div className='bg-creamy-custard flex justify-center lg:justify-between items-end pb-10 lg:pb-20 w-full h-[110vh] lg:h-screen px-6'>
+                <div className='bg-[#C7B19C] flex justify-center lg:justify-between items-end pb-10 lg:pb-20 w-full h-[110vh] lg:h-screen px-6 lg:pl-6 lg:pr-16'>
                     <div className='-translate-y-12 text-charcoal hidden lg:flex flex-col gap-y-4'>
-                        <h1 className='text-6xl font-soligant'>Catalog 02</h1>
-                        <div className='w-[17rem] h-36 bg-[url(/assets/images/spacejoy-c0JoR_-2x3E-unsplash.jpg)] rounded-small bg-cover bg-center'></div>
+                        <h1 className='text-6xl font-soligant'>Catalog 04</h1>
+                        <div className='w-[17rem] h-36 bg-[url(/assets/images/katelyn-perry-8gvg4nouS3k-unsplash.jpg)] rounded-small bg-cover bg-center'></div>
                     </div>
 
-                    <div className='flex flex-col items-center justify-center lg:justify-start lg:items-end gap-y-10 lg:gap-y-10 text-charcoal'>
+                    <div className='flex flex-col items-center justify-center lg:justify-start lg:items-start gap-y-10 lg:gap-y-8 text-charcoal'>
                         <h1 className='text-3xl lg:text-6xl font-soligant'>Interior</h1>
-                        <p className='text-center lg:text-left w-[15.8rem] lg:w-64 text-sm'>
+                        <p className='text-center lg:text-left w-80 lg:w-64 text-sm'>
                             Explore living spaces that transcend the ordinary, where every room tells a unique story—a story crafted with our exquisite range of furniture that seamlessly blends elegance and comfort
                         </p>
                         <div className='lg:hidden'>
-                            <div className='w-[17rem] h-40 bg-[url(/assets/images/spacejoy-c0JoR_-2x3E-unsplash.jpg)] rounded-small bg-cover bg-center'></div>
+                            <div className='w-[17rem] h-40 bg-[url(/assets/images/katelyn-perry-8gvg4nouS3k-unsplash.jpg)] rounded-small bg-cover bg-center'></div>
                         </div>
                         <ButtonOutline style={'bg-cream text-charcoal border-none w-36 z-30'} href='https://interior-ds.vercel.app/' />
                     </div>
@@ -35,45 +35,44 @@ const InteriorDetail = () => {
                 </div>
 
                 <div className='content absolute flex flex-col justify-start items-center h-full w-full top-0 left-0 mt-10 lg:mt-36 gap-y-20 lg:gap-y-8'>
-                    <div className=''>
-                        <h1 className='text-3xl lg:text-8xl font-soligant'>Interior Website</h1>
+                    <div className='text-white'>
+                        <h1 className='text-3xl lg:text-8xl text-center font-soligant'>Interior Website</h1>
                         <div className='mt-4 flex justify-center items-center gap-x-5 font-soligant'>
                             <h4>2024</h4>
                             <div className='bg-cream h-2 w-2 rounded-full'></div>
-                            <h4 className='text-whipped-cream'>Catalog 02</h4>
+                            <h4 className='text-whipped-cream'>Catalog 04</h4>
                         </div>
                     </div>
 
-                    <div className='w-80 h-80 lg:min-w-[38rem] lg:max-w-[38rem] lg:min-h-[38rem] lg:max-h-[38rem] flex justify-center items-center bg-chocolate-truffle rounded-full'>
+                    <div className='w-80 h-80 lg:min-w-[43rem] lg:max-w-[43rem] lg:min-h-[43rem] lg:max-h-[43rem] flex justify-center items-center bg-[#734F2D] rounded-full'>
                         <Image className='w-full' src={'/assets/detail-interior/table-couch-chair-furniture-ottoman-orange-sofa-b51551a372295ae2b1e763c2fea1ab05.png'} width={800} height={800} quality={100} priority loading='eager' alt='Interior chair product' />
                     </div>
 
                 </div>
             </header>
 
-            <div className='w-full text-white px-4 pt-10 pb-20'>
+            <div className='w-full text-white px-4 lg:pl-10 lg:pr-16 pt-10 pb-20'>
                 <div className='w-full flex justify-between items-center'>
-                    <h1 className='hidden lg:flex font-soligant text-6xl'>Catalog 02</h1>
+                    <h1 className='hidden lg:flex font-soligant text-8xl'>Catalog 04</h1>
                     <div className='w-full lg:w-fit flex flex-col items-center lg:items-start gap-y-4'>
                         <div className='flex justify-between w-full lg:w-fit'>
                             <h2 className='text-2xl lg:text-4xl font-soligant'>About</h2>
-                            <h2 className='lg:hidden text-2xl lg:text-4xl font-soligant'>Catalog 02</h2>
+                            <h2 className='lg:hidden text-2xl lg:text-4xl font-soligant'>Catalog 04</h2>
                         </div>
-                        <p className='text-center lg:text-left lg:text-xs w-52 lg:w-64 mt-6 lg:mt-0'>
-                            Explore living spaces that transcend the ordinary, where every room tells a unique story—a story crafted with our exquisite range of furniture that seamlessly blends elegance and comfort
+                        <p className='text-center lg:text-left text-xs w-64 lg:w-60 mt-6 lg:mt-0'>
+                            Our website is not merely a platform it’s an immersive experience designed to elevate your understanding of interior aesthetics.
                         </p>
                     </div>
                 </div>
 
-                <div className='w-full lg:px-8 mt-12 lg:mt-20'>
-                    <Image className='w-full rounded-small overflow-hidden' src={'/assets/images/Firefox_Screenshot_2023-12-28T14-49-20.970Z.png'} width={800} height={800} priority quality={100} loading='eager' alt='interior home page' />
-                </div>
-
-                <div className='w-full grid grid-rows-4 lg:grid-rows-2 grid-cols-1 lg:grid-cols-2 place-items-center lg:gap-y-10 mt-12 lg:mt-48 px-4 lg:px-0'>
-                    <Image className='w-96 order-1 lg:translate-x-5 lg:-translate-y-16' src={'/assets/images/Firefox_Screenshot_2023-12-28T14-58-37.795Z.png'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 1' />
-                    <Image className='w-96 order-2' src={'/assets/images/Firefox_Screenshot_2023-12-28T15-03-51.987Z.png'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 2' />
-                    <Image className='w-96 order-4 lg:order-3 lg:-translate-x-5 lg:translate-y-16' src={'/assets/images/Firefox_Screenshot_2023-12-28T15-02-24.499Z.png'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 2' />
-                    <Image className='w-96 order-3 lg:order-4' src={'/assets/images/Firefox_Screenshot_2023-12-28T15-11-29.450Z.png'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 2' />
+                <div className='w-full flex flex-col justify-center items-center gap-y-4 lg:gap-y-7 lg:px-8 mt-12 lg:mt-28'>
+                    <Image className='w-full lg:w-[55rem]' src={'/assets/images/Firefox_Screenshot_2023-12-28T14-49-20.970Z.png'} width={800} height={800} priority quality={100} loading='eager' alt='interior home page' />
+                    <div className='lg:w-full flex flex-col justify-center items-center px-3 lg:px-0 mt-5 lg:mt-0 gap-y-4 lg:gap-y-7'>
+                        <Image className='w-full lg:w-[55rem]' src={'/assets/images/Firefox_Screenshot_2023-12-28T14-58-37.795Z.png'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 1' />
+                        <Image className='w-full lg:w-[55rem]' src={'/assets/images/Firefox_Screenshot_2023-12-28T15-03-51.987Z.png'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 2' />
+                        <Image className='w-full lg:w-[55rem]' src={'/assets/images/Firefox_Screenshot_2023-12-28T15-02-24.499Z.png'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 2' />
+                        <Image className='w-full lg:w-[55rem]' src={'/assets/images/Firefox_Screenshot_2023-12-28T15-11-29.450Z.png'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 2' />
+                    </div>
                 </div>
             </div>
 

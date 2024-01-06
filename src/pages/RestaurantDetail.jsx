@@ -16,19 +16,19 @@ const RestaurantDetail = () => {
             </div>
 
             <header className='w-full h-[165vh] lg:h-[200vh] flex items-end relative text-white'>
-                <div className='bg-[#E4DDB6] flex justify-center lg:justify-between items-end pb-10 lg:pb-20 w-full h-[110vh] lg:h-screen px-6'>
+                <div className='bg-[#E4DDB6] flex justify-center lg:justify-between items-end pb-10 lg:pb-20 w-full h-[110vh] lg:h-screen px-6 lg:pl-6 lg:pr-16'>
                     <div className='-translate-y-12 text-charcoal hidden lg:flex flex-col gap-y-4'>
                         <h1 className='text-6xl font-soligant'>Restaurant</h1>
                         <div className='w-[17rem] h-36 bg-[url(/assets/restaurant/richard-iwaki-2cpx1N7Us5Q-unsplash.jpg)] rounded-small bg-cover bg-center'></div>
                     </div>
 
-                    <div className='flex flex-col items-center justify-center lg:justify-start lg:items-end gap-y-10 lg:gap-y-10 text-charcoal'>
+                    <div className='flex flex-col items-center justify-center lg:justify-start lg:items-start gap-y-10 lg:gap-y-10 text-charcoal'>
                         <h1 className='text-3xl lg:text-6xl font-soligant'>Catalog 05</h1>
-                        <p className='text-center lg:text-left w-[15.8rem] lg:w-64 text-sm'>
+                        <p className='text-center lg:text-left w-72 lg:w-64 text-sm'>
                             An invitation to embark on a culinary adventure. Our menu reflects a fusion of global influences, ensuring that every visit is an opportunity to explore new flavors and savor familiar favorites.
                         </p>
                         <div className='lg:hidden'>
-                            <div className='w-[17rem] h-40 bg-[url(/assets/images/spacejoy-c0JoR_-2x3E-unsplash.jpg)] rounded-small bg-cover bg-center'></div>
+                            <div className='w-[17rem] h-40 bg-[url(/assets/restaurant/richard-iwaki-2cpx1N7Us5Q-unsplash.jpg)] rounded-small bg-cover bg-center'></div>
                         </div>
                         <ButtonOutline style={'bg-cream text-charcoal border-none w-36 z-30'} href='https://interior-ds.vercel.app/' />
                     </div>
@@ -36,8 +36,8 @@ const RestaurantDetail = () => {
                 </div>
 
                 <div className='content absolute flex flex-col justify-start items-center h-full w-full top-0 left-0 mt-10 lg:mt-36 gap-y-20 lg:gap-y-8'>
-                    <div className=''>
-                        <h1 className='text-3xl lg:text-8xl font-soligant'>Restaurant</h1>
+                    <div className='text-white'>
+                        <h1 className='text-3xl lg:text-8xl text-center font-soligant'>Restaurant</h1>
                         <div className='mt-4 flex justify-center items-center gap-x-5 font-soligant'>
                             <h4>2024</h4>
                             <div className='bg-cream h-2 w-2 rounded-full'></div>
@@ -45,14 +45,14 @@ const RestaurantDetail = () => {
                         </div>
                     </div>
 
-                    <div className='w-80 h-80 lg:min-w-[38rem] lg:max-w-[38rem] lg:min-h-[38rem] lg:max-h-[38rem] flex justify-center items-center bg-[#DCC57F] rounded-full'>
-                        <Image className='w-44 lg:w-80' src={'/assets/restaurant/fast-food-organic-food-vegetarian-cuisine-junk-food-junk-food-ad53305b4fb8bd80b075c0170edd7380.png'} width={800} height={800} quality={100} priority loading='eager' alt='Interior chair product' />
+                    <div className='w-80 h-80 lg:min-w-[43rem] lg:max-w-[43rem] lg:min-h-[43rem] lg:max-h-[43rem] flex justify-center items-center bg-[#DCC57F] rounded-full'>
+                        <Image className='w-40 lg:w-[24rem]' src={'/assets/restaurant/fast-food-organic-food-vegetarian-cuisine-junk-food-junk-food-ad53305b4fb8bd80b075c0170edd7380.png'} width={800} height={800} quality={100} priority loading='eager' alt='Interior chair product' />
                     </div>
 
                 </div>
             </header>
 
-            <div className='w-full text-white px-4 lg:px-10 pt-10 pb-20'>
+            <div className='w-full text-white px-4 lg:pl-10 lg:pr-16 pt-10 pb-20'>
                 <div className='w-full flex justify-between items-center'>
                     <h1 className='hidden lg:flex font-soligant text-8xl'>Catalog 05</h1>
                     <div className='w-full lg:w-fit flex flex-col items-center lg:items-start gap-y-4'>
@@ -60,21 +60,20 @@ const RestaurantDetail = () => {
                             <h2 className='text-2xl lg:text-4xl font-soligant'>About</h2>
                             <h2 className='lg:hidden text-2xl lg:text-4xl font-soligant'>Catalog 05</h2>
                         </div>
-                        <p className='text-center lg:text-left text-xs w-64 mt-6 lg:mt-0'>
+                        <p className='text-center lg:text-left text-xs w-64 lg:w-72 mt-6 lg:mt-0'>
                             We believe that a great meal is more than just food on a plate. Our culinary philosophy revolves around sourcing the finest ingredients, creating dishes with precision and care, and presenting a menu that caters to diverse palates.
                         </p>
                     </div>
                 </div>
 
-                <div className='w-full lg:px-8 mt-12 lg:mt-20'>
-                    <Image className='w-full rounded-small overflow-hidden' src={'/assets/restaurant/1.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior home page' />
-                </div>
-
-                <div className='w-full grid grid-rows-4 lg:grid-rows-2 grid-cols-1 lg:grid-cols-2 place-items-center lg:gap-y-10 mt-12 lg:mt-48 px-4 lg:px-0'>
-                    <Image className='w-96 order-1 lg:translate-x-5 lg:-translate-y-16' src={'/assets/restaurant/2.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 1' />
-                    <Image className='w-96 order-2 lg:-translate-x-10' src={'/assets/restaurant/5.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 2' />
-                    <Image className='w-96 order-4 lg:order-3 lg:-translate-x-12 lg:-translate-y-16' src={'/assets/restaurant/3.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 2' />
-                    <Image className='w-96 order-3 lg:order-4' src={'/assets/restaurant/4.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 2' />
+                <div className='w-full flex flex-col justify-center items-center gap-y-4 lg:gap-y-7 lg:px-8 mt-12 lg:mt-28'>
+                    <Image className='w-full lg:w-[55rem]' src={'/assets/restaurant/1.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior home page' />
+                    <div className='lg:w-full flex flex-col justify-center items-center px-3 lg:px-0 mt-5 lg:mt-0 gap-y-4 lg:gap-y-7'>
+                        <Image className='w-full lg:w-[55rem]' src={'/assets/restaurant/2.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 1' />
+                        <Image className='w-full lg:w-[55rem]' src={'/assets/restaurant/5.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 2' />
+                        <Image className='w-full lg:w-[55rem]' src={'/assets/restaurant/3.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 2' />
+                        <Image className='w-full lg:w-[55rem]' src={'/assets/restaurant/4.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 2' />
+                    </div>
                 </div>
             </div>
 
