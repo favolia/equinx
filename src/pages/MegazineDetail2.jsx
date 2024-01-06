@@ -7,7 +7,7 @@ import ButtonOutline from '@/components/ui/ButtonOutline';
 import { PiHouseFill } from "react-icons/pi";
 import PageIdRounded from '@/components/ui/PageIdRounded';
 
-const MegazineDetail = () => {
+const MegazineDetail2 = () => {
     return (
         <main className='w-full bg-[#465367]'>
             <div className='px-4 py-5 lg:py-6'>
@@ -66,12 +66,12 @@ const MegazineDetail = () => {
                     </div>
                 </div>
 
-                <div className='w-full flex flex-col justify-center items-center gap-y-7 lg:px-8 mt-12 lg:mt-20'>
-                    <Image className='w-[55rem]' src={'/assets/megazine/1.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior home page' />
-                    <Image className='w-[55rem]' src={'/assets/megazine/4.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 1' />
-                    <Image className='w-[55rem]' src={'/assets/megazine/2.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 2' />
-                    <Image className='w-[55rem]' src={'/assets/megazine/5.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 2' />
-                    <Image className='w-[55rem]' src={'/assets/megazine/3.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 2' />
+                <div className='w-full flex flex-col justify-center items-center gap-y-7 lg:px-8 mt-12 lg:mt-8'>
+                    <Image className='w-[46rem]' src={'/assets/megazine/1.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior home page' />
+                    <Image className='w-[46rem]' src={'/assets/megazine/4.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 1' />
+                    <Image className='w-[46rem]' src={'/assets/megazine/2.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 2' />
+                    <Image className='w-[46rem]' src={'/assets/megazine/5.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 2' />
+                    <Image className='w-[46rem]' src={'/assets/megazine/3.jpg'} width={800} height={800} priority quality={100} loading='eager' alt='interior section 2' />
                 </div>
             </div>
 
@@ -217,4 +217,4 @@ const MegazineDetail = () => {
     )
 }
 
-export default MegazineDetail
+export default MegazineDetail2
