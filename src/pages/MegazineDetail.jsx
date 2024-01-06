@@ -35,7 +35,7 @@ const MegazineDetail = () => {
 
                 </div>
 
-                <div className='content absolute flex flex-col justify-start items-center h-full w-full top-0 left-0 mt-10 lg:mt-36 gap-y-20 lg:gap-y-8'>
+                <div className='content absolute flex flex-col justify-start items-center h-full w-full top-0 left-0 mt-10 lg:mt-20 gap-y-20 lg:gap-y-8'>
                     <div className='text-white'>
                         <h1 className='text-3xl lg:text-8xl text-center font-soligant'>Megazine</h1>
                         <div className='mt-4 flex justify-center items-center gap-x-5 font-soligant'>
