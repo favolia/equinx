@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ButtonOutline from '@/components/ui/ButtonOutline';
 import { PiHouseFill } from "react-icons/pi";
+import Navbar from '@/components/Navbar';
 
 const CeramicsDetail = () => {
     return (
