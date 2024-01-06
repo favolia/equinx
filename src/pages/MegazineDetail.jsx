@@ -46,7 +46,7 @@ const MegazineDetail = () => {
                         </div>
                     </div>
 
-                    <div className='w-80 h-80 lg:min-w-[38rem] lg:max-w-[38rem] lg:min-h-[38rem] lg:max-h-[38rem] flex justify-center items-center bg-[#D8DFDC] rounded-full'>
+                    <div className='w-80 h-80 lg:min-w-[43rem] lg:max-w-[43rem] lg:min-h-[43rem] lg:max-h-[43rem] flex justify-center items-center bg-[#D8DFDC] rounded-full'>
                         <Image className='w-full lg:w-[40rem]' src={'/assets/megazine/travel-agent-world-tourism-organization-stock-photography-tourist-a30b2c94a5d082eccd6a845f3d68d7e9.png'} width={800} height={800} quality={100} priority loading='eager' alt='Interior chair product' />
                     </div>
 
