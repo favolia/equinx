@@ -1,4 +1,3 @@
-import NavbarDetail from '@/components/NavbarDetail'
 import NavbarMobile from '@/components/NavbarMobile'
 import React from 'react'
 import Image from "next/image";
@@ -9,8 +8,8 @@ import { PiHouseFill } from "react-icons/pi";
 const CeramicsDetail = () => {
     return (
         <main className='w-full bg-coppertone'>
-            <div className='px-4 py-5 lg:py-6'>
-                <NavbarDetail />
+            <div className='px-4 py-5 lg:py-4'>
+                <Navbar background='bg-transparent' />
                 <NavbarMobile style={'text-white'} />
             </div>
 

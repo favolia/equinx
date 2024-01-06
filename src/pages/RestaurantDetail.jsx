@@ -1,4 +1,3 @@
-import NavbarDetail from '@/components/NavbarDetail'
 import NavbarMobile from '@/components/NavbarMobile'
 import React from 'react'
 import Image from "next/image";
@@ -6,12 +5,13 @@ import Link from "next/link";
 import ButtonOutline from '@/components/ui/ButtonOutline';
 import { PiHouseFill } from "react-icons/pi";
 import PageIdRounded from '@/components/ui/PageIdRounded';
+import Navbar from '@/components/Navbar';
 
 const RestaurantDetail = () => {
     return (
         <main className='w-full bg-[#7C6842]'>
-            <div className='px-4 py-5 lg:py-6'>
-                <NavbarDetail />
+            <div className='px-4 py-5 lg:py-4'>
+                <Navbar background='bg-transparent' />
                 <NavbarMobile style={'text-white'} />
             </div>
 
@@ -19,7 +19,7 @@ const RestaurantDetail = () => {
                 <div className='bg-[#E4DDB6] flex justify-center lg:justify-between items-end pb-10 lg:pb-20 w-full h-[110vh] lg:h-screen px-6 lg:pl-6 lg:pr-16'>
                     <div className='-translate-y-12 text-charcoal hidden lg:flex flex-col gap-y-4'>
                         <h1 className='text-6xl font-soligant'>Restaurant</h1>
-                        <div className='w-[17rem] h-36 bg-[url(/assets/restaurant/richard-iwaki-2cpx1N7Us5Q-unsplash.jpg)] rounded-small bg-cover bg-center'></div>
+                        <div className='w-[17rem] h-36 bg-[url(/assets/restaurant/getty-images-HgOfijrEWt0-unsplash.jpg)] rounded-small bg-cover bg-center'></div>
                     </div>
 
                     <div className='flex flex-col items-center justify-center lg:justify-start lg:items-start gap-y-10 lg:gap-y-10 text-charcoal'>
@@ -28,7 +28,7 @@ const RestaurantDetail = () => {
                             An invitation to embark on a culinary adventure. Our menu reflects a fusion of global influences, ensuring that every visit is an opportunity to explore new flavors and savor familiar favorites.
                         </p>
                         <div className='lg:hidden'>
-                            <div className='w-[17rem] h-40 bg-[url(/assets/restaurant/richard-iwaki-2cpx1N7Us5Q-unsplash.jpg)] rounded-small bg-cover bg-center'></div>
+                            <div className='w-[17rem] h-40 bg-[url(/assets/restaurant/getty-images-HgOfijrEWt0-unsplash.jpg)] rounded-small bg-cover bg-center'></div>
                         </div>
                         <ButtonOutline style={'bg-cream text-charcoal border-none w-36 z-30'} href='https://interior-ds.vercel.app/' />
                     </div>

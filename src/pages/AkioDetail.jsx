@@ -1,4 +1,3 @@
-import NavbarDetail from '@/components/NavbarDetail'
 import NavbarMobile from '@/components/NavbarMobile'
 import React from 'react'
 import Image from "next/image";
@@ -20,7 +19,7 @@ const AkioDetail = () => {
                 <div className='bg-[#D8E0E2] flex justify-center lg:justify-between items-end pb-10 lg:pb-20 w-full h-[110vh] lg:h-screen px-6 lg:pl-6 lg:pr-16'>
                     <div className='-translate-y-12 text-charcoal hidden lg:flex flex-col gap-y-4'>
                         <h1 className='text-6xl font-soligant'>Akio</h1>
-                        <div className='w-[17rem] h-36 bg-[url(/assets/megazine/sebin-thomas-OdBFUurPHjo-unsplash.jpg)] rounded-small bg-cover bg-center'></div>
+                        <div className='w-[17rem] h-36 bg-[url(/assets/images/quokkabottles-2S9FFzGKK1A-unsplash.png)] rounded-small bg-cover bg-center'></div>
                     </div>
 
                     <div className='flex flex-col items-center justify-center lg:justify-start lg:items-start gap-y-10 lg:gap-y-10 text-charcoal'>
@@ -29,7 +28,7 @@ const AkioDetail = () => {
                             Akio, where innovation meets hydration. We believe in redefining how you experience hydration, offering a range of thoughtfully designed bottles catering to your lifestyle.
                         </p>
                         <div className='lg:hidden'>
-                            <div className='w-[17rem] h-40 bg-[url(/assets/megazine/sebin-thomas-OdBFUurPHjo-unsplash.jpg)] rounded-small bg-cover bg-center'></div>
+                            <div className='w-[17rem] h-40 bg-[url(/assets/images/quokkabottles-2S9FFzGKK1A-unsplash.png)] rounded-small bg-cover bg-center'></div>
                         </div>
                         <ButtonOutline style={'bg-cream text-charcoal border-none w-36 z-30'} href='https://interior-ds.vercel.app/' />
                     </div>

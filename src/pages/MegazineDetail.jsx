@@ -1,4 +1,3 @@
-import NavbarDetail from '@/components/NavbarDetail'
 import NavbarMobile from '@/components/NavbarMobile'
 import React from 'react'
 import Image from "next/image";
