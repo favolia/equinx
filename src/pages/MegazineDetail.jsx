@@ -6,12 +6,13 @@ import Link from "next/link";
 import ButtonOutline from '@/components/ui/ButtonOutline';
 import { PiHouseFill } from "react-icons/pi";
 import PageIdRounded from '@/components/ui/PageIdRounded';
+import Navbar from '@/components/Navbar';
 
 const MegazineDetail = () => {
     return (
         <main className='w-full bg-[#465367]'>
-            <div className='px-4 py-5 lg:py-6'>
-                <NavbarDetail />
+            <div className='px-4 py-5 lg:py-4'>
+                <Navbar background='bg-transparent' />
                 <NavbarMobile style={'text-white'} />
             </div>
 
@@ -22,7 +23,7 @@ const MegazineDetail = () => {
                         <div className='w-[17rem] h-36 bg-[url(/assets/megazine/sebin-thomas-OdBFUurPHjo-unsplash.jpg)] rounded-small bg-cover bg-center'></div>
                     </div>
 
-                    <div className='flex flex-col items-center justify-center lg:justify-start lg:items-end gap-y-10 lg:gap-y-10 text-charcoal'>
+                    <div className='flex flex-col items-center justify-center lg:justify-start lg:items-start gap-y-10 lg:gap-y-10 text-charcoal'>
                         <h1 className='text-3xl lg:text-6xl font-soligant'>Catalog 03</h1>
                         <p className='text-center lg:text-left w-72 lg:w-64 text-sm'>
                             Magazine is a trusted source of information, a platform for meaningful conversations, and a source of inspiration for our readers.
