@@ -215,7 +215,7 @@ const Home = () => {
 
                     <div className='w-full h-full bg-dark-coffee pt-8 pb-12 lg:pt-0 lg:pb-4 px-4 lg:px-0'>
                         <div className='w-full h-full flex flex-col lg:justify-end items-center lg:items-start'>
-                            <h1 className='w-48 text-3xl lg:text-4xl font-soligant text-center lg:text-start px-4'>
+                            <h1 className='w-48 text-3xl lg:text-4xl font-soligant text-center lg:text-start px-4 lg:px-8'>
                                 Personalized
                                 Adventure
                             </h1>
