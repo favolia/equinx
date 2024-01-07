@@ -21,7 +21,7 @@ const Home = () => {
     return (
         <>
             <main className='w-full'>
-                <header className='w-full h-screen bg-[url(/assets/images/pexels-koolshooters-6976102.jpg)] bg-cover bg-center pt-4'>
+                <header className='w-full h-screen lg:flex flex-col justify-between bg-[url(/assets/images/pexels-koolshooters-6976102.jpg)] bg-cover bg-center pt-4'>
                     <div className={`px-3 lg:px-4`}>
                         <Navbar background={`bg-white/5 backdrop-blur-2xl`} />
                         <NavbarMobile style={'text-white backdrop-blur-2xl rounded-small py-2 bg-white/5 px-5'} />
@@ -32,7 +32,7 @@ const Home = () => {
                         <NavbarMobile style={'text-white backdrop-blur-2xl rounded-small py-2 bg-white/5 px-5'} />
                     </div>
 
-                    <div className='w-full flex flex-col gap-y-10 pl-4 lg:pl-12 mt-8 translate-y-10 lg:translate-y-0'>
+                    <div className='w-full flex flex-col gap-y-10 pl-4 lg:pl-12 mt-8 translate-y-10 lg:translate-y-0 lg:pb-10'>
                         <div className='w-full h-96 flex flex-col lg:flex-row lg:justify-between lg:items-end pr-4 gap-y-8 lg:gap-y-0'>
                             <div className='flex flex-col gap-y-6 text-white '>
                                 <ButtonStar text='Visit Site' color='white' style='border-transparent order-3 lg:order-1 w-fit lg:w-48 lg:border-white' href='https://akio-ds.vercel.app/' />
@@ -71,8 +71,8 @@ const Home = () => {
 
                 </header>
 
-                <div className='w-full bg-coffe text-white pt-5 pb-10 px-4 lg:px-0'>
-                    <div className='w-full lg:text-sm flex justify-between items-end lg:px-4'>
+                <div className='w-full bg-coffe text-white pt-10 pb-24 lg:pt-14 lg:pb-40 px-4 lg:px-0'>
+                    <div className='w-full lg:text-sm flex justify-between items-end lg:px-8'>
                         <h4 className='hidden lg:flex'>GOOD DESIGN</h4>
                         <p className='capitalize lg:lowercase'>solutions</p>
                         <h4 className='font-soligant'>Catalog 02</h4>
@@ -81,10 +81,9 @@ const Home = () => {
                     <div className='flex flex-col lg:flex-row w-full justify-between mt-14 lg:mt-24'>
 
                         <div className=''>
-                            <div className='lg:px-4'>
+                            <div className='lg:px-8'>
                                 <div className='w-fit lg:gap-x-72 flex justify-between items-center'>
-                                    <h1 className='hidden lg:flex text-3xl font-soligant'>Empowering<br />Innovation</h1>
-                                    <h1 className='lg:hidden text-3xl font-soligant'>Tailored<br />Innovation</h1>
+                                    <h1 className='flex text-3xl font-soligant'>Empowering<br />Innovation</h1>
                                     <p className='hidden lg:flex text-sm font-soligant'>User-Centric Design</p>
                                 </div>
                             </div>
@@ -115,7 +114,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className='w-full flex flex-col justify-between items-center gap-y-16 lg:gap-y-0 lg:h-screen px-2 lg:pl-6 lg:pr-4 py-10 lg:py-6 bg-camel'>
+                <div className='w-full flex flex-col justify-between items-center gap-y-16 lg:gap-y-0 lg:h-[150vh] px-2 lg:pl-6 lg:pr-4 pt-10 pb-16 lg:pt-20 lg:pb-28 bg-camel'>
 
                     <div className='w-full flex flex-col gap-y-10 lg:flex-row justify-between items-center'>
                         <div className='flex text-sm gap-x-48'>
@@ -165,20 +164,20 @@ const Home = () => {
 
                     <div className='w-full flex justify-center lg:justify-between items-center'>
                         <h1 className='text-3xl lg:text-4xl font-soligant'>Essence of Ideas</h1>
-                        <p className='text-xs w-72 text-en hidden lg:flex'>Shape your website to be effortlessly traversed—an instinctive and enjoyable sojourn</p>
+                        <p className='text-xs w-72 text-end hidden lg:flex'>Shape your website to be effortlessly traversed—an instinctive and enjoyable sojourn</p>
                     </div>
 
                 </div>
 
-                <div className='w-full h-[120vh] lg:h-[220vh] bg-coffe flex justify-center items-end relative'>
+                <div className='w-full h-[120vh] lg:h-[240vh] bg-coffe flex justify-center items-end relative'>
 
-                    <div className='absolute top-0 left-0 h-full w-full pt-10 lg:pt-16'>
+                    <div className='absolute top-0 left-0 h-full w-full pt-10 lg:pb-20 lg:flex flex-col justify-center'>
                         <div className='w-full flex flex-col justify-center gap-y-2 items-center px-4 lg:px-6'>
                             <h1 className='lg:hidden text-3xl text-white font-soligant w-64 -translate-x-3'>Digital Odyssey Awaits</h1>
 
-                            <div className='w-full h-60 lg:h-[35rem] flex flex-col justify-between items-start bg-[url(/assets/images/katelyn-perry-8gvg4nouS3k-unsplash.jpg)] bg-center bg-cover px-3 py-6 lg:px-10 lg:py-8 z-20 rounded-small'>
+                            <div className='w-full h-60 lg:h-[38rem] flex flex-col justify-between items-start bg-[url(/assets/images/katelyn-perry-8gvg4nouS3k-unsplash.jpg)] bg-center bg-cover px-3 py-6 lg:px-10 lg:py-8 z-20 rounded-small'>
                                 <div></div>
-                                <h1 className='hidden lg:flex font-soligant text-6xl w-96 text-white'>Digital Odyssey Awaits</h1>
+                                <h1 className='hidden lg:flex font-soligant text-7xl w-[28rem] text-white'>Digital Odyssey Awaits</h1>
                                 <div>
                                     <ButtonStar text='Visit Site' color='black' />
                                 </div>
@@ -201,7 +200,6 @@ const Home = () => {
 
                         </div>
                     </div>
-
 
                     <div className='bg-camel w-full h-[84vh] lg:h-[145vh]'></div>
                 </div>
