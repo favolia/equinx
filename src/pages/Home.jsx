@@ -1,3 +1,4 @@
+'use client';
 import React from 'react'
 import Image from 'next/image'
 import Link from "next/link";
@@ -11,14 +12,23 @@ import AkioLabel from '@/components/ui/AkioLabel';
 import NavbarMobile from '@/components/NavbarMobile';
 import StarBlink from '@/components/ui/StarBlink';
 import HomeFooter from '@/components/HomeFooter';
+import { useScrollPosition } from '@/hooks/useScrollPosition';
 
 const Home = () => {
+    const scroll = useScrollPosition()
+
+
     return (
         <>
             <main className='w-full'>
                 <header className='w-full h-screen bg-[url(/assets/images/pexels-koolshooters-6976102.jpg)] bg-cover bg-center pt-4'>
-                    <div className='px-3 lg:px-4'>
-                        <Navbar background='bg-white/5 backdrop-blur-2xl' />
+                    <div className={`px-3 lg:px-4`}>
+                        <Navbar background={`bg-white/5 backdrop-blur-2xl`} />
+                        <NavbarMobile style={'text-white backdrop-blur-2xl rounded-small py-2 bg-white/5 px-5'} />
+                    </div>
+
+                    <div className={`px-3 lg:px-4 fixed ${scroll > 500 ? 'top-4 duration-500' : '-top-full duration-1000'} delay-0 w-full transition-all ease-in-out z-50`}>
+                        <Navbar background={`bg-white/5 backdrop-blur-2xl`} />
                         <NavbarMobile style={'text-white backdrop-blur-2xl rounded-small py-2 bg-white/5 px-5'} />
                     </div>
 
