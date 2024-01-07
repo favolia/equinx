@@ -89,7 +89,9 @@ const Home = () => {
                             </div>
 
                             <div className='flex mt-5 lg:mt-0'>
-                                <div className='w-full h-60 lg:w-[45rem] lg:h-[34rem] bg bg-[url(/assets/images/anton-sukhinov-4GvsTa3Y-5I-unsplash.jpg)] bg-cover bg-center'></div>
+                                <div className='w-full h-60 lg:w-[45rem] lg:h-[34rem] bg bg-[url(/assets/images/anton-sukhinov-4GvsTa3Y-5I-unsplash.jpg)] bg-cover bg-center relative'>
+                                    <h3 className='lg:hidden font-soligant absolute bottom-5 left-2 text-sm font-light'>Acknowledging the request</h3>
+                                </div>
                                 <h1 className='hidden lg:flex w-44 lg:w-64 text-3xl lg:text-5xl font-soligant ml-7 mt-9'>Infusing Tech with Art</h1>
                             </div>
 
