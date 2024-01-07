@@ -72,7 +72,7 @@ const Home = () => {
                 </header>
 
                 <div className='w-full bg-coffe text-white pt-10 pb-24 lg:pt-14 lg:pb-40 px-4 lg:px-0'>
-                    <div className='w-full lg:text-sm flex justify-between items-end lg:px-8'>
+                    <div className='w-full lg:text-lg flex justify-between items-end lg:px-8'>
                         <h4 className='hidden lg:flex'>GOOD DESIGN</h4>
                         <p className='capitalize lg:lowercase'>solutions</p>
                         <h4 className='font-soligant'>Catalog 02</h4>
@@ -82,22 +82,22 @@ const Home = () => {
 
                         <div className=''>
                             <div className='lg:px-8'>
-                                <div className='w-fit lg:gap-x-72 flex justify-between items-center'>
-                                    <h1 className='flex text-3xl font-soligant'>Empowering<br />Innovation</h1>
-                                    <p className='hidden lg:flex text-sm font-soligant'>User-Centric Design</p>
+                                <div className='w-fit lg:gap-x-60 flex justify-between items-center'>
+                                    <h1 className='flex text-3xl lg:text-5xl font-soligant'>Empowering<br />Innovation</h1>
+                                    <p className='hidden lg:flex text-sm lg:text-xl font-soligant'>User-Centric Design</p>
                                 </div>
                             </div>
 
                             <div className='flex mt-5 lg:mt-0'>
-                                <div className='w-full h-60 lg:w-[38rem] lg:h-[30rem] bg bg-[url(/assets/images/anton-sukhinov-4GvsTa3Y-5I-unsplash.jpg)] bg-cover bg-center'></div>
-                                <h1 className='hidden lg:flex w-44 text-3xl font-soligant ml-7 mt-5'>Infusing Tech with Art</h1>
+                                <div className='w-full h-60 lg:w-[45rem] lg:h-[34rem] bg bg-[url(/assets/images/anton-sukhinov-4GvsTa3Y-5I-unsplash.jpg)] bg-cover bg-center'></div>
+                                <h1 className='hidden lg:flex w-44 lg:w-64 text-3xl lg:text-5xl font-soligant ml-7 mt-9'>Infusing Tech with Art</h1>
                             </div>
 
                         </div>
 
                         <div className='flex flex-col items-center lg:items-start gap-y-2 mt-10 lg:mt-0'>
-                            <p className=' lg:text-sm font-light leading-4 text-center lg:text-start'>Clear<br />Communication</p>
-                            <div className='mt-2 w-60 h-96 lg:w-44 lg:h-60 rounded-small lg:rounded-r-none bg-[url(/assets/images/anita-austvika-1u_jqIVZWLQ-unsplash.jpg)] bg-cover bg-center'></div>
+                            <p className=' lg:text-lg font-light leading-3 text-center lg:text-start'>Clear<br />Communication</p>
+                            <div className='mt-2 w-60 h-96 lg:w-52 lg:h-72 rounded-small lg:rounded-r-none bg-[url(/assets/images/anita-austvika-1u_jqIVZWLQ-unsplash.jpg)] bg-cover bg-center'></div>
                             <ButtonStar text='Visit Site' style='w-40 mt-4 lg:mt-8' color='white' />
                         </div>
 
@@ -169,9 +169,9 @@ const Home = () => {
 
                 </div>
 
-                <div className='w-full h-[120vh] lg:h-[240vh] bg-coffe flex justify-center items-end relative'>
+                <div className='w-full h-[115vh] lg:h-[240vh] bg-coffe flex justify-center items-end relative'>
 
-                    <div className='absolute top-0 left-0 h-full w-full pt-10 lg:pb-20 lg:flex flex-col justify-center'>
+                    <div className='absolute top-0 left-0 h-full w-full pt-16 lg:pt-10 lg:pb-20 lg:flex flex-col justify-center'>
                         <div className='w-full flex flex-col justify-center gap-y-2 items-center px-4 lg:px-6'>
                             <h1 className='lg:hidden text-3xl text-white font-soligant w-64 -translate-x-3'>Digital Odyssey Awaits</h1>
 
