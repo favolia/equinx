@@ -27,7 +27,7 @@ const About = () => {
                             <div className='flex flex-col gap-y-20'>
                                 <div className='flex flex-col gap-y-5'>
                                     <h1 className='font-soligant text-3xl'>Conceptualization To<br />Completion</h1>
-                                    <Link href='#' className='gap-x-5 h-10 w-48 border border-black rounded-2xl flex justify-center items-center'>
+                                    <Link href='/contact-us' className='gap-x-5 h-10 w-48 border border-black rounded-2xl flex justify-center items-center'>
                                         <div className='w-7'>
                                             <StarRing color='fill-black' />
                                         </div>

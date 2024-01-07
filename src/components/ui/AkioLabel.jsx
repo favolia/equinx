@@ -2,7 +2,7 @@ import React from 'react'
 import Link from "next/link";
 import { cn } from '@/lib/utils';
 
-const AkioLabel = ({ href = '#', style }) => {
+const AkioLabel = ({ href = '/akio-detail', style }) => {
     return (
         <Link href={href} className='w-fit'>
             <div className={cn('flex justify-start items-center py-2 px-3 w-56 gap-x-5 text-sm rounded-full backdrop-blur-2xl bg-white/5 text-white', style)}>

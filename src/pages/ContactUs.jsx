@@ -16,7 +16,7 @@ const ContactUs = () => {
 
                 <div className='w-full hidden lg:flex flex-col pt-6 pl-10 pr-5 gap-y-16'>
                     <div className='w-full flex justify-between items-center'>
-                        <h2>Equinx</h2>
+                        <Link href={'/'}>Equinx</Link>
                         <ButtonStar text='Back To Home' href='/' color='white' />
                     </div>
 
