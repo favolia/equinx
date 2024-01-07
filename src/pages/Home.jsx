@@ -127,7 +127,7 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className='w-full lg:w-[38rem] h-[15rem] lg:h-96 flex gap-x-2 lg:gap-x-5 scale-125'>
+                    <div className='w-full lg:w-[38rem] h-[15rem] lg:h-96 flex gap-x-2 lg:gap-x-5 lg:scale-125'>
                         <div className='w-full h-full flex flex-col justify-between items-center py-5 bg-cream rounded-small'>
                             <div className='w-full flex gap-x-3 lg:gap-x-5 justify-center items-center'>
                                 <StarBlink style={'w-7 lg:w-10 fill-black'} />
