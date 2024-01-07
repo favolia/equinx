@@ -78,7 +78,7 @@ const Home = () => {
                         <h4 className='font-soligant'>Catalog 02</h4>
                     </div>
 
-                    <div className='flex flex-col lg:flex-row w-full justify-between mt-14 lg:mt-24'>
+                    <div className='flex flex-col lg:flex-row w-full justify-between mt-14 lg:mt-60'>
 
                         <div className=''>
                             <div className='lg:px-8'>
