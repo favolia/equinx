@@ -301,14 +301,14 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className='w-full bg-coffe text-white py-10'>
-                    <ul className='w-fulll text-lg lg:text-base font-soligant flex justify-between px-4 lg:px-12'>
+                <div className='w-full bg-coffe text-white py-10 lg:pt-32 lg:pb-24'>
+                    <ul className='w-fulll text-lg lg:text-base font-soligant flex justify-between px-4 lg:pl-10 lg:pr-32'>
                         <li>Ideate</li>
                         <li>Iterate</li>
                         <li className='hidden lg:flex'>Innovate</li>
                     </ul>
 
-                    <div className='w-full flex flex-col items-end px-6 mt-16 gap-y-12'>
+                    <div className='w-full flex flex-col items-end px-10 mt-16 gap-y-12'>
                         <div className='h-48 lg:h-60 w-full lg:w-96 flex gap-x-2 scale-75 lg:scale-100'>
                             <div className='h-full w-full bg-[url(/assets/images/simone-hutsch-ItvVUpgac0o-unsplash.jpg)] bg-cover bg-center rounded-small'></div>
                             <div className='h-full w-full bg-[url(/assets/images/pierre-chatel-innocenti-LyqexsJzyLI-unsplash.jpg)] bg-cover bg-center rounded-small'></div>
@@ -320,16 +320,16 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className='w-fit px-4 flex flex-col mt-10 lg:mt-16'>
-                        <h1 className='font-soligant text-[2.8rem] lg:text-8xl'>
+                    <div className='w-fit px-4 lg:px-10 flex flex-col mt-10 lg:mt-16'>
+                        <h1 className='font-soligant text-[2.8rem] lg:text-9xl'>
                             Creating Futures
                         </h1>
-                        <p className='hidden lg:flex text-xs translate-x-44'>accuracy</p>
+                        <p className='hidden lg:flex text-xs lg:text-lg translate-x-44'>accuracy</p>
                     </div>
 
-                    <div className='flex justify-between items-center pl-4 pr-12 lg:pl-10 lg:pr-4 mt-10 lg:mt-16'>
-                        <div className='h-16 lg:w-20 w-16 lg:h-20 rounded-full flex justify-center items-center bg-white'>
-                            <Image src={'/assets/shape/shape3.svg'} className='w-7 fill-black' width={400} height={400} quality={100} priority loading='eager' />
+                    <div className='flex justify-between items-center pl-4 pr-12 lg:pl-14 lg:pr-10 mt-10 lg:mt-16'>
+                        <div className='h-16 w-16 lg:w-28 lg:h-28 rounded-full flex justify-center items-center bg-white'>
+                            <Image src={'/assets/shape/shape3.svg'} className='w-7 lg:w-10 fill-black' width={400} height={400} quality={100} priority loading='eager' />
                         </div>
                         <p className='text-sm lg:text-xs self-end'>captivating</p>
                         <p className='text-xs text-end hidden lg:flex'>
