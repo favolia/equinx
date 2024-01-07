@@ -169,13 +169,13 @@ const Home = () => {
 
                 </div>
 
-                <div className='w-full h-[115vh] lg:h-[240vh] bg-coffe flex justify-center items-end relative'>
+                <div className='w-full h-[125vh] lg:h-[260vh] bg-coffe flex justify-center items-end relative'>
 
-                    <div className='absolute top-0 left-0 h-full w-full pt-16 lg:pt-10 lg:pb-20 lg:flex flex-col justify-center'>
-                        <div className='w-full flex flex-col justify-center gap-y-2 items-center px-4 lg:px-6'>
+                    <div className='absolute top-0 left-0 h-full w-full pt-16 lg:pt-10 lg:pb-16 lg:flex flex-col justify-center'>
+                        <div className='w-full flex flex-col justify-center gap-y-2 items-center px-4 lg:px-14'>
                             <h1 className='lg:hidden text-3xl text-white font-soligant w-64 -translate-x-3'>Digital Odyssey Awaits</h1>
 
-                            <div className='w-full h-60 lg:h-[38rem] flex flex-col justify-between items-start bg-[url(/assets/images/katelyn-perry-8gvg4nouS3k-unsplash.jpg)] bg-center bg-cover px-3 py-6 lg:px-10 lg:py-8 z-20 rounded-small'>
+                            <div className='w-full h-60 lg:h-[52rem] flex flex-col justify-between items-start bg-[url(/assets/images/katelyn-perry-8gvg4nouS3k-unsplash.jpg)] bg-center bg-cover px-3 py-6 lg:px-10 lg:py-8 z-20 rounded-small'>
                                 <div></div>
                                 <h1 className='hidden lg:flex font-soligant text-7xl w-[28rem] text-white'>Digital Odyssey Awaits</h1>
                                 <div>
@@ -184,8 +184,8 @@ const Home = () => {
                             </div>
                         </div>
 
-                        <div className='w-full flex justify-between items-center px-2 mt-8 lg:mt-12'>
-                            <h1 className='font-soligant text-3xl lg:text-5xl text-charcoal'>Catalogue</h1>
+                        <div className='w-full flex justify-between items-center px-4 mt-8 lg:mt-16 lg:px-8'>
+                            <h1 className='font-soligant text-3xl lg:text-6xl text-charcoal'>Catalogue</h1>
                             <div className='hidden lg:flex'>
                                 <ButtonStar text='Visit Site' color='black' />
                             </div>
