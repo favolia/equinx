@@ -19,7 +19,7 @@ const Catalog = () => {
                         <h2 className='w-20 lg:w-fit'>Creativity Takes the Lead</h2>
                     </div>
 
-                    <div className='w-44 h-28 lg:w-44 lg:h-20 self-end lg:self-auto rounded-small bg-[url(/assets/images/no-revisions-Pu0sndkokuA-unsplash.jpg)] bg-cover bg-center'></div>
+                    <div className='w-36 h-24 lg:w-44 lg:h-20 self-end lg:self-auto rounded-small bg-[url(/assets/images/no-revisions-Pu0sndkokuA-unsplash.jpg)] bg-cover bg-center'></div>
                 </div>
 
                 <div className='mt-10 lg:mt-5 font-soligant w-full flex flex-col justify-center items-center relative'>
@@ -37,27 +37,26 @@ const Catalog = () => {
                 </div>
             </div>
 
-
             <div className='h-20 lg:h-14 w-full bg-coffe mt-8 lg:mt-2'></div>
 
             <div className='w-full h-full flex gap-x-3 lg:gap-x-5'>
                 <Link href={'/akio-detail'} className='flex w-full h-full bg-[url(/assets/images/Leonardo_Diffusion_XL_product_photograph_where_there_is_a_bott_0.jpeg)] bg-cover bg-center relative'>
-                    <h3 className='absolute top-3 left-6 text-white text-xl'>Akio</h3>
+                    <h3 className='absolute top-3 left-4 text-white text-[14px] lg:text-[16px]'>Akio</h3>
                 </Link>
                 <Link href={'/ceramics-detail'} className='flex w-full h-full bg-[url(/assets/images/anita-austvika-1u_jqIVZWLQ-unsplash.jpg)] bg-cover bg-center relative'>
-                    <h3 className='absolute top-3 left-6 text-white text-xl'>Vase</h3>
+                    <h3 className='absolute top-3 left-4 text-white text-[14px] lg:text-[16px]'>Vase</h3>
                 </Link>
                 <Link href={'/interior-detail'} className='flex w-full h-full bg-[url(/assets/images/jonathan-borba-YdomJdFdbDo-unsplash.jpg)] bg-cover bg-center relative'>
-                    <h3 className='absolute top-3 left-6 text-white text-xl'>Interior</h3>
+                    <h3 className='absolute top-3 left-4 text-white text-[14px] lg:text-[16px]'>Interior</h3>
                 </Link>
                 <Link href={'/restaurant-detail'} className='hidden lg:flex w-full h-full bg-[url(/assets/images/toa-heftiba-uhlTPoH2Eb0-unsplash.jpg)] bg-cover bg-center relative'>
-                    <h3 className='absolute top-2 left-2 lg:top-3 lg:left-6 text-white text-xl'>Restaurant</h3>
+                    <h3 className='absolute top-3 left-4 text-white text-[14px] lg:text-[16px]'>Restaurant</h3>
                 </Link>
                 <Link href={'/megazine-detail'} className='hidden lg:flex w-full h-full bg-[url(/assets/images/david-van-dijk-3LTht2nxd34-unsplash.jpg)] bg-cover bg-center relative'>
-                    <h3 className='absolute top-2 left-2 lg:top-3 lg:left-6 text-white text-xl'>Megazine</h3>
+                    <h3 className='absolute top-3 left-4 text-white text-[14px] lg:text-[16px]'>Megazine</h3>
                 </Link>
                 <Link href={'#'} className='hidden lg:flex w-full h-full bg-[url(/assets/images/karolina-grabowska-BgrHbgtn_b0-unsplash.jpg)] bg-cover bg-center relative'>
-                    <h3 className='absolute top-2 left-2 lg:top-3 lg:left-6 text-white text-xl'>Glowing</h3>
+                    <h3 className='absolute top-3 left-4 text-white text-[14px] lg:text-[16px]'>Glowing</h3>
                 </Link>
             </div>
         </main>
