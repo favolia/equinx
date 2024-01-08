@@ -188,13 +188,13 @@ const AkioDetail = () => {
                 </Link>
 
                 <div className='text-white flex justify-between items-end px-4 lg:px-10 lg:mt-24'>
-                    <h1 className='font-soligant text-4xl lg:text-9xl -translate-y-10 lg:-translate-y-24'>Megazine</h1>
+                    <h1 className='font-soligant text-4xl lg:text-9xl -translate-y-10 lg:-translate-y-24'>Magazine</h1>
                     <p className='font-soligant text-lg hidden lg:flex lg:-translate-x-20'>New Catalog</p>
 
                     <div className='bg-seashell-whisper flex justify-center items-center rounded-large w-28 h-32 lg:w-40 lg:h-48 relative translate-y-24 lg:translate-y-28 z-10'>
                         <div className='absolute text-sm top-0 left-0 h-full w-full flex flex-col justify-between items-center py-2 lg:py-4 text-charcoal'>
                             <p>Product</p>
-                            <p>Megazine</p>
+                            <p>Magazine</p>
                         </div>
                         <Image className='w-20 lg:w-32' src={'/assets/akio/travel-agent-world-tourism-organization-stock-photography-tourist-a30b2c94a5d082eccd6a845f3d68d7e9.png'} height={400} width={400} quality={100} priority loading='eager' alt='Akio bottle product' />
                     </div>
