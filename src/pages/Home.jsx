@@ -13,6 +13,7 @@ import NavbarMobile from '@/components/NavbarMobile';
 import StarBlink from '@/components/ui/StarBlink';
 import HomeFooter from '@/components/HomeFooter';
 import { useScrollPosition } from '@/hooks/useScrollPosition';
+import ButtonOutline from '@/components/ui/ButtonOutline';
 
 const Home = () => {
     const scroll = useScrollPosition()
@@ -98,7 +99,7 @@ const Home = () => {
                         </div>
 
                         <div className='flex flex-col items-center lg:items-start gap-y-2 mt-12 lg:mt-0'>
-                            <p className='text-lg lg:text-lg font-light leading-5 lg:leading-3 text-center lg:text-start'>Clear<br />Communication</p>
+                            <p className='text-lg lg:text-lg font-light leading-5 text-center lg:text-start'>Clear<br />Communication</p>
                             <div className='mt-9 lg:mt-2 w-60 h-96 lg:w-52 lg:h-72 rounded-small lg:rounded-r-none bg-[url(/assets/images/anita-austvika-1u_jqIVZWLQ-unsplash.jpg)] bg-cover bg-center'></div>
                             <ButtonStar text='Visit Site' style='w-40 mt-10 lg:mt-8' color='white' />
                         </div>
@@ -171,34 +172,67 @@ const Home = () => {
 
                 </div>
 
-                <div className='w-full h-[125vh] lg:h-[260vh] bg-coffe flex justify-center items-end relative'>
+                <div className='w-full h-[123vh] lg:h-[260vh] bg-coffe flex justify-center items-end relative'>
 
                     <div className='absolute top-0 left-0 h-full w-full pt-16 lg:pt-10 lg:pb-16 lg:flex flex-col justify-center'>
                         <div className='w-full flex flex-col justify-center gap-y-2 items-center px-4 lg:px-14'>
-                            <h1 className='lg:hidden text-3xl text-white font-soligant w-64 -translate-x-3'>Digital Odyssey Awaits</h1>
+                            <h1 className='lg:hidden text-3xl text-center lg:text-start text-white font-soligant w-64 -translate-x-3'>Digital Odyssey Awaits</h1>
 
-                            <div className='w-full h-60 lg:h-[52rem] flex flex-col justify-between items-start bg-[url(/assets/images/katelyn-perry-8gvg4nouS3k-unsplash.jpg)] bg-center bg-cover px-3 py-6 lg:px-10 lg:py-8 z-20 rounded-small'>
+                            <div className='w-full h-60 lg:h-[52rem] flex flex-col justify-between items-start bg-[url(/assets/images/katelyn-perry-8gvg4nouS3k-unsplash.jpg)] bg-center bg-cover px-3 py-6 lg:px-10 lg:py-8 z-20 rounded-small relative'>
                                 <div></div>
                                 <h1 className='hidden lg:flex font-soligant text-7xl w-[28rem] text-white'>Digital Odyssey Awaits</h1>
-                                <div>
-                                    <ButtonStar text='Visit Site' color='black' />
+                                <div className='hidden lg:block'>
+                                    <ButtonStar text='Visit Site' href='/ceramics-detail' color='black' />
+                                </div>
+                                <div className='lg:hidden absolute bottom-4 right-4'>
+                                    <Link href={'/ceramics-detail'} className='h-10 w-10 bg-white/5 rounded-full backdrop-blur-2xl flex justify-center items-center'>
+                                        <IoArrowRedoSharp className='text-xs text-white' />
+                                    </Link>
                                 </div>
                             </div>
                         </div>
 
                         <div className='w-full flex justify-between items-center px-4 mt-8 lg:mt-16 lg:px-8'>
                             <h1 className='font-soligant text-3xl lg:text-6xl text-charcoal'>Catalogue</h1>
-                            <div className='hidden lg:flex'>
-                                <ButtonStar text='Visit Site' color='black' />
+                            <div className='flex scale-75 translate-x-5 lg:translate-x-0 lg:scale-100'>
+                                <ButtonStar href='/ceramics-detail' text='More' color='black' style={'w-36 lg:w-40 justify-start px-6 gap-x-4'} />
                             </div>
                         </div>
 
                         <div className='w-full h-60 lg:h-[30rem] [&>div]:rounded-small px-2 flex gap-x-3 lg:gap-x-5 mt-6 lg:mt-10'>
 
-                            <div className='w-full h-full bg-[url(/assets/images/Leonardo_Diffusion_XL_product_photograph_where_there_is_a_bott_0.jpeg)] bg-cover bg-center'></div>
-                            <div className='w-full h-full bg-[url(/assets/images/anita-austvika-1u_jqIVZWLQ-unsplash.jpg)] bg-cover bg-center'></div>
-                            <div className='w-full h-full hidden lg:flex bg-[url(/assets/images/jonathan-borba-YdomJdFdbDo-unsplash.jpg)] bg-cover bg-center'></div>
-                            <div className='w-full h-full hidden lg:flex bg-[url(/assets/images/no-revisions-Pu0sndkokuA-unsplash.jpg)] bg-cover bg-center'></div>
+                            <div className='w-full h-full bg-[url(/assets/images/Leonardo_Diffusion_XL_product_photograph_where_there_is_a_bott_0.jpeg)] bg-cover bg-center relative'>
+                                <div className='absolute flex flex-col justify-between text-white py-4 px-3 w-full h-full left-0 top-0'>
+                                    <p className='lg:text-lg'>Akio</p>
+                                    <Link href={'/akio-detail'} className='h-8 w-8 lg:h-10 lg:w-10 bg-white/5 rounded-full backdrop-blur-2xl flex justify-center items-center'>
+                                        <IoArrowRedoSharp className='text-xs text-white' />
+                                    </Link>
+                                </div>
+                            </div>
+                            <div className='w-full h-full bg-[url(/assets/images/anita-austvika-1u_jqIVZWLQ-unsplash.jpg)] bg-cover bg-center relative'>
+                                <div className='absolute flex flex-col justify-between text-white py-4 px-3 w-full h-full left-0 top-0'>
+                                    <p className='lg:text-lg'>Ceramics</p>
+                                    <Link href={'/ceramics-detail'} className='h-8 w-8 lg:h-10 lg:w-10 bg-white/5 rounded-full backdrop-blur-2xl flex justify-center items-center'>
+                                        <IoArrowRedoSharp className='text-xs text-white' />
+                                    </Link>
+                                </div>
+                            </div>
+                            <div className='w-full h-full hidden lg:flex bg-[url(/assets/images/jonathan-borba-YdomJdFdbDo-unsplash.jpg)] bg-cover bg-center relative'>
+                                <div className='absolute flex flex-col justify-between text-white py-4 px-3 w-full h-full left-0 top-0'>
+                                    <p className='lg:text-lg'>Interior</p>
+                                    <Link href={'/interior-detail'} className='h-8 w-8 lg:h-10 lg:w-10 bg-white/5 rounded-full backdrop-blur-2xl flex justify-center items-center'>
+                                        <IoArrowRedoSharp className='text-xs text-white' />
+                                    </Link>
+                                </div>
+                            </div>
+                            <div className='w-full h-full hidden lg:flex bg-[url(/assets/images/no-revisions-Pu0sndkokuA-unsplash.jpg)] bg-cover bg-center relative'>
+                                <div className='absolute flex flex-col justify-between text-white py-4 px-3 w-full h-full left-0 top-0'>
+                                    <p className='lg:text-lg'>Restaurant</p>
+                                    <Link href={'/restaurant-detail'} className='h-8 w-8 lg:h-10 lg:w-10 bg-white/5 rounded-full backdrop-blur-2xl flex justify-center items-center'>
+                                        <IoArrowRedoSharp className='text-xs text-white' />
+                                    </Link>
+                                </div>
+                            </div>
 
                         </div>
                     </div>
