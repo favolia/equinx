@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         soligant: ['var(--font-soligant)'],
+        satoshi: ['var(--font-satoshi)'],
         humane: ['var(--font-humane)'],
         abril_fatface: ['var(--font-abril_fatface)'],
       },
