@@ -71,7 +71,7 @@ const Home = () => {
 
                 </header>
 
-                <div className='w-full bg-coffe text-white pt-10 pb-24 lg:pt-14 lg:pb-40 px-4 lg:px-0'>
+                <div className='w-full bg-coffe text-white pt-10 pb-16 lg:pt-14 lg:pb-40 px-4 lg:px-0'>
                     <div className='w-full lg:text-lg flex justify-between items-end lg:px-8'>
                         <h4 className='hidden lg:flex'>GOOD DESIGN</h4>
                         <p className='capitalize lg:lowercase'>solutions</p>
@@ -82,8 +82,8 @@ const Home = () => {
 
                         <div className=''>
                             <div className='lg:px-8'>
-                                <div className='w-fit lg:gap-x-60 flex justify-between items-center'>
-                                    <h1 className='flex text-3xl lg:text-5xl font-soligant'>Empowering<br />Innovation</h1>
+                                <div className='w-full lg:w-fit lg:gap-x-60 flex justify-center lg:justify-between items-center'>
+                                    <h1 className='flex text-3xl lg:text-5xl text-center lg:text-start font-soligant'>Empowering<br />Innovation</h1>
                                     <p className='hidden lg:flex text-sm lg:text-xl font-soligant'>User-Centric Design</p>
                                 </div>
                             </div>
@@ -97,10 +97,10 @@ const Home = () => {
 
                         </div>
 
-                        <div className='flex flex-col items-center lg:items-start gap-y-2 mt-10 lg:mt-0'>
-                            <p className=' lg:text-lg font-light leading-3 text-center lg:text-start'>Clear<br />Communication</p>
-                            <div className='mt-2 w-60 h-96 lg:w-52 lg:h-72 rounded-small lg:rounded-r-none bg-[url(/assets/images/anita-austvika-1u_jqIVZWLQ-unsplash.jpg)] bg-cover bg-center'></div>
-                            <ButtonStar text='Visit Site' style='w-40 mt-4 lg:mt-8' color='white' />
+                        <div className='flex flex-col items-center lg:items-start gap-y-2 mt-12 lg:mt-0'>
+                            <p className='text-lg lg:text-lg font-light leading-5 lg:leading-3 text-center lg:text-start'>Clear<br />Communication</p>
+                            <div className='mt-9 lg:mt-2 w-60 h-96 lg:w-52 lg:h-72 rounded-small lg:rounded-r-none bg-[url(/assets/images/anita-austvika-1u_jqIVZWLQ-unsplash.jpg)] bg-cover bg-center'></div>
+                            <ButtonStar text='Visit Site' style='w-40 mt-10 lg:mt-8' color='white' />
                         </div>
 
                     </div>
