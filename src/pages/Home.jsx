@@ -21,7 +21,7 @@ const Home = () => {
     return (
         <>
             <main className='w-full'>
-                <header className='w-full h-screen lg:flex flex-col justify-between bg-[url(/assets/images/pexels-koolshooters-6976102.jpg)] bg-cover bg-center pt-4'>
+                <header className='w-full h-screen lg:flex flex-col justify-between bg-[url(/assets/images/pexels-koolshooters-6976102.jpg)] bg-cover bg-left lg:bg-center pt-4'>
                     <div className={`px-3 lg:px-4`}>
                         <Navbar background={`bg-white/5 backdrop-blur-2xl`} />
                         <NavbarMobile style={'text-white backdrop-blur-2xl rounded-small py-2 bg-white/5 px-5'} />
