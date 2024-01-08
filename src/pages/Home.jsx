@@ -240,7 +240,7 @@ const Home = () => {
                     <div className='bg-camel w-full h-[70vh] lg:h-[145vh]'></div>
                 </div>
 
-                <div className='w-full flex-col flex lg:flex-row bg-dark-coffee h-screen relative text-white'>
+                <div className='w-full flex-col flex lg:flex-row bg-dark-coffee min-h-screen lg:h-screen relative text-white'>
                     <div className='absolute top-0 left-0 w-full hidden lg:flex justify-between items-center text-sm p-6'>
                         <p className='text-lg font-soligant'>intuitive</p>
                         <p>aesthetics</p>
@@ -323,7 +323,7 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className='w-full lg:min-w-[38rem] h-full bg-[url(/assets/images/Leonardo_Diffusion_XL_product_photograph_where_there_is_a_bott_0.jpeg)] bg-cover bg-center relative lg:static'>
+                    <div className='w-full lg:min-w-[38rem] h-[21rem] lg:h-full bg-[url(/assets/images/Leonardo_Diffusion_XL_product_photograph_where_there_is_a_bott_0.jpeg)] bg-cover bg-center relative lg:static'>
                         <div className='absolute -translate-y-8 right-4 top-0 -rotate-45 lg:hidden'>
                             <button>
                                 <div className='h-[4.5rem] w-[4.5rem] flex justify-center items-center rounded-full text-charcoal bg-cream'>
