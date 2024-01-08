@@ -240,7 +240,7 @@ const Home = () => {
                     <div className='bg-camel w-full h-[70vh] lg:h-[145vh]'></div>
                 </div>
 
-                <div className='w-full flex-col flex lg:flex-row h-screen relative text-white'>
+                <div className='w-full flex-col flex lg:flex-row bg-dark-coffee h-screen relative text-white'>
                     <div className='absolute top-0 left-0 w-full hidden lg:flex justify-between items-center text-sm p-6'>
                         <p className='text-lg font-soligant'>intuitive</p>
                         <p>aesthetics</p>
