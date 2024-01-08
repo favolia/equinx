@@ -10,7 +10,7 @@ const HomeFooter = () => {
                     <h2 className='text-xl font-soligant'>visual brilliance</h2>
                 </div>
                 <div className='w-full flex justify-center items-center absolute left-0 top-0'>
-                    <ButtonOutline color='black' style={'text-charcoal'} />
+                    <ButtonOutline color='black' href='/contact-us' style={'text-charcoal'} />
                 </div>
             </div>
 
