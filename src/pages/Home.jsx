@@ -237,7 +237,7 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className='bg-camel w-full h-[84vh] lg:h-[145vh]'></div>
+                    <div className='bg-camel w-full h-[70vh] lg:h-[145vh]'></div>
                 </div>
 
                 <div className='w-full flex-col flex lg:flex-row h-screen relative text-white'>
