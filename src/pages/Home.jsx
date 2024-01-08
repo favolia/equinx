@@ -194,38 +194,38 @@ const Home = () => {
 
                         <div className='w-full h-60 lg:h-[30rem] [&>div]:rounded-small px-2 flex gap-x-3 lg:gap-x-5 mt-6 lg:mt-10'>
 
-                            <div className='w-full h-full bg-[url(/assets/images/Leonardo_Diffusion_XL_product_photograph_where_there_is_a_bott_0.jpeg)] bg-cover bg-center relative'>
+                            <Link href={'/akio-detail'} className='w-full h-full bg-[url(/assets/images/Leonardo_Diffusion_XL_product_photograph_where_there_is_a_bott_0.jpeg)] bg-cover bg-center relative'>
                                 <div className='absolute flex flex-col justify-between text-white py-4 px-3 w-full h-full left-0 top-0'>
                                     <p className='lg:text-lg'>Akio</p>
                                     <Link href={'/akio-detail'} className='h-8 w-8 lg:h-10 lg:w-10 bg-white/5 rounded-full backdrop-blur-2xl flex justify-center items-center'>
                                         <IoArrowRedoSharp className='text-xs text-white' />
                                     </Link>
                                 </div>
-                            </div>
-                            <div className='w-full h-full bg-[url(/assets/images/anita-austvika-1u_jqIVZWLQ-unsplash.jpg)] bg-cover bg-center relative'>
+                            </Link>
+                            <Link href={'/ceramics-detail'} className='w-full h-full bg-[url(/assets/images/anita-austvika-1u_jqIVZWLQ-unsplash.jpg)] bg-cover bg-center relative'>
                                 <div className='absolute flex flex-col justify-between text-white py-4 px-3 w-full h-full left-0 top-0'>
                                     <p className='lg:text-lg'>Ceramics</p>
                                     <Link href={'/ceramics-detail'} className='h-8 w-8 lg:h-10 lg:w-10 bg-white/5 rounded-full backdrop-blur-2xl flex justify-center items-center'>
                                         <IoArrowRedoSharp className='text-xs text-white' />
                                     </Link>
                                 </div>
-                            </div>
-                            <div className='w-full h-full hidden lg:flex bg-[url(/assets/images/jonathan-borba-YdomJdFdbDo-unsplash.jpg)] bg-cover bg-center relative'>
+                            </Link>
+                            <Link href={'/interior-detail'} className='w-full h-full hidden lg:flex bg-[url(/assets/images/jonathan-borba-YdomJdFdbDo-unsplash.jpg)] bg-cover bg-center relative'>
                                 <div className='absolute flex flex-col justify-between text-white py-4 px-3 w-full h-full left-0 top-0'>
                                     <p className='lg:text-lg'>Interior</p>
                                     <Link href={'/interior-detail'} className='h-8 w-8 lg:h-10 lg:w-10 bg-white/5 rounded-full backdrop-blur-2xl flex justify-center items-center'>
                                         <IoArrowRedoSharp className='text-xs text-white' />
                                     </Link>
                                 </div>
-                            </div>
-                            <div className='w-full h-full hidden lg:flex bg-[url(/assets/images/no-revisions-Pu0sndkokuA-unsplash.jpg)] bg-cover bg-center relative'>
+                            </Link>
+                            <Link href={'/restaurant-detail'} className='w-full h-full hidden lg:flex bg-[url(/assets/images/no-revisions-Pu0sndkokuA-unsplash.jpg)] bg-cover bg-center relative'>
                                 <div className='absolute flex flex-col justify-between text-white py-4 px-3 w-full h-full left-0 top-0'>
                                     <p className='lg:text-lg'>Restaurant</p>
                                     <Link href={'/restaurant-detail'} className='h-8 w-8 lg:h-10 lg:w-10 bg-white/5 rounded-full backdrop-blur-2xl flex justify-center items-center'>
                                         <IoArrowRedoSharp className='text-xs text-white' />
                                     </Link>
                                 </div>
-                            </div>
+                            </Link>
 
                         </div>
                     </div>
@@ -247,7 +247,7 @@ const Home = () => {
                                 Adventure
                             </h1>
 
-                            <div className='flex gap-x-20 self-center px-4 mt-12 lg:mt-10'>
+                            <div className='flex gap-x-20 self-center px-4 mt-12 lg:m-10 xl:mt-14'>
                                 <div className='w-36 h-44 lg:w-44 lg:h-56 rounded-small bg-seashell-whisper relative'>
                                     <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center'>
                                         <Image className='w-9 lg:w-12' src={'/assets/images/3.png'} width={400} height={400} priority quality={100} loading='eager' alt='Akio brown bottle' />
