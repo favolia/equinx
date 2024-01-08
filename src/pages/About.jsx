@@ -13,7 +13,7 @@ const About = () => {
                 <NavbarMobile />
             </div>
 
-            <div className='w-full flex justify-between items-center px-4 lg:pr-12 text-charcoal relative'>
+            <div className='w-full flex justify-between items-center pl-4 pr-12 lg:pr-12 text-charcoal relative'>
                 <h1 className='font-soligant text-xl leading-tight hidden lg:flex'>Resonance of<br />Progress</h1>
                 <div className='lg:absolute left-0 top-0 flex lg:w-full lg:h-full justify-center items-center'>
                     <p className='text-sm font-soligant lg:font-satoshi'>simplicity</p>
