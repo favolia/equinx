@@ -7,7 +7,7 @@ import { PiHouseFill } from "react-icons/pi";
 import PageIdRounded from '@/components/ui/PageIdRounded';
 import Navbar from '@/components/Navbar';
 
-const MegazineDetail = () => {
+const MagazineDetail = () => {
     return (
         <main className='w-full bg-[#465367]'>
             <div className='px-4 py-5 lg:py-4'>
@@ -18,7 +18,7 @@ const MegazineDetail = () => {
             <header className='w-full h-[165vh] lg:h-[200vh] flex items-end relative text-white'>
                 <div className='bg-[#C0CDE2] flex justify-center lg:justify-between items-end pb-10 lg:pb-20 w-full h-[110vh] lg:h-screen px-6 lg:pl-6 lg:pr-16'>
                     <div className='-translate-y-12 text-charcoal hidden lg:flex flex-col gap-y-4'>
-                        <h1 className='text-6xl font-soligant'>Megazine</h1>
+                        <h1 className='text-6xl font-soligant'>Magazine</h1>
                         <div className='w-[17rem] h-36 bg-[url(/assets/megazine/sebin-thomas-OdBFUurPHjo-unsplash.jpg)] rounded-small bg-cover bg-center'></div>
                     </div>
 
@@ -37,7 +37,7 @@ const MegazineDetail = () => {
 
                 <div className='content absolute flex flex-col justify-start items-center h-full w-full top-0 left-0 mt-10 lg:mt-20 gap-y-20 lg:gap-y-8'>
                     <div className='text-white'>
-                        <h1 className='text-3xl lg:text-8xl text-center font-soligant'>Megazine</h1>
+                        <h1 className='text-3xl lg:text-8xl text-center font-soligant'>Magazine</h1>
                         <div className='mt-4 flex justify-center items-center gap-x-5 font-soligant'>
                             <h4>2024</h4>
                             <div className='bg-cream h-2 w-2 rounded-full'></div>
@@ -99,13 +99,13 @@ const MegazineDetail = () => {
 
                     <div className='lg:h-[35rem] flex flex-col lg:flex-row gap-x-5 w-full gap-y-10 lg:gap-y-0'>
                         <div className='w-full h-72 lg:h-full rounded-small bg-[url(/assets/megazine/willian-justen-de-vasconcellos-T_Qe4QlMIvQ-unsplash.jpg)] bg-cover bg-center'>
-                            <h4 className='lg:hidden text-charcoal text-3xl mt-7 ml-5'>Megazine</h4>
+                            <h4 className='lg:hidden text-charcoal text-3xl mt-7 ml-5'>Magazine</h4>
                         </div>
                         <div className='w-full flex flex-col gap-y-10 lg:gap-y-5 h-full bg-[#3F646B] rounded-small py-12 lg:pt-4 px-4 lg:px-5 lg:pb-3'>
                             <div className='w-full h-72 flex justify-center items-center overflow-hidden bg-seashell-whisper rounded-large lg:hidden text-charcoal relative'>
                                 <div className='absolute top-0 left-0 flex flex-col justify-between items-center rounded-large h-full w-full py-6'>
                                     <p className=''>Product</p>
-                                    <p className=''>Megazine</p>
+                                    <p className=''>Magazine</p>
                                 </div>
                                 <Image className='w-52' src={'/assets/megazine/travel-agent-world-tourism-organization-stock-photography-tourist-a30b2c94a5d082eccd6a845f3d68d7e9.png'} width={400} height={400} quality={100} priority loading='eager' alt='Ceramics floral vas product' />
                             </div>
@@ -219,4 +219,4 @@ const MegazineDetail = () => {
     )
 }
 
-export default MegazineDetail
+export default MagazineDetail

@@ -83,7 +83,7 @@ const Home = () => {
                             </div>
 
                             <div className='flex mt-5 lg:mt-0'>
-                                <div className='w-full h-60 lg:w-[45rem] lg:h-[34rem] bg bg-[url(/assets/images/anton-sukhinov-4GvsTa3Y-5I-unsplash.jpg)] bg-cover bg-center relative'>
+                                <div className='w-full h-60 lg:w-[45rem] lg:h-[34rem] bg-[url(/assets/images/anton-sukhinov-4GvsTa3Y-5I-unsplash.jpg)] bg-cover bg-center relative'>
                                     <h3 className='lg:hidden font-soligant absolute bottom-5 left-2 text-sm font-light'>Acknowledging the request</h3>
                                 </div>
                                 <h1 className='hidden lg:flex w-44 lg:w-64 text-3xl lg:text-5xl font-soligant ml-7 mt-9'>Infusing Tech with Art</h1>
@@ -94,7 +94,7 @@ const Home = () => {
                         <div className='flex flex-col items-center lg:items-start gap-y-2 mt-12 lg:mt-0'>
                             <p className='text-lg lg:text-lg font-light leading-5 text-center lg:text-start'>Clear<br />Communication</p>
                             <div className='mt-9 lg:mt-2 w-60 h-96 lg:w-52 lg:h-72 rounded-small lg:rounded-r-none bg-[url(/assets/images/anita-austvika-1u_jqIVZWLQ-unsplash.jpg)] bg-cover bg-center'></div>
-                            <ButtonStar text='Visit Site' style='w-40 mt-10 lg:mt-8' color='white' />
+                            <ButtonStar text='Visit Site' style='w-40 mt-10 lg:mt-14' color='white' />
                         </div>
 
                     </div>
@@ -261,28 +261,28 @@ const Home = () => {
 
                                 <ul className='hidden lg:block space-y-2 text-sm -translate-y-7 translate-x-8'>
                                     <li>
-                                        <Link href={'https://akio-ds.vercel.app/'}>
+                                        <Link href={'/akio-detail'}>
                                             Akio
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href={'https://ceramics-ds.vercel.app/'}>
+                                        <Link href={'/ceramics-detail'}>
                                             Ceramics
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href={'https://interior-ds.vercel.app/'}>
+                                        <Link href={'/interior-detail'}>
                                             Interior
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href={'#'}>
+                                        <Link href={'/restaurant-detail'}>
                                             Restaurant
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href={'#'}>
-                                            Megazine
+                                        <Link href={'/magazine-detail'}>
+                                            Magazine
                                         </Link>
                                     </li>
                                     <li>
