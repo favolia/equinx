@@ -41,7 +41,7 @@ const Home = () => {
                                     Eco-frielndly bottles that are durable and can b c customized
                                     according to your taste
                                 </p>
-                                <ButtonStar text='Visit Site' color='white' style='w-36 lg:w-48 lg:border-white' href='https://akio-ds.vercel.app/' />
+                                <ButtonStar text='Visit Site' color='white' style='w-36 lg:w-48 lg:border-white lg:mt-8' href='https://akio-ds.vercel.app/' />
                             </div>
 
                             <div className='h-28 w-[9rem] lg:h-36 lg:w-56 flex justify-end items-end lg:items-end p-2 self-end lg:self-start rounded-small bg-[url(/assets/images/tino-rischawy-7X1zd1uI0HI-unsplash.jpg)] bg-cover bg-center'>
