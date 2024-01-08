@@ -43,8 +43,8 @@ const Home = () => {
                                 </p>
                             </div>
 
-                            <div className='h-28 w-[9rem] lg:h-36 lg:w-56 flex justify-end items-center lg:items-end p-2 self-end lg:self-start rounded-small bg-[url(/assets/images/tino-rischawy-7X1zd1uI0HI-unsplash.jpg)] bg-cover bg-center'>
-                                <Link href={'#'} className='h-10 w-10 bg-white/5 rounded-full backdrop-blur-2xl flex justify-center items-center'>
+                            <div className='h-28 w-[9rem] lg:h-36 lg:w-56 flex justify-end items-end lg:items-end p-2 self-end lg:self-start rounded-small bg-[url(/assets/images/tino-rischawy-7X1zd1uI0HI-unsplash.jpg)] bg-cover bg-center'>
+                                <Link href={'#'} className='h-8 w-8 lg:h-10 lg:w-10 bg-white/5 rounded-full backdrop-blur-2xl flex justify-center items-center'>
                                     <IoArrowRedoSharp className='text-xs text-white' />
                                 </Link>
                             </div>
