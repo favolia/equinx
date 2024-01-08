@@ -172,7 +172,7 @@ const Home = () => {
 
                 </div>
 
-                <div className='w-full h-[123vh] lg:h-[260vh] bg-coffe flex justify-center items-end relative'>
+                <div className='w-full h-[47rem] lg:h-[260vh] bg-coffe flex justify-center items-end relative'>
 
                     <div className='absolute top-0 left-0 h-full w-full pt-16 lg:pt-10 lg:pb-16 lg:flex flex-col justify-center'>
                         <div className='w-full flex flex-col justify-center gap-y-2 items-center px-4 lg:px-14'>
