@@ -134,14 +134,14 @@ const Home = () => {
                             <div className='w-full flex gap-x-3 lg:gap-x-5 justify-center items-center'>
                                 <StarBlink style={'w-7 lg:w-10 fill-black'} />
                                 <h3 className='hidden lg:flex text-xs lg:text-base font-soligant'>Carefully develop</h3>
-                                <h3 className='font-soligant text-center lg:hidden'>POST<br />STORIES</h3>
+                                <h3 className='font-soligant text-center lg:hidden'>Carefully<br />develop</h3>
                                 <StarBlink style={'w-7 lg:w-10 fill-black'} />
                             </div>
 
                             <div className='w-28 h-24 lg:w-48 lg:h-40 rounded-[100px] bg-[url(/assets/images/quokkabottles-6gLya_-tnP8-unsplash.png)] bg-cover bg-center'></div>
 
-                            <Link href={'#'} className='w-28 h-6 lg:w-40 lg:h-10 flex justify-center items-center text-xs rounded-[18px] bg-[#CED0B8]'>
-                                Visit Site
+                            <Link href={'/about'} className='w-28 h-6 lg:w-40 lg:h-10 flex justify-center items-center text-xs rounded-[18px] bg-[#CED0B8]'>
+                                About
                             </Link>
 
                         </div>
@@ -150,14 +150,14 @@ const Home = () => {
                             <div className='w-full flex gap-x-3 lg:gap-x-5 justify-center items-center'>
                                 <StarBlink style={'w-7 lg:w-10 fill-black lg:fill-white'} />
                                 <h3 className='hidden lg:flex text-xs lg:text-base font-soligant'>Visionary concepts</h3>
-                                <h3 className='font-soligant text-center lg:hidden'>POST<br />STORIES</h3>
+                                <h3 className='font-soligant text-center lg:hidden'>Visionary<br />concepts</h3>
                                 <StarBlink style={'w-7 lg:w-10 fill-black lg:fill-white'} />
                             </div>
 
                             <div className='w-28 h-24 lg:w-48 lg:h-40 rounded-[100px] bg-[url(/assets/images/andy-vult-zwZpdhoTbU0-unsplash.jpg)] bg-cover bg-center'></div>
 
-                            <Link href={'#'} className='w-28 h-6 lg:w-40 lg:h-10 flex justify-center items-center text-xs rounded-[18px] bg-cream'>
-                                Visit Site
+                            <Link href={'/catalog'} className='w-28 h-6 lg:w-40 lg:h-10 flex justify-center items-center text-xs rounded-[18px] bg-cream'>
+                                Catalogue
                             </Link>
 
                         </div>
