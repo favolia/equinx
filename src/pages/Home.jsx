@@ -247,7 +247,7 @@ const Home = () => {
                                 Adventure
                             </h1>
 
-                            <div className='flex gap-x-20 self-center px-4 mt-12 lg:m-10 xl:mt-14'>
+                            <div className='flex gap-x-20 self-center px-4 mt-12 lg:mt-10 xl:mt-14'>
                                 <div className='w-36 h-44 lg:w-44 lg:h-56 rounded-small bg-seashell-whisper relative'>
                                     <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center'>
                                         <Image className='w-9 lg:w-12' src={'/assets/images/3.png'} width={400} height={400} priority quality={100} loading='eager' alt='Akio brown bottle' />
