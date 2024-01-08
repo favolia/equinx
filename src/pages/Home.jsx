@@ -247,14 +247,14 @@ const Home = () => {
                         <p>visionary</p>
                     </div>
 
-                    <div className='w-full h-full bg-dark-coffee pt-8 pb-12 lg:pt-0 lg:pb-4 px-4 lg:px-0'>
+                    <div className='w-full h-full pt-14 pb-20 lg:pt-0 lg:pb-4 px-4 lg:px-0'>
                         <div className='w-full h-full flex flex-col lg:justify-end items-center lg:items-start'>
                             <h1 className='w-48 text-3xl lg:text-4xl font-soligant text-center lg:text-start px-4 lg:px-8'>
                                 Personalized
                                 Adventure
                             </h1>
 
-                            <div className='flex gap-x-20 self-center px-4 mt-5 lg:mt-10'>
+                            <div className='flex gap-x-20 self-center px-4 mt-12 lg:mt-10'>
                                 <div className='w-36 h-44 lg:w-44 lg:h-56 rounded-small bg-seashell-whisper relative'>
                                     <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center'>
                                         <Image className='w-9 lg:w-12' src={'/assets/images/3.png'} width={400} height={400} priority quality={100} loading='eager' alt='Akio brown bottle' />
@@ -300,7 +300,6 @@ const Home = () => {
                                 </ul>
                             </div>
 
-
                             <div className='w-full hidden lg:flex translate-x-9 justify-between items-center mt-6'>
                                 <Link href='#'>
                                     <div className='h-11 w-11 bg-coffee-bean rounded-full flex justify-center items-center'>
@@ -315,7 +314,7 @@ const Home = () => {
                                 </button>
                             </div>
 
-                            <div className='w-full mt-10 lg:mt-4'>
+                            <div className='w-full mt-20 lg:mt-4'>
                                 <p className='text-xs lg:text-center'>
                                     Eco-friendly bottles that are durable and can b c<br />customized according to
                                     your taste
@@ -372,7 +371,6 @@ const Home = () => {
                     </div>
 
                 </div>
-
             </main>
             <HomeFooter />
         </>
