@@ -8,6 +8,7 @@ import { PiHouseFill } from "react-icons/pi";
 import PageIdRounded from '@/components/ui/PageIdRounded';
 import Navbar from '@/components/Navbar';
 import { useScrollPosition } from "@/hooks/useScrollPosition";
+import ButtonListHorizontal from '@/components/ButtonListHorizontal';
 
 const AkioDetail = () => {
     const scroll = useScrollPosition()
@@ -30,10 +31,10 @@ const AkioDetail = () => {
                         <div className='w-[17rem] h-36 bg-[url(/assets/images/quokkabottles-2S9FFzGKK1A-unsplash.png)] rounded-small bg-cover bg-center'></div>
                     </div>
 
-                    <div className='flex flex-col items-center justify-center lg:justify-start lg:items-start gap-y-10 lg:gap-y-10 text-charcoal'>
-                        <h1 className='text-3xl lg:text-6xl font-soligant'>Catalog 04</h1>
-                        <p className='text-center lg:text-left w-72 lg:w-64 text-sm'>
-                            Akio, where innovation meets hydration. We believe in redefining how you experience hydration, offering a range of thoughtfully designed bottles catering to your lifestyle.
+                    <div className='flex flex-col items-center justify-center lg:justify-start lg:items-end gap-y-10 lg:gap-y-10 text-charcoal'>
+                        <h1 className='text-3xl lg:text-6xl self-start font-soligant'>About</h1>
+                        <p className='text-center lg:text-left w-72 lg:w-64 xl:w-72 text-sm'>
+                            Akio is a small business specializing in craft-focused ventures, passionately dedicated to the production of exquisite drinkware and water bottle accessories.
                         </p>
                         <div className='lg:hidden'>
                             <div className='w-[17rem] h-40 bg-[url(/assets/images/quokkabottles-2S9FFzGKK1A-unsplash.png)] rounded-small bg-cover bg-center'></div>
@@ -49,7 +50,7 @@ const AkioDetail = () => {
                         <div className='mt-4 flex justify-center items-center gap-x-5 font-soligant'>
                             <h4>2024</h4>
                             <div className='bg-cream h-2 w-2 rounded-full'></div>
-                            <h4 className='text-whipped-cream'>Catalog 04</h4>
+                            <h4 className='text-whipped-cream'>Catalog 01</h4>
                         </div>
                     </div>
 
@@ -62,15 +63,9 @@ const AkioDetail = () => {
 
             <div className='w-full text-white px-4 lg:pl-10 lg:pr-16 pt-10 pb-20'>
                 <div className='w-full flex justify-between items-center'>
-                    <h1 className='hidden lg:flex font-soligant text-8xl'>Catalog 04</h1>
+                    <h1 className='hidden lg:flex font-soligant text-8xl'>Catalog 01</h1>
                     <div className='w-full lg:w-fit flex flex-col items-center lg:items-start gap-y-4'>
-                        <div className='flex justify-between w-full lg:w-fit'>
-                            <h2 className='text-2xl lg:text-4xl font-soligant'>About</h2>
-                            <h2 className='lg:hidden text-2xl lg:text-4xl font-soligant'>Catalog 04</h2>
-                        </div>
-                        <p className='text-center lg:text-left text-xs w-64 lg:w-72 mt-6 lg:mt-0'>
-                            Crafted with precision and passion, each bottle from Akio is a testament to our unwavering commitment to quality. We believe that every detail matters, from the design aesthetics to the durability of the materials.
-                        </p>
+                        <ButtonListHorizontal />
                     </div>
                 </div>
 
@@ -88,9 +83,9 @@ const AkioDetail = () => {
             <div className='w-full bg-[#D8E0E2] flex flex-col items-center py-20 gap-y-12'>
 
                 <div className='flex flex-col justify-center items-center gap-y-6'>
-                    <h1 className='text-charcoal font-soligant text-2xl lg:text-3xl'>Website Description</h1>
+                    <h1 className='text-charcoal font-soligant text-2xl lg:text-3xl'>Website Challenge</h1>
                     <p className='text-charcoal text-xs lg:text-sm w-60 lg:w-[32.5rem] text-center'>
-                        Akio is a solution for your hydration needs. From smart features that monitor your water intake to sleek, space-saving designs, our bottles are designed to enhance your daily routine.
+                        The challenge in developing website for Akio involved creating a seamless platform for customers to easily access, smoothly make purchases, and acquire detailed product information. Ensuring user-friendly navigation, a smooth buying experience, and comprehensive product details.
                     </p>
                     <Link href='https://interior-ds.vercel.app/' className='py-2 px-14 rounded-small text-sm bg-cream'>
                         Visit Site
@@ -100,9 +95,7 @@ const AkioDetail = () => {
                 <div className='w-full flex flex-col gap-y-10 px-2 lg:px-4'>
                     <div className='hidden lg:flex justify-between items-center'>
                         <h1 className='text-4xl text-charcoal font-light'>Information</h1>
-                        <Link href='https://interior-ds.vercel.app/' className='py-2 px-14 rounded-small text-sm bg-cream'>
-                            Visit Site
-                        </Link>
+                        <h1 className='text-4xl text-charcoal'>Akio</h1>
                     </div>
 
                     <div className='lg:h-[35rem] flex flex-col lg:flex-row gap-x-5 w-full gap-y-10 lg:gap-y-0'>
@@ -179,16 +172,15 @@ const AkioDetail = () => {
 
                 <div className='w-full flex justify-center lg:justify-between items-center text-charcoal px-4'>
                     <ButtonOutline href='https://interior-ds.vercel.app/' color='black' />
-                    <p className='hidden lg:block font-soligant text-lg'>Catalog 04</p>
+                    <p className='hidden lg:block font-soligant text-lg'>Catalog 01</p>
                 </div>
 
             </div>
 
             <footer className='lg:min-h-screen w-full flex flex-col gap-y-4 lg:gap-y-0 pt-8'>
                 <ul className='w-full flex justify-between items-start font-soligant text-lg text-white px-4 lg:px-6'>
-                    <li>Catalog 02</li>
-                    <li>Adventure<br />Alcove</li>
-                    <li className='hidden lg:flex'>Catalog 02</li>
+                    <li>Next Catalogue</li>
+                    <li className='hidden lg:flex'>Catalog 05</li>
                 </ul>
 
                 <Link href='#' className='bg-cream w-fit rounded-full py-2 px-10 text-charcoal text-sm self-end lg:hidden mr-4 translate-y-8'>
@@ -197,7 +189,7 @@ const AkioDetail = () => {
 
                 <div className='text-white flex justify-between items-end px-4 lg:px-10 lg:mt-24'>
                     <h1 className='font-soligant text-4xl lg:text-9xl -translate-y-10 lg:-translate-y-24'>Magazine</h1>
-                    <p className='font-soligant text-lg hidden lg:flex lg:-translate-x-20'>New Catalog</p>
+                    <p className='font-soligant text-lg hidden lg:flex lg:-translate-x-20'>Next Catalogue</p>
 
                     <div className='bg-seashell-whisper flex justify-center items-center rounded-large w-28 h-32 lg:w-40 lg:h-48 relative translate-y-24 lg:translate-y-28 z-10'>
                         <div className='absolute text-sm top-0 left-0 h-full w-full flex flex-col justify-between items-center py-2 lg:py-4 text-charcoal'>
