@@ -14,7 +14,7 @@ const MagazineDetail = () => {
     return (
         <main className='w-full bg-[#465367]'>
             <div className='px-4 py-5 lg:py-4'>
-                <Navbar background='bg-transparent' />
+                <Navbar background='bg-white !text-charcoal' />
                 <NavbarMobile style={'text-white'} />
             </div>
 

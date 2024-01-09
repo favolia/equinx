@@ -14,7 +14,7 @@ const AkioDetail = () => {
     return (
         <main className='w-full bg-[#3F646B]'>
             <div className='px-4 py-5 lg:py-4'>
-                <Navbar background='bg-transparent' />
+                <Navbar background='bg-white !text-charcoal' />
                 <NavbarMobile style={'text-white'} />
             </div>
 

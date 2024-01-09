@@ -14,7 +14,7 @@ const CeramicsDetail = () => {
     return (
         <main className='w-full bg-coppertone'>
             <div className='px-4 py-5 lg:py-4'>
-                <Navbar background='bg-transparent' />
+                <Navbar background='bg-white !text-charcoal' />
                 <NavbarMobile style={'text-white'} />
             </div>
 
