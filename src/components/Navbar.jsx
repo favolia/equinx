@@ -1,9 +1,10 @@
 import React from 'react'
 import Link from "next/link";
+import { cn } from '@/lib/utils';
 
-const Navbar = ({ background = 'bg-coffe' }) => {
+const Navbar = ({ background, iconColor  }) => {
     return (
-        <nav className={`${background} text-white hidden lg:flex justify-between items-center relative py-4 px-10 rounded-[15px]`}>
+        <nav className={cn(`bg-coffe text-white hidden lg:flex justify-between items-center relative py-4 px-10 rounded-[15px]`, background)}>
             <ul className='text-sm z-20 flex gap-x-8'>
                 <li>
                     <Link href='/'>Home</Link>
@@ -14,7 +15,7 @@ const Navbar = ({ background = 'bg-coffe' }) => {
             </ul>
 
             <div className='logo-mid absolute left-0 top-0 w-full h-full flex justify-center items-center'>
-                <Link href={'/'} className='font-humane text-2xl tracking-wide font-semibold'>EQUINX</Link>
+                <Link href={'/'} className={cn(`font-humane text-2xl tracking-wide font-semibold`, iconColor)}>EQUINX</Link>
             </div>
 
             <ul className='text-sm z-20 flex gap-x-8'>

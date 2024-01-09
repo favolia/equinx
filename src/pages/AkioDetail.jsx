@@ -14,12 +14,12 @@ const AkioDetail = () => {
     return (
         <main className='w-full bg-[#3F646B]'>
             <div className='px-4 py-5 lg:py-4'>
-                <Navbar background='bg-white !text-charcoal' />
+                <Navbar background='bg-[#D8E0E2] text-charcoal' iconColor={'text-white'} />
                 <NavbarMobile style={'text-white'} />
             </div>
 
             <div className={`px-3 lg:px-4 fixed ${scroll > 500 ? 'top-4 duration-500' : '-top-full duration-1000'} delay-0 w-full transition-all ease-in-out z-50`}>
-                <Navbar background={`bg-white shadow shadow-black/5 !text-charcoal backdrop-blur-2xl`} />
+                <Navbar background='bg-[#D8E0E2] text-charcoal shadow shadow-black/5' iconColor={'text-white'} />
                 <NavbarMobile style={'text-white backdrop-blur-2xl rounded-small py-2 bg-white/5 px-5'} />
             </div>
 
