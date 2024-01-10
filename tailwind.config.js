@@ -36,17 +36,23 @@ module.exports = {
         'goldenrod': '#D7A218',
         'whipped-cream': '#F9D5B1',
         'milkshake': '#FCF5EB',
-        
+
         'desert-rose': '#C7A99C',
         'mango': '#CE9C1D',
+
+        'coffe-latte': '#3F3627',
       },
       colors: {
         'whipped-cream': '#F9D5B1',
         'charcoal': '#212121',
+        'coffe-latte': '#3F3627',
       },
       borderRadius: {
         'small': '10px',
         'large': '20px',
+      },
+      borderColor: {
+        'coffe-latte': '#3F3627',
       }
     },
   },
