@@ -42,7 +42,7 @@ const ContactUs = () => {
                     </div>
 
                     <div className='lg:px-10 mt-10'>
-                        <Link href={'#'}>
+                        <Link href={'mailto:Equinx000@gmail.com'}>
                             <h1 className='text-2xl lg:text-5xl xl:text-6xl font-light pb-2 lg:pb-5 border-b border-b-white w-fit'>
                                 Equinx000@gmail.com
                             </h1>
