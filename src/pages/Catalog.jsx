@@ -44,7 +44,7 @@ const Catalog = () => {
                     <h3 className='absolute top-3 left-4 text-white text-[14px] lg:text-[16px]'>Akio</h3>
                 </Link>
                 <Link href={'/ceramics-detail'} className='flex w-full h-full bg-[url(/assets/images/anita-austvika-1u_jqIVZWLQ-unsplash.jpg)] bg-cover bg-center relative'>
-                    <h3 className='absolute top-3 left-4 text-white text-[14px] lg:text-[16px]'>Vase</h3>
+                    <h3 className='absolute top-3 left-4 text-white text-[14px] lg:text-[16px]'>Ceramics</h3>
                 </Link>
                 <Link href={'/interior-detail'} className='flex w-full h-full bg-[url(/assets/images/jonathan-borba-YdomJdFdbDo-unsplash.jpg)] bg-cover bg-center relative'>
                     <h3 className='absolute top-3 left-4 text-white text-[14px] lg:text-[16px]'>Interior</h3>
@@ -53,7 +53,7 @@ const Catalog = () => {
                     <h3 className='absolute top-3 left-4 text-white text-[14px] lg:text-[16px]'>Restaurant</h3>
                 </Link>
                 <Link href={'/megazine-detail'} className='hidden lg:flex w-full h-full bg-[url(/assets/images/david-van-dijk-3LTht2nxd34-unsplash.jpg)] bg-cover bg-center relative'>
-                    <h3 className='absolute top-3 left-4 text-white text-[14px] lg:text-[16px]'>Megazine</h3>
+                    <h3 className='absolute top-3 left-4 text-white text-[14px] lg:text-[16px]'>Magazine</h3>
                 </Link>
                 <Link href={'#'} className='hidden lg:flex w-full h-full bg-[url(/assets/images/karolina-grabowska-BgrHbgtn_b0-unsplash.jpg)] bg-cover bg-center relative'>
                     <h3 className='absolute top-3 left-4 text-white text-[14px] lg:text-[16px]'>Glowing</h3>

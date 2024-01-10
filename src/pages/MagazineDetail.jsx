@@ -97,7 +97,7 @@ const MagazineDetail = () => {
                 <div className='w-full flex flex-col gap-y-10 px-2 lg:px-4'>
                     <div className='hidden lg:flex justify-between items-center'>
                         <h1 className='text-4xl text-charcoal font-light'>Information</h1>
-                        <h1 className='text-4xl text-charcoal'>Megazine</h1>
+                        <h1 className='text-4xl text-charcoal'>Magazine</h1>
                     </div>
 
                     <div className='lg:h-[35rem] flex flex-col lg:flex-row gap-x-5 w-full gap-y-10 lg:gap-y-0'>
@@ -136,7 +136,7 @@ const MagazineDetail = () => {
                                 <div className='bg-seashell-whisper w-full h-full rounded-large text-charcoal hidden lg:flex flex-col justify-between items-center p-4'>
                                     <p className='text-sm font-light'>Product</p>
                                     <Image className='w-40' src={'/assets/megazine/travel-agent-world-tourism-organization-stock-photography-tourist-a30b2c94a5d082eccd6a845f3d68d7e9.png'} width={400} height={400} quality={100} priority loading='eager' alt='Interior chair product' />
-                                    <p className='text-sm font-light'>Megazine</p>
+                                    <p className='text-sm font-light'>Magazine</p>
                                 </div>
 
                             </div>
@@ -196,7 +196,7 @@ const MagazineDetail = () => {
                     <div className='bg-seashell-whisper flex justify-center items-center rounded-large w-28 h-32 lg:w-40 lg:h-48 relative translate-y-24 lg:translate-y-28 z-10'>
                         <div className='absolute text-sm top-0 left-0 h-full w-full flex flex-col justify-between items-center py-2 lg:py-4 text-charcoal'>
                             <p>Product</p>
-                            <p>Restaurant</p>
+                            <p>Food</p>
                         </div>
                         <Image className='w-11 lg:w-16' src={'/assets/restaurant/fast-food-organic-food-vegetarian-cuisine-junk-food-junk-food-ad53305b4fb8bd80b075c0170edd7380.png'} height={400} width={400} quality={100} priority loading='eager' alt='Akio bottle product' />
                     </div>
