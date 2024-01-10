@@ -34,17 +34,24 @@ const Home = () => {
                     </div>
 
                     <div className='w-full flex flex-col gap-y-10 pl-4 h-full lg:h-fit lg:pl-12 mt-8 justify-end lg:translate-y-0 pb-8 lg:pb-10'>
-                        <div className='w-full h-96 flex flex-col lg:flex-row lg:justify-between lg:items-end pr-4 gap-y-20 lg:gap-y-0'>
-                            <div className='flex flex-col gap-y-6 text-charcoal lg:translate-y-20'>
-                                <h1 className='text-3xl lg:text-5xl font-abril_fatface'>Made For You</h1>
-                                <p className="line-clamp-4 w-40 text-pretty text-sm lg:font-light text-charcoal">
-                                    Eco-frielndly bottles that are durable and can b c customized
-                                    according to your taste
+                        <div className='w-full lg:h-96 flex flex-col lg:flex-row lg:justify-between lg:items-end pr-4 gap-y-20 lg:gap-y-0'>
+                            <div className='flex flex-col gap-y-6 text-coffe-latte lg:translate-y-20'>
+                                <h1 className='text-3xl lg:text-5xl font-abril_fatface lg:w-96'>Designing digital symphonies</h1>
+                                <p className="w-[26rem] text-sm text-coffe-latte hidden lg:block">
+                                    We're devoted to designing and developing exceptional websites.
+                                    Through enduring partnerships, our aim is clear – to push your
+                                    business forward and amplify customer satisfaction by creating
+                                    seamless, digital narratives
                                 </p>
-                                <ButtonStar text='Visit Site' color='white' style='w-36 lg:w-48 lg:border-white lg:mt-8' href='https://akio-ds.vercel.app/' />
+                                <p className='text-xs w-52 text-coffe-latte lg:hidden'>
+                                    We're devoted to designing and developing exceptional websites.
+                                    Through enduring partnerships, our aim is clear – to push your
+                                    business forward
+                                </p>
+                                <ButtonStar starSize={'fill-coffe-latte'} text='Our Strategy' color='coffe-latte' style='w-40 rounded-full gap-x-2 text-sm lg:text-base lg:gap-x-5 lg:rounded-2xl lg:w-48 border-coffe-latte lg:mt-8' href='https://akio-ds.vercel.app/' />
                             </div>
 
-                            <div className='h-28 w-[9rem] lg:h-36 lg:w-56 flex justify-end items-end lg:items-end p-2 self-end lg:self-start rounded-small bg-[url(/assets/images/tino-rischawy-7X1zd1uI0HI-unsplash.jpg)] bg-cover bg-center'>
+                            <div className='h-28 w-40 lg:h-36 lg:w-56 flex justify-end items-end lg:items-end p-2 self-end lg:self-start rounded-small bg-[url(/assets/images/tino-rischawy-7X1zd1uI0HI-unsplash.jpg)] bg-cover bg-center'>
                                 <Link href={'#'} className='h-8 w-8 lg:h-10 lg:w-10 bg-white/5 rounded-full backdrop-blur-2xl flex justify-center items-center'>
                                     <IoArrowRedoSharp className='text-xs text-white' />
                                 </Link>
@@ -52,14 +59,14 @@ const Home = () => {
 
                         </div>
 
-                        <div className='w-full flex justify-between relative'>
+                        <div className='w-full flex justify-between items-center relative mt-7 pb-3 lg:pb-0 lg:mt-0 lg:pr-4'>
                             <div className='hidden lg:block'></div>
 
-                            <div className='absolute lg:static w-full lg:w-fit flex justify-center'>
-                                <AkioLabel />
+                            <div className='absolute lg:static w-full lg:w-fit flex justify-start lg:justify-center'>
+                                <AkioLabel style={'bg-[#D98626]/5 text-coffe-latte'} />
                             </div>
 
-                            <h1 className='hidden lg:block text-4xl -rotate-90 text-white font-abril_fatface translate-x-2'>Akio</h1>
+                            <Link href={'#'} className='hidden lg:block font-light text-white'>Get In Touch</Link>
                         </div>
                     </div>
 
