@@ -7,6 +7,7 @@ import ButtonOutline from '@/components/ui/ButtonOutline';
 import { PiHouseFill } from "react-icons/pi";
 import Navbar from '@/components/Navbar';
 import { useScrollPosition } from '@/hooks/useScrollPosition';
+import ButtonListHorizontal from '@/components/ButtonListHorizontal';
 
 const InteriorDetail = () => {
     const scroll = useScrollPosition()
@@ -25,14 +26,14 @@ const InteriorDetail = () => {
             <header className='w-full h-[165vh] lg:h-[200vh] flex items-end relative text-white'>
                 <div className='bg-[#C7B19C] flex justify-center lg:justify-between items-end pb-10 lg:pb-20 w-full h-[110vh] lg:h-screen px-6 lg:pl-6 lg:pr-16'>
                     <div className='-translate-y-12 text-charcoal hidden lg:flex flex-col gap-y-4'>
-                        <h1 className='text-6xl font-soligant'>Catalog 04</h1>
+                        <h1 className='text-6xl font-soligant'>Interior</h1>
                         <div className='w-[17rem] h-36 bg-[url(/assets/images/katelyn-perry-8gvg4nouS3k-unsplash.jpg)] rounded-small bg-cover bg-center'></div>
                     </div>
 
-                    <div className='flex flex-col items-center justify-center lg:justify-start lg:items-start gap-y-10 lg:gap-y-8 text-charcoal'>
-                        <h1 className='text-3xl lg:text-6xl font-soligant'>Interior</h1>
+                    <div className='flex flex-col items-center justify-center lg:justify-start lg:items-end gap-y-10 lg:gap-y-8 text-charcoal'>
+                        <h1 className='text-3xl lg:text-6xl lg:self-start font-soligant'>About</h1>
                         <p className='text-center lg:text-left w-80 lg:w-64 text-sm'>
-                            Explore living spaces that transcend the ordinary, where every room tells a unique story—a story crafted with our exquisite range of furniture that seamlessly blends elegance and comfort
+                            Interior is a architecture design service, specializing in innovative interior, exterior, and furniture designs. and bring precision and creativity to enhance every property project.
                         </p>
                         <div className='lg:hidden'>
                             <div className='w-[17rem] h-40 bg-[url(/assets/images/katelyn-perry-8gvg4nouS3k-unsplash.jpg)] rounded-small bg-cover bg-center'></div>
@@ -48,7 +49,7 @@ const InteriorDetail = () => {
                         <div className='mt-4 flex justify-center items-center gap-x-5 font-soligant'>
                             <h4>2024</h4>
                             <div className='bg-cream h-2 w-2 rounded-full'></div>
-                            <h4 className='text-whipped-cream'>Catalog 04</h4>
+                            <h4 className='text-whipped-cream'>Catalog 03</h4>
                         </div>
                     </div>
 
@@ -61,15 +62,11 @@ const InteriorDetail = () => {
 
             <div className='w-full text-white px-4 lg:pl-10 lg:pr-16 pt-10 pb-20'>
                 <div className='w-full flex justify-between items-center'>
-                    <h1 className='hidden lg:flex font-soligant text-8xl'>Catalog 04</h1>
+                    <h1 className='hidden lg:flex font-soligant text-8xl'>Catalog 03</h1>
                     <div className='w-full lg:w-fit flex flex-col items-center lg:items-start gap-y-4'>
                         <div className='flex justify-between w-full lg:w-fit'>
-                            <h2 className='text-2xl lg:text-4xl font-soligant'>About</h2>
-                            <h2 className='lg:hidden text-2xl lg:text-4xl font-soligant'>Catalog 04</h2>
+                            <ButtonListHorizontal />
                         </div>
-                        <p className='text-center lg:text-left text-xs w-64 lg:w-60 mt-6 lg:mt-0'>
-                            Our website is not merely a platform it’s an immersive experience designed to elevate your understanding of interior aesthetics.
-                        </p>
                     </div>
                 </div>
 
@@ -87,9 +84,9 @@ const InteriorDetail = () => {
             <div className='w-full bg-creamy-custard flex flex-col items-center py-20 gap-y-12'>
 
                 <div className='flex flex-col justify-center items-center gap-y-6'>
-                    <h1 className='text-charcoal font-soligant text-2xl lg:text-3xl'>Website Description</h1>
+                    <h1 className='text-charcoal font-soligant text-2xl lg:text-3xl'>Website Challange</h1>
                     <p className='text-charcoal text-xs lg:text-sm w-[14rem] lg:w-[33rem] text-center'>
-                        Unearth inspiration, tailor your preferences, and witness the transformation of your space into a masterpiece. Your journey to an extraordinary living experience begins here, where art meets functionality, and every click is a step towards perfection
+                        The challenge lay in creating a property website showcasing interior and exterior designs, navigating the task of capturing the essence of building projects. Balancing the visual appeal and functionality demanded meticulous attention, aiming to present a comprehensive and engaging platform for our architectural showcases
                     </p>
                     <Link href='https://interior-ds.vercel.app/' className='py-2 px-14 rounded-small text-sm bg-cream'>
                         Visit Site
@@ -99,9 +96,7 @@ const InteriorDetail = () => {
                 <div className='w-full flex flex-col gap-y-10 px-2 lg:px-4'>
                     <div className='hidden lg:flex justify-between items-center'>
                         <h1 className='text-4xl text-charcoal font-light'>Information</h1>
-                        <Link href='https://interior-ds.vercel.app/' className='py-2 px-14 rounded-small text-sm bg-cream'>
-                            Visit Site
-                        </Link>
+                        <h1 className='text-4xl text-charcoal'>Interior</h1>
                     </div>
 
                     <div className='lg:h-[35rem] flex flex-col lg:flex-row gap-x-5 w-full gap-y-10 lg:gap-y-0'>
@@ -178,16 +173,15 @@ const InteriorDetail = () => {
 
                 <div className='w-full flex justify-center lg:justify-between items-center text-charcoal px-4'>
                     <ButtonOutline href='https://interior-ds.vercel.app/' color='black' />
-                    <p className='hidden lg:block font-soligant text-lg'>Catalog 02</p>
+                    <p className='hidden lg:block font-soligant text-lg'>Catalog 03</p>
                 </div>
 
             </div>
 
             <footer className='lg:min-h-screen w-full flex flex-col gap-y-4 lg:gap-y-0 bg-chocolate-milk pt-8'>
                 <ul className='w-full flex justify-between items-center font-soligant text-lg text-white px-4 lg:px-6'>
-                    <li>Catalog 02</li>
-                    <li>Interior Website</li>
-                    <li className='hidden lg:flex'>Catalog 02</li>
+                    <li>Next Catalogue</li>
+                    <li className='hidden lg:flex'>Catalog 01</li>
                 </ul>
 
                 <Link href='#' className='bg-cream w-fit rounded-full py-2 px-10 text-charcoal text-sm self-end lg:hidden mr-4 translate-y-8'>
@@ -195,8 +189,8 @@ const InteriorDetail = () => {
                 </Link>
 
                 <div className='text-white flex justify-between items-end px-4 lg:px-10 lg:mt-24'>
-                    <h1 className='font-soligant text-4xl lg:text-9xl'>Greater<br />Freedom</h1>
-                    <p className='font-soligant text-lg hidden lg:flex'>New Catalog</p>
+                    <h1 className='font-soligant text-4xl lg:text-9xl -translate-y-10 lg:-translate-y-24'>Akio</h1>
+                    <p className='font-soligant text-lg hidden lg:flex'>Next Catalogue</p>
 
                     <div className='bg-seashell-whisper flex justify-center items-center rounded-large w-28 h-32 lg:w-40 lg:h-48 relative translate-y-24 lg:translate-y-28 z-10'>
                         <div className='absolute text-sm top-0 left-0 h-full w-full flex flex-col justify-between items-center py-2 lg:py-4 text-charcoal'>

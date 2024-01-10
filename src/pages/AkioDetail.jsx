@@ -83,7 +83,7 @@ const AkioDetail = () => {
             <div className='w-full bg-[#D8E0E2] flex flex-col items-center py-20 gap-y-12'>
 
                 <div className='flex flex-col justify-center items-center gap-y-6'>
-                    <h1 className='text-charcoal font-soligant text-2xl lg:text-3xl'>Website Challenge</h1>
+                    <h1 className='text-charcoal font-soligant text-2xl lg:text-3xl'>Website Challange</h1>
                     <p className='text-charcoal text-xs lg:text-sm w-60 lg:w-[32.5rem] text-center'>
                         The challenge in developing website for Akio involved creating a seamless platform for customers to easily access, smoothly make purchases, and acquire detailed product information. Ensuring user-friendly navigation, a smooth buying experience, and comprehensive product details.
                     </p>

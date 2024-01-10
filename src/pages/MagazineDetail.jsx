@@ -8,6 +8,7 @@ import { PiHouseFill } from "react-icons/pi";
 import PageIdRounded from '@/components/ui/PageIdRounded';
 import Navbar from '@/components/Navbar';
 import { useScrollPosition } from '@/hooks/useScrollPosition';
+import ButtonListHorizontal from '@/components/ButtonListHorizontal';
 
 const MagazineDetail = () => {
     const scroll = useScrollPosition()
@@ -30,10 +31,10 @@ const MagazineDetail = () => {
                         <div className='w-[17rem] h-36 bg-[url(/assets/megazine/sebin-thomas-OdBFUurPHjo-unsplash.jpg)] rounded-small bg-cover bg-center'></div>
                     </div>
 
-                    <div className='flex flex-col items-center justify-center lg:justify-start lg:items-start gap-y-10 lg:gap-y-10 text-charcoal'>
-                        <h1 className='text-3xl lg:text-6xl font-soligant'>Catalog 03</h1>
+                    <div className='flex flex-col items-center justify-center lg:justify-start lg:items-end gap-y-10 lg:gap-y-10 text-charcoal'>
+                        <h1 className='text-3xl lg:text-6xl font-soligant lg:self-start'>About</h1>
                         <p className='text-center lg:text-left w-72 lg:w-64 text-sm'>
-                            Magazine is a trusted source of information, a platform for meaningful conversations, and a source of inspiration for our readers.
+                            Magazine is a monthly magazine that explore the realms of travel, lifestyle, nature and trendy hotspots through our travel magazine. guiding you through captivating destinations, culinary delights
                         </p>
                         <div className='lg:hidden'>
                             <div className='w-[17rem] h-40 bg-[url(/assets/megazine/sebin-thomas-OdBFUurPHjo-unsplash.jpg)] rounded-small bg-cover bg-center'></div>
@@ -49,7 +50,7 @@ const MagazineDetail = () => {
                         <div className='mt-4 flex justify-center items-center gap-x-5 font-soligant'>
                             <h4>2024</h4>
                             <div className='bg-cream h-2 w-2 rounded-full'></div>
-                            <h4 className='text-whipped-cream'>Catalog 03</h4>
+                            <h4 className='text-whipped-cream'>Catalog 05</h4>
                         </div>
                     </div>
 
@@ -62,15 +63,11 @@ const MagazineDetail = () => {
 
             <div className='w-full text-white px-4 lg:pl-10 lg:pr-16 pt-10 pb-20'>
                 <div className='w-full flex justify-between items-center'>
-                    <h1 className='hidden lg:flex font-soligant text-8xl'>Catalog 03</h1>
+                    <h1 className='hidden lg:flex font-soligant text-8xl'>Catalog 05</h1>
                     <div className='w-full lg:w-fit flex flex-col items-center lg:items-start gap-y-4'>
                         <div className='flex justify-between w-full lg:w-fit'>
-                            <h2 className='text-2xl lg:text-4xl font-soligant'>About</h2>
-                            <h2 className='lg:hidden text-2xl lg:text-4xl font-soligant'>Catalog 03</h2>
+                            <ButtonListHorizontal />
                         </div>
-                        <p className='text-center lg:text-left text-xs w-64 mt-6 lg:mt-0'>
-                            Magazine is built on a foundation of core values that guide our every decision. We value integrity, authenticity, and a commitment to delivering content that is both informative and entertaining.
-                        </p>
                     </div>
                 </div>
 
@@ -88,9 +85,9 @@ const MagazineDetail = () => {
             <div className='w-full bg-[#C0CDE2] flex flex-col items-center py-20 gap-y-12'>
 
                 <div className='flex flex-col justify-center items-center gap-y-6'>
-                    <h1 className='text-charcoal font-soligant text-2xl lg:text-3xl'>Website Description</h1>
+                    <h1 className='text-charcoal font-soligant text-2xl lg:text-3xl'>Website Challange</h1>
                     <p className='text-charcoal text-xs lg:text-sm w-60 lg:w-[32.5rem] text-center'>
-                        Magazine, where inspiration meets information. We are a dynamic and forward-thinking online magazine committed to delivering captivating content that spans a wide range of topics.
+                        Our task for this website was weaving together aesthetics, accessibility, and engaging information. Our focus was on simplifying content, ensuring an attractive and user-friendly experience tailored for enthusiasts of travel, culinary delights, and lifestyle.
                     </p>
                     <Link href='https://interior-ds.vercel.app/' className='py-2 px-14 rounded-small text-sm bg-cream'>
                         Visit Site
@@ -100,9 +97,7 @@ const MagazineDetail = () => {
                 <div className='w-full flex flex-col gap-y-10 px-2 lg:px-4'>
                     <div className='hidden lg:flex justify-between items-center'>
                         <h1 className='text-4xl text-charcoal font-light'>Information</h1>
-                        <Link href='https://interior-ds.vercel.app/' className='py-2 px-14 rounded-small text-sm bg-cream'>
-                            Visit Site
-                        </Link>
+                        <h1 className='text-4xl text-charcoal'>Megazine</h1>
                     </div>
 
                     <div className='lg:h-[35rem] flex flex-col lg:flex-row gap-x-5 w-full gap-y-10 lg:gap-y-0'>
@@ -179,16 +174,15 @@ const MagazineDetail = () => {
 
                 <div className='w-full flex justify-center lg:justify-between items-center text-charcoal px-4'>
                     <ButtonOutline href='https://interior-ds.vercel.app/' color='black' />
-                    <p className='hidden lg:block font-soligant text-lg'>Catalog 03</p>
+                    <p className='hidden lg:block font-soligant text-lg'>Catalog 05</p>
                 </div>
 
             </div>
 
             <footer className='lg:min-h-screen w-full flex flex-col gap-y-4 lg:gap-y-0 bg-[#465367] pt-8'>
                 <ul className='w-full flex justify-between items-start font-soligant text-lg text-white px-4 lg:px-6'>
-                    <li>Catalog 02</li>
-                    <li>Heritage Bites</li>
-                    <li className='hidden lg:flex'>Catalog 02</li>
+                    <li>Next Catalogue</li>
+                    <li className='hidden lg:flex'>Catalog 04</li>
                 </ul>
 
                 <Link href='#' className='bg-cream w-fit rounded-full py-2 px-10 text-charcoal text-sm self-end lg:hidden mr-4 translate-y-8'>
@@ -197,7 +191,7 @@ const MagazineDetail = () => {
 
                 <div className='text-white flex justify-between items-end px-4 lg:px-10 lg:mt-24'>
                     <h1 className='font-soligant text-4xl lg:text-9xl -translate-y-10 lg:-translate-y-24'>Restaurant</h1>
-                    <p className='font-soligant text-lg hidden lg:flex lg:-translate-x-20'>New Catalog</p>
+                    <p className='font-soligant text-lg hidden lg:flex lg:-translate-x-20'>Next Catalogue</p>
 
                     <div className='bg-seashell-whisper flex justify-center items-center rounded-large w-28 h-32 lg:w-40 lg:h-48 relative translate-y-24 lg:translate-y-28 z-10'>
                         <div className='absolute text-sm top-0 left-0 h-full w-full flex flex-col justify-between items-center py-2 lg:py-4 text-charcoal'>
