@@ -21,7 +21,7 @@ const Home = () => {
 
     useEffect(() => {
         Aos.init({
-            once: true
+            once: true,
         });
     }, []);
 
@@ -41,7 +41,7 @@ const Home = () => {
 
                     <div className='w-full flex flex-col gap-y-10 pl-4 h-full lg:h-fit lg:pl-12 mt-8 justify-end lg:translate-y-0 pb-8 lg:pb-10'>
                         <div className='w-full lg:h-96 flex flex-col lg:flex-row lg:justify-between lg:items-end pr-4 gap-y-20 lg:gap-y-0'>
-                            <div className='flex flex-col gap-y-6 text-coffe-latte lg:translate-y-20'>
+                            <div className='flex flex-col gap-y-6 text-coffe-latte lg:translate-y-20 z-10'>
                                 <h1 className='text-3xl lg:text-5xl font-abril_fatface lg:w-96'
                                     data-aos="fade-up"
                                     data-aos-duration={500}
@@ -72,7 +72,7 @@ const Home = () => {
                                     data-aos-duration={500}
                                     data-aos-delay='500'
                                     data-aos-easing="ease-in-out">
-                                    <ButtonStar starSize={'fill-coffe-latte'} text='Our Strategy' color='coffe-latte' style='w-40 rounded-full gap-x-2 text-sm lg:text-base lg:gap-x-5 lg:rounded-2xl lg:w-48 border-coffe-latte lg:mt-8' href='https://akio-ds.vercel.app/' />
+                                    <ButtonStar href='/about' starSize={'fill-coffe-latte'} text='Our Strategy' color='coffe-latte' style='w-40 rounded-full gap-x-2 text-sm lg:text-base lg:gap-x-5 lg:rounded-2xl lg:w-48 border-coffe-latte lg:mt-8' />
                                 </div>
                             </div>
 
@@ -100,7 +100,7 @@ const Home = () => {
                                 <Label style={'bg-[#D98626]/5 text-coffe-latte'} />
                             </div>
 
-                            <Link href={'#'} className='hidden lg:block font-light text-white'>Get In Touch</Link>
+                            <Link href={'/contact-us'} className='hidden lg:block font-light text-white'>Get In Touch</Link>
                         </div>
                     </div>
 
@@ -157,7 +157,7 @@ const Home = () => {
                                 data-aos-duration={500}
                                 data-aos-easing="ease-in-out"></div>
                             <div className='lg:hidden'>
-                                <ButtonOutline text='Lets Collaborate' style={'py-6 rounded-large w-44'} />
+                                <ButtonOutline href='/contact-us' text='Lets Collaborate' style={'py-6 rounded-large w-44'} />
                             </div>
                         </div>
 
@@ -171,7 +171,7 @@ const Home = () => {
                             <h4 className='font-abril_fatface text-5xl'>Empowering<br /> Innovation</h4>
                             <p className='font-light'>User-Centric Design</p>
                         </div>
-                        <ButtonOutline text='Lets Collaborate' style={'w-44'} />
+                        <ButtonOutline href='/contact-us' text='Lets Collaborate' style={'w-44'} />
                     </div>
                 </div>
 
@@ -293,7 +293,7 @@ const Home = () => {
                             data-aos-duration={500}
                             data-aos-easing="ease-in-out">
                             <h1 className='font-abril_fatface text-3xl lg:text-6xl text-coffe-latte'>Catalogue</h1>
-                            <Link href={'#'} className='text-lg'>More</Link>
+                            <Link href={'/catalog'} className='text-lg'>More</Link>
                         </div>
 
                         <div className='w-full h-60 lg:h-[34rem] [&>div]:rounded-small px-2 lg:px-4 flex gap-x-3 lg:gap-x-7 mt-6 lg:mt-10'>
@@ -526,7 +526,7 @@ const Home = () => {
                         data-aos-duration={500}
                         data-aos-delay='200'
                         data-aos-easing="ease-in-out">
-                        <Link href={'#'} className='h-11 min-w-fit px-7 gap-x-3 rounded-full flex justify-center items-center bg-white'>
+                        <Link href={'/contact-us'} className='h-11 min-w-fit px-7 gap-x-3 rounded-full flex justify-center items-center bg-white'>
                             <Image src={'/assets/shape/shape3.svg'} className='w-6 fill-black' width={400} height={400} quality={100} priority loading='eager' />
                             <p className='text-charcoal text-sm'>Start Project</p>
                         </Link>
