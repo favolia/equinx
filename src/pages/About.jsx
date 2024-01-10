@@ -8,7 +8,7 @@ import { IoMdMail } from 'react-icons/io';
 
 const About = () => {
     return (
-        <main className='bg-ocean-mist min-h-screen lg:h-screen flex flex-col w-full pt-4 pb-4 lg:pb-0'>
+        <main className='bg-ocean-mist min-h-screen lg:h-screen lg:max-h-screen lg:min-h-max flex flex-col w-full pt-4 pb-4 lg:pb-0 overflow-x-hidden lg:overflow-hidden'>
             <div className='w-full px-4 mb-8 xl:mb-10'>
                 <Navbar background='bg-taupe-blue' />
                 <NavbarMobile />
@@ -91,7 +91,7 @@ const About = () => {
                             <p className='text-sm absolute top-3 left-4 lg:hidden'>2024 - Equinx</p>
                             <div className='text-charcoal w-full hidden lg:flex justify-between items-end pr-12 -translate-y-14'>
                                 <h2 className='font-soligant text-4xl lg:-translate-x-5'>Lets Connect</h2>
-                                <Link href={'/contact-us'} className='pb-1 border-b h-fit border-black'>
+                                <Link href={'/contact-us'} className='pb-1 border-b h-fit !border-black'>
                                     Contact Us
                                 </Link>
                             </div>
