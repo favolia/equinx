@@ -66,7 +66,7 @@ const ContactUs = () => {
                 </div>
 
                 <div className='lg:hidden'>
-                    <ButtonStar href='#' text='All Rights Reserved' color='black' starSize={'w-12'} style='w-fit text-charcoal border-transparent' />
+                    <ButtonStar href='#' text='All Rights Reserved' color='black' starSize={'w-12'} style='w-fit text-charcoal !border-transparent' />
                 </div>
             </div>
         </main>
