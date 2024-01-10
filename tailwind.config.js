@@ -53,6 +53,9 @@ module.exports = {
       },
       borderColor: {
         'coffe-latte': '#3F3627',
+      },
+      fill: {
+        'coffe-latte': '#3F3627',
       }
     },
   },
