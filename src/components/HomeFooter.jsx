@@ -8,7 +8,7 @@ import ButtonOutline from './ui/ButtonOutline'
 const HomeFooter = () => {
     useEffect(() => {
         Aos.init({
-            once: false
+            once: true
         });
     }, []);
 

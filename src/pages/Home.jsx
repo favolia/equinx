@@ -21,7 +21,7 @@ const Home = () => {
 
     useEffect(() => {
         Aos.init({
-            once: false
+            once: true
         });
     }, []);
 
