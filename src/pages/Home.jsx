@@ -22,7 +22,7 @@ const Home = () => {
     return (
         <>
             <main className='w-full'>
-                <header className='w-full h-screen flex lg:flex flex-col justify-between bg-[url(/assets/images/pexels-koolshooters-6976102.jpg)] bg-cover bg-left lg:bg-center pt-4'>
+                <header className='w-full h-screen flex lg:flex flex-col justify-between bg-[url(/assets/images/Hero.jpg)] bg-cover bg-left lg:bg-center pt-4'>
                     <div className={`px-3 lg:px-4`}>
                         <Navbar background={`bg-white/5 backdrop-blur-2xl`} />
                         <NavbarMobile style={'text-white backdrop-blur-2xl rounded-small py-2 bg-white/5 px-5'} />
@@ -35,9 +35,9 @@ const Home = () => {
 
                     <div className='w-full flex flex-col gap-y-10 pl-4 h-full lg:h-fit lg:pl-12 mt-8 justify-end lg:translate-y-0 pb-8 lg:pb-10'>
                         <div className='w-full h-96 flex flex-col lg:flex-row lg:justify-between lg:items-end pr-4 gap-y-20 lg:gap-y-0'>
-                            <div className='flex flex-col gap-y-6 text-white lg:translate-y-20'>
+                            <div className='flex flex-col gap-y-6 text-charcoal lg:translate-y-20'>
                                 <h1 className='text-3xl lg:text-5xl font-abril_fatface'>Made For You</h1>
-                                <p className="line-clamp-4 w-40 text-pretty text-sm lg:font-light text-white">
+                                <p className="line-clamp-4 w-40 text-pretty text-sm lg:font-light text-charcoal">
                                     Eco-frielndly bottles that are durable and can b c customized
                                     according to your taste
                                 </p>
