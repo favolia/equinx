@@ -4,6 +4,7 @@ import React from 'react'
 import Link from "next/link";
 import StarRing from '@/components/ui/StarRing';
 import ButtonStar from '@/components/ui/ButtonStar';
+import { IoMdMail } from 'react-icons/io';
 
 const About = () => {
     return (
@@ -45,12 +46,12 @@ const About = () => {
                     <p className='text-xs text-center'>
                         A small studio based in Surabaya, Indonesia . We explore deep into clients' needs, following established processes. Achieving strategy goals is our forte through a creative process. Collaborating with our partners, we plan the strategy for the future product leader, bringing together design, technology, and brilliant ideas.
                     </p>
-                    <Link href={'/contact'} className='pb-1 border-b border-black'>
+                    <Link href={'/contact-us'} className='pb-1 border-b border-black'>
                         Contact Us
                     </Link>
                 </div>
 
-                <div className='flex flex-col-reverse lg:flex-row xl:gap-x-40 w-full h-full'>
+                <div className='flex flex-col-reverse lg:flex-row xl:gap-x-20 w-full h-full'>
                     <div className='w-full lg:min-w-[40rem] flex flex-col justify-between items-center relative lg:pt-8'>
                         <h1 className='text-3xl font-soligant lg:hidden my-14'>
                             Our Services
@@ -85,12 +86,21 @@ const About = () => {
                         </div>
                     </div>
 
-                    <div className='w-full flex flex-col gap-y-3 lg:pt-5'>
-                        <div className='w-full h-48 rounded-small lg:rounded-none lg:h-full bg-[url(/assets/images/quokkabottles-Cs3X40zb4kQ-unsplash.jpg)] bg-cover bg-center relative'>
+                    <div className='w-full flex flex-col justify-end gap-y-3 lg:pt-5'>
+                        <div className='w-full h-48 rounded-small lg:rounded-none lg:h-full xl:h-80 bg-[url(/assets/images/quokkabottles-Cs3X40zb4kQ-unsplash.jpg)] bg-cover bg-center relative'>
                             <p className='text-sm absolute top-3 left-4 lg:hidden'>2024 - Equinx</p>
-                            <div className='text-charcoal w-full hidden lg:flex justify-between pr-12 -translate-y-14'>
-                                <h2 className='font-soligant text-4xl lg:-translate-x-5'>Creative Sparks</h2>
-                                <p className='text-sm'>Everlasting</p>
+                            <div className='text-charcoal w-full hidden lg:flex justify-between items-end pr-12 -translate-y-14'>
+                                <h2 className='font-soligant text-4xl lg:-translate-x-5'>Lets Connect</h2>
+                                <Link href={'/contact-us'} className='pb-1 border-b h-fit border-black'>
+                                    Contact Us
+                                </Link>
+                            </div>
+                            <div className='absolute right-5 top-1/2 -translate-y-10 lg:right-48 lg:top-0 lg:-translate-y-10'>
+                                <Link href={'/contact-us'} className=''>
+                                    <div className='h-16 w-16 lg:h-20 lg:w-20 flex justify-center items-center text-white bg-[#778F95] rounded-full'>
+                                        <IoMdMail className='text-xl lg:text-2xl' />
+                                    </div>
+                                </Link>
                             </div>
                         </div>
                     </div>
