@@ -1,7 +1,7 @@
 import './globals.css'
-import Script from 'next/script'
 import localFont from "next/font/local";
 import { Abril_Fatface } from "next/font/google";
+import RemoveRightClick from "@/components/ui/RemoveRightClick";
 
 const satoshi = localFont({
   src: '../../public/assets/fonts/satoshi/Satoshi-Variable.ttf',
@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${satoshi.className} ${soligant.variable} ${abril_fatface.variable} ${humane.variable}`}>
         {children}
-        <Script src='/assets/scripts/removeContextMenu.js'/>
+        <RemoveRightClick />
       </body>
     </html>
   )
