@@ -45,6 +45,7 @@ module.exports = {
       colors: {
         'whipped-cream': '#F9D5B1',
         'charcoal': '#212121',
+        'coffe': '#A38758',
         'coffe-latte': '#3F3627',
       },
       borderRadius: {

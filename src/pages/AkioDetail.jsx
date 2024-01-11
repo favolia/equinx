@@ -61,7 +61,7 @@ const AkioDetail = () => {
                 </div>
             </header>
 
-            <div className='w-full text-white px-4 lg:pl-10 lg:pr-16 pt-10 pb-20'>
+            <div className='w-full text-white px-4 lg:pl-10 lg:pr-16 pt-16 lg:pt-10 pb-20'>
                 <div className='w-full flex justify-between items-center'>
                     <h1 className='hidden lg:flex font-soligant text-8xl'>Catalog 01</h1>
                     <div className='w-full lg:w-fit flex flex-col items-center lg:items-start gap-y-4'>
@@ -178,14 +178,10 @@ const AkioDetail = () => {
             </div>
 
             <footer className='lg:min-h-screen w-full flex flex-col gap-y-4 lg:gap-y-0 pt-8'>
-                <ul className='w-full flex justify-between items-start font-soligant text-lg text-white px-4 lg:px-6'>
+                <ul className='w-full flex lg:flex-row-reverse justify-between items-start font-soligant text-lg text-white px-4 lg:px-6'>
+                    <li>Catalog 05</li>
                     <li>Next Catalogue</li>
-                    <li className='hidden lg:flex'>Catalog 05</li>
                 </ul>
-
-                <Link href='#' className='bg-cream w-fit rounded-full py-2 px-10 text-charcoal text-sm self-end lg:hidden mr-4 translate-y-8'>
-                    Contact Us
-                </Link>
 
                 <div className='text-white flex justify-between items-end px-4 lg:px-10 lg:mt-24'>
                     <h1 className='font-soligant text-4xl lg:text-9xl -translate-y-10 lg:-translate-y-24'>Magazine</h1>
@@ -201,7 +197,7 @@ const AkioDetail = () => {
                 </div>
 
                 <div className='h-72 lg:h-[30rem] w-full bg-[url(/assets/akio/willian-justen-de-vasconcellos-T_Qe4QlMIvQ-unsplash.jpg)] bg-cover bg-center mt-3 relative'>
-                    <Link href={'/'} className='absolute bottom-20 right-40 w-44 h-11 hidden lg:flex rounded-full gap-x-2 justify-start items-center bg-cream px-2'>
+                    <Link href={'/'} className='absolute bottom-20 right-20 lg:right-40 w-44 h-11 flex rounded-full gap-x-2 justify-start items-center bg-cream px-2'>
                         <div className='bg-coppertone h-8 w-8 flex justify-center items-center text-white rounded-full'>
                             <PiHouseFill />
                         </div>

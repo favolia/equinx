@@ -13,11 +13,10 @@ import Label from '@/components/ui/Label';
 import NavbarMobile from '@/components/NavbarMobile';
 import StarBlink from '@/components/ui/StarBlink';
 import HomeFooter from '@/components/HomeFooter';
-import { useScrollPosition } from '@/hooks/useScrollPosition';
 import ButtonOutline from '@/components/ui/ButtonOutline';
+import ButtonOutline2 from '@/components/ui/ButtonOutline2';
 
 const Home = () => {
-    const scroll = useScrollPosition()
 
     useEffect(() => {
         Aos.init({
@@ -29,15 +28,14 @@ const Home = () => {
         <>
             <main className='w-full'>
                 <header className='header-anchor w-full h-screen flex lg:flex flex-col justify-between bg-[url(/assets/images/Hero.jpg)] bg-cover bg-left lg:bg-center pt-4'>
-                    <div className={`px-3 lg:px-4`}>
-                        <Navbar background={`bg-white/5 backdrop-blur-2xl`} />
-                        <NavbarMobile style={'text-white backdrop-blur-2xl rounded-small py-2 bg-white/5 px-5'} />
-                    </div>
+                    <div className='placeholder'></div>
+                    <Navbar background={`bg-white/5 backdrop-blur-2xl`} padding={`px-3 lg:px-4`} />
+                    <NavbarMobile withMenu style={'text-white backdrop-blur-2xl rounded-small py-2 bg-white/5 px-5'} padding='px-3' />
 
-                    <div className={`px-3 lg:px-4 fixed ${scroll > 500 ? 'top-4 duration-500' : '-top-full duration-1000'} delay-0 w-full transition-all ease-in-out z-50`}>
+                    {/* <div className={`px-3 lg:px-4 ${scroll > 500 ? 'fixed top-4 duration-500' : '-top-full duration-1000'} delay-0 w-full transition-all ease-in-out z-50`}>
                         <Navbar background={`bg-white/5 backdrop-blur-2xl`} />
                         <NavbarMobile style={'text-white backdrop-blur-2xl rounded-small py-2 bg-white/5 px-5'} />
-                    </div>
+                    </div> */}
 
                     <div className='w-full flex flex-col gap-y-10 pl-4 h-full lg:h-fit lg:pl-12 mt-8 justify-end lg:translate-y-0 pb-8 lg:pb-10'>
                         <div className='w-full lg:h-96 flex flex-col lg:flex-row lg:justify-between lg:items-end pr-4 gap-y-20 lg:gap-y-0'>
@@ -157,7 +155,7 @@ const Home = () => {
                                 data-aos-duration={500}
                                 data-aos-easing="ease-in-out"></div>
                             <div className='lg:hidden'>
-                                <ButtonOutline href='/contact-us' text='Lets Collaborate' style={'py-6 rounded-large w-44'} />
+                                <ButtonOutline2 href='/contact-us' text='Lets Collaborate' style={'py-6 rounded-large w-44'} />
                             </div>
                         </div>
 
@@ -171,7 +169,7 @@ const Home = () => {
                             <h4 className='font-abril_fatface text-5xl'>Empowering<br /> Innovation</h4>
                             <p className='font-light'>User-Centric Design</p>
                         </div>
-                        <ButtonOutline href='/contact-us' text='Lets Collaborate' style={'w-44'} />
+                        <ButtonOutline2 href='/contact-us' text='Lets Collaborate' style={'w-44'} />
                     </div>
                 </div>
 
@@ -269,7 +267,7 @@ const Home = () => {
                                     data-aos-duration={500}
                                     data-aos-delay='200'
                                     data-aos-easing="ease-in-out">Highlighted Projects</h1>
-                                <div className='scale-75 lg:scale-100 absolute top-2 -left-4 lg:static'
+                                <div className='scale-50 lg:scale-100 absolute top-3 lg:top-2 left-2 lg:-left-4 lg:static'
                                     data-aos="fade-up"
                                     data-aos-duration={500}
                                     data-aos-delay='200'

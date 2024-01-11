@@ -62,13 +62,11 @@ const RestaurantDetail = () => {
                 </div>
             </header>
 
-            <div className='w-full text-white px-4 lg:pl-10 lg:pr-16 pt-10 pb-20'>
+            <div className='w-full text-white px-4 lg:pl-10 lg:pr-16 pt-16 lg:pt-10 pb-20'>
                 <div className='w-full flex justify-between items-center'>
                     <h1 className='hidden lg:flex font-soligant text-8xl'>Catalog 04</h1>
                     <div className='w-full lg:w-fit flex flex-col items-center lg:items-start gap-y-4'>
-                        <div className='flex justify-between w-full lg:w-fit'>
-                            <ButtonListHorizontal />
-                        </div>
+                        <ButtonListHorizontal />
                     </div>
                 </div>
 
@@ -181,14 +179,10 @@ const RestaurantDetail = () => {
             </div>
 
             <footer className='lg:min-h-screen w-full flex flex-col gap-y-4 lg:gap-y-0 bg-[#7C6842] pt-8'>
-                <ul className='w-full flex justify-between items-start font-soligant text-lg text-white px-4 lg:px-6'>
+                <ul className='w-full flex lg:flex-row-reverse justify-between items-start font-soligant text-lg text-white px-4 lg:px-6'>
+                    <li>Catalog 02</li>
                     <li>Next Catalogue</li>
-                    <li className='hidden lg:flex'>Catalog 02</li>
                 </ul>
-
-                <Link href='#' className='bg-cream w-fit rounded-full py-2 px-10 text-charcoal text-sm self-end lg:hidden mr-4 translate-y-8'>
-                    Contact Us
-                </Link>
 
                 <div className='text-white flex justify-between items-end px-4 lg:px-10 lg:mt-24'>
                     <h1 className='font-soligant text-4xl lg:text-9xl -translate-y-10 lg:-translate-y-24'>Ceramics</h1>
@@ -199,12 +193,12 @@ const RestaurantDetail = () => {
                             <p>Product</p>
                             <p>Vase</p>
                         </div>
-                        <Image className='w-14 lg:w-20' src={'/assets/restaurant/flower-bouquet-floral-design-magnolia-brandy-floral-art-8dc0be0f81838b9fc283ffecb615b110.png'} height={400} width={400} quality={100} priority loading='eager' alt='Akio bottle product' />
+                        <Image className='w-12 lg:w-20' src={'/assets/restaurant/flower-bouquet-floral-design-magnolia-brandy-floral-art-8dc0be0f81838b9fc283ffecb615b110.png'} height={400} width={400} quality={100} priority loading='eager' alt='Akio bottle product' />
                     </div>
                 </div>
 
                 <div className='h-72 lg:h-[30rem] w-full bg-[url(/assets/restaurant/katelyn-perry-8gvg4nouS3k-unsplash.jpg)] bg-cover bg-center mt-3 relative'>
-                    <Link href={'/'} className='absolute bottom-20 right-40 w-44 h-11 hidden lg:flex rounded-full gap-x-2 justify-start items-center bg-cream px-2'>
+                    <Link href={'/'} className='absolute bottom-20 right-20 lg:right-40 w-44 h-11 flex rounded-full gap-x-2 justify-start items-center bg-cream px-2'>
                         <div className='bg-coppertone h-8 w-8 flex justify-center items-center text-white rounded-full'>
                             <PiHouseFill />
                         </div>
@@ -214,7 +208,7 @@ const RestaurantDetail = () => {
                         </div>
                     </Link>
 
-                    <PageIdRounded isDefault={false} />
+                    <PageIdRounded isDefault={false} text='/02' />
                 </div>
             </footer>
 
