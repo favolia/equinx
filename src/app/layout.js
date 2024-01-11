@@ -1,4 +1,5 @@
 import './globals.css'
+import Script from 'next/script'
 import localFont from "next/font/local";
 import { Abril_Fatface } from "next/font/google";
 
@@ -34,7 +35,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${satoshi.className} ${soligant.variable} ${abril_fatface.variable} ${humane.variable}`}>{children}</body>
+      <body className={`${satoshi.className} ${soligant.variable} ${abril_fatface.variable} ${humane.variable}`}>
+        {children}
+        <Script src='/assets/scripts/removeContextMenu.js'/>
+      </body>
     </html>
   )
 }
