@@ -11,7 +11,7 @@ const ContactUs = () => {
         <main className='min-h-screen lg:h-screen w-full flex flex-col lg:flex-row text-white'>
             <div className='w-full h-full bg-sky-blue pb-28 lg:pb-3'>
                 <div className='block w-full p-4 lg:hidden'>
-                    <NavbarMobile />
+                        <NavbarMobile withMenu style={'text-white rounded-small'} paddingWhenScroll='px-4' />
                 </div>
 
                 <div className='w-full hidden lg:flex flex-col pt-6 pl-12 pr-5'>

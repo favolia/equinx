@@ -14,15 +14,9 @@ const MagazineDetail = () => {
     const scroll = useScrollPosition()
     return (
         <main className='w-full bg-[#465367]'>
-            <div className='px-4 py-5 lg:py-4'>
-                <Navbar background='bg-[#C0CDE2] text-charcoal' iconColor={'text-white'} />
-                <NavbarMobile style={'text-white'} />
-            </div>
+            <Navbar background={`bg-[#C0CDE2] text-charcoal`} iconColor={'text-white'} paddingWhenStatic={'py-4'} padding={`px-3 lg:px-4`} />
+            <NavbarMobile withMenu style={'text-white backdrop-blur-2xl rounded-small py-2 px-5'} padding='px-3 py-2' />
 
-            <div className={`px-3 lg:px-4 fixed ${scroll > 500 ? 'top-4 duration-500' : '-top-full duration-1000'} delay-0 w-full transition-all ease-in-out z-50`}>
-                <Navbar background='bg-[#C0CDE2] text-charcoal shadow shadow-black/5' iconColor={'text-white'} />
-                <NavbarMobile style={'text-white backdrop-blur-2xl rounded-small py-2 bg-white/5 px-5'} />
-            </div>
 
             <header className='w-full h-[165vh] lg:h-[200vh] flex items-end relative text-white'>
                 <div className='bg-[#C0CDE2] flex justify-center lg:justify-between items-end pb-10 lg:pb-20 w-full h-[110vh] lg:h-screen px-6 lg:pl-6 lg:pr-16'>

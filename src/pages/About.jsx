@@ -9,11 +9,13 @@ import { IoMdMail } from 'react-icons/io';
 const About = () => {
 
     return (
-        <main className='bg-ocean-mist min-h-screen lg:h-screen lg:max-h-screen lg:min-h-max flex flex-col w-full pt-4 pb-4 lg:pb-0 overflow-x-hidden lg:overflow-hidden'>
-            <div className='w-full px-4 mb-8 xl:mb-10'>
-                <Navbar background='bg-taupe-blue' />
-                <NavbarMobile />
+        <main className='bg-ocean-mist min-h-screen transition-all duration-500 ease-in-out lg:h-screen lg:max-h-screen lg:min-h-max flex flex-col w-full pt-4 pb-4 lg:pb-0 overflow-x-hidden lg:overflow-hidden'>
+            <div className='w-full lg:px-4 mb-8 xl:mb-10'>
+                <Navbar background={`bg-taupe-blue`} />
+                <NavbarMobile withMenu style={'text-charcoal backdrop-blur-2xl rounded-small py-2 px-5'} paddingWhenScroll='px-4' />
             </div>
+
+
 
             <div className='w-full flex justify-between items-center px-4 lg:pr-12 text-charcoal relative'>
                 <h1 className='font-soligant text-xl leading-tight hidden lg:flex'>Resonance of<br />Progress</h1>
