@@ -76,15 +76,15 @@ const Home = () => {
                                 </div>
                             </div>
 
-                            <div className='h-28 w-40 lg:h-36 lg:w-56 flex justify-end items-end lg:items-end p-2 self-end lg:self-start rounded-small bg-[url(/assets/images/tino-rischawy-7X1zd1uI0HI-unsplash.jpg)] bg-cover bg-center'
+                            <Link href={'/ceramics-detail'} className='h-28 w-40 lg:h-36 lg:w-56 flex justify-end items-end lg:items-end p-2 self-end lg:self-start rounded-small bg-[url(/assets/images/tino-rischawy-7X1zd1uI0HI-unsplash.jpg)] bg-cover bg-center'
                                 data-aos="fade-up"
                                 data-aos-duration={500}
                                 data-aos-easing="ease-in-out"
                             >
-                                <Link href={'#'} className='h-8 w-8 lg:h-10 lg:w-10 bg-white/5 rounded-full backdrop-blur-2xl flex justify-center items-center'>
+                                <div className='h-8 w-8 lg:h-10 lg:w-10 bg-white/5 rounded-full backdrop-blur-2xl flex justify-center items-center'>
                                     <IoArrowRedoSharp className='text-xs text-white' />
-                                </Link>
-                            </div>
+                                </div>
+                            </Link>
 
                         </div>
 
@@ -274,7 +274,7 @@ const Home = () => {
                                     data-aos-duration={500}
                                     data-aos-delay='200'
                                     data-aos-easing="ease-in-out">
-                                    <Label title='Ceramics Ecommerce' images='/images/tino-rischawy-7X1zd1uI0HI-unsplash.jpg' style={'bg-[#CC961B]'} sub='Visit Site' textVariant={2} />
+                                    <Label href='/ceramics-detail' title='Ceramics Ecommerce' images='/images/tino-rischawy-7X1zd1uI0HI-unsplash.jpg' style={'bg-[#CC961B]'} sub='Visit Site' textVariant={2} />
                                 </div>
                                 <div className='lg:hidden absolute bottom-5 right-5'
                                     data-aos="fade-up"
@@ -433,15 +433,15 @@ const Home = () => {
                             </div>
 
                             <div className='w-full hidden lg:flex translate-x-9 justify-between items-center mt-6'>
-                                <Link href='#'
-                                    data-aos="fade-up"
+                                <div data-aos="fade-up"
                                     data-aos-duration={500}
                                     data-aos-delay='200'
                                     data-aos-easing="ease-in-out">
                                     <div className='h-11 w-11 bg-[url(/assets/images/quokkabottles-bFkBNA8nmRY-unsplash.png)] bg-cover bg-center rounded-full'></div>
-                                </Link>
+                                </div>
 
-                                <button
+                                <Link
+                                    href={'/akio-detail'}
                                     data-aos="fade-up"
                                     data-aos-duration={500}
                                     data-aos-delay='200'
@@ -449,7 +449,7 @@ const Home = () => {
                                     <div className='h-[4.5rem] w-[4.5rem] flex justify-center items-center rounded-full text-charcoal bg-cream'>
                                         <MdArrowRightAlt className='text-4xl lg:text-3xl' />
                                     </div>
-                                </button>
+                                </Link>
                             </div>
 
                             <div className='w-full flex justify-center mt-20 lg:mt-4'
@@ -521,7 +521,7 @@ const Home = () => {
                         </h1>
                     </div>
 
-                    <div className='w-full flex justify-between items-start lg:items-center lg:gap-x-56 pl-4 pr-12 lg:px-10 mt-10 lg:mt-32 xl:mt-56'
+                    <div className='w-full flex justify-start lg:justify-between items-start lg:items-center gap-x-8 lg:gap-x-56 px-4 lg:pr-12 lg:px-10 mt-10 lg:mt-32 xl:mt-56'
                         data-aos="fade-up"
                         data-aos-duration={500}
                         data-aos-delay='200'

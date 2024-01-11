@@ -86,7 +86,7 @@ const RestaurantDetail = () => {
             <div className='w-full bg-[#E4DDB6] flex flex-col items-center py-20 gap-y-12'>
 
                 <div className='flex flex-col justify-center items-center gap-y-6'>
-                    <h1 className='text-charcoal font-soligant text-2xl lg:text-3xl'>Website Challange</h1>
+                    <h1 className='text-charcoal font-soligant text-2xl lg:text-3xl'>Website Challenge</h1>
                     <p className='text-charcoal text-xs lg:text-sm w-[14rem] lg:w-[32.5rem] text-center'>
                         {"The challenge in creating our restaurant's website was to seamlessly blend the diverse Japanese and Western menu options for an optimal user experience. Ensuring easy accessibility, smooth online ordering, and providing comprehensive menu details were pivotal tasks, aiming to offer customers a user-friendly platform to explore our offerings, place orders effortlessly,"}
                     </p>

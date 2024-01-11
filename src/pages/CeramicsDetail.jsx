@@ -27,12 +27,12 @@ const CeramicsDetail = () => {
 
             <header className='w-full h-[165vh] lg:h-[200vh] flex items-end relative text-white'>
                 <div className='bg-[#C7A99C] flex justify-center lg:justify-between items-end pb-10 lg:pb-20 w-full h-[110vh] lg:h-screen px-6 lg:pl-6 lg:pr-16'>
-                    <div className='-translate-y-12 text-charcoal hidden lg:flex flex-col gap-y-4'>
+                    <div className='-translate-y-12 text-charcoal hidden lg:flex flex-col gap-y-4 z-10'>
                         <h1 className='text-6xl font-soligant'>Ceramics</h1>
                         <div className='w-[17rem] h-36 bg-[url(/assets/images/katelyn-perry-8gvg4nouS3k-unsplash.jpg)] rounded-small bg-cover bg-center'></div>
                     </div>
 
-                    <div className='flex flex-col items-center justify-center lg:justify-start lg:items-end gap-y-10 lg:gap-y-10 text-charcoal'>
+                    <div className='flex flex-col items-center justify-center lg:justify-start lg:items-end gap-y-10 lg:gap-y-10 text-charcoal z-10'>
                         <h1 className='text-3xl lg:text-6xl lg:self-start font-soligant'>About</h1>
                         <p className='text-center lg:text-left w-80 lg:w-72 text-sm'>
                             Ceramics is a company that specialize in crafting ceramics that seamlessly integrate into daily life, offering a diverse range of functional and aesthetically pleasing items.
@@ -40,7 +40,7 @@ const CeramicsDetail = () => {
                         <div className='lg:hidden'>
                             <div className='w-[17rem] h-40 bg-[url(/assets/images/katelyn-perry-8gvg4nouS3k-unsplash.jpg)] rounded-small bg-cover bg-center'></div>
                         </div>
-                        <ButtonOutline style={'bg-cream text-charcoal border-none w-36 z-30'} href='https://interior-ds.vercel.app/' />
+                        <ButtonOutline style={'bg-cream text-charcoal border-none w-36 z-30'} href='https://ceramics-ds.vercel.app/' />
                     </div>
 
                 </div>
@@ -86,11 +86,11 @@ const CeramicsDetail = () => {
             <div className='w-full bg-desert-rose flex flex-col items-center py-20 gap-y-12'>
 
                 <div className='flex flex-col justify-center items-center gap-y-6'>
-                    <h1 className='text-charcoal font-soligant text-2xl lg:text-3xl'>Website Challange</h1>
+                    <h1 className='text-charcoal font-soligant text-2xl lg:text-3xl'>Website Challenge</h1>
                     <p className='text-charcoal text-xs lg:text-sm w-[14rem] lg:w-[36rem] text-center'>
                         Our task was to create ecommerce ceramic website for household essentials. Balancing functionality and aesthetics required strategic planning and creative solutions with  visually appealing and user-friendly platform for customers seeking both aesthetic and functional ceramic products for their homes.
                     </p>
-                    <Link href='https://interior-ds.vercel.app/' className='py-2 px-14 rounded-small text-sm bg-cream'>
+                    <Link href='https://ceramics-ds.vercel.app/' className='py-2 px-14 rounded-small text-sm bg-cream'>
                         Visit Site
                     </Link>
                 </div>
@@ -174,7 +174,7 @@ const CeramicsDetail = () => {
                 </div>
 
                 <div className='w-full flex justify-center lg:justify-between items-center px-4'>
-                    <ButtonOutline color='black' href='https://interior-ds.vercel.app/' />
+                    <ButtonOutline color='black' href='https://ceramics-ds.vercel.app/' />
                     <p className='hidden lg:block font-soligant text-lg text-charcoal'>Catalog 02</p>
                 </div>
 

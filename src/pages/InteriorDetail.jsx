@@ -8,6 +8,7 @@ import { PiHouseFill } from "react-icons/pi";
 import Navbar from '@/components/Navbar';
 import { useScrollPosition } from '@/hooks/useScrollPosition';
 import ButtonListHorizontal from '@/components/ButtonListHorizontal';
+import PageIdRounded from '@/components/ui/PageIdRounded';
 
 const InteriorDetail = () => {
     const scroll = useScrollPosition()
@@ -25,12 +26,12 @@ const InteriorDetail = () => {
 
             <header className='w-full h-[165vh] lg:h-[200vh] flex items-end relative text-white'>
                 <div className='bg-[#C7B19C] flex justify-center lg:justify-between items-end pb-10 lg:pb-20 w-full h-[110vh] lg:h-screen px-6 lg:pl-6 lg:pr-16'>
-                    <div className='-translate-y-12 text-charcoal hidden lg:flex flex-col gap-y-4'>
+                    <div className='-translate-y-12 text-charcoal hidden lg:flex flex-col gap-y-4 z-10'>
                         <h1 className='text-6xl font-soligant'>Interior</h1>
                         <div className='w-[17rem] h-36 bg-[url(/assets/images/katelyn-perry-8gvg4nouS3k-unsplash.jpg)] rounded-small bg-cover bg-center'></div>
                     </div>
 
-                    <div className='flex flex-col items-center justify-center lg:justify-start lg:items-end gap-y-10 lg:gap-y-8 text-charcoal'>
+                    <div className='flex flex-col items-center justify-center lg:justify-start lg:items-end gap-y-10 lg:gap-y-8 text-charcoal z-10'>
                         <h1 className='text-3xl lg:text-6xl lg:self-start font-soligant'>About</h1>
                         <p className='text-center lg:text-left w-80 lg:w-64 text-sm'>
                             Interior is a architecture design service, specializing in innovative interior, exterior, and furniture designs. and bring precision and creativity to enhance every property project.
@@ -211,6 +212,8 @@ const InteriorDetail = () => {
                             <p className='font-light'>EQUINX</p>
                         </div>
                     </Link>
+
+                    <PageIdRounded isDefault={false} text='/01' />
                 </div>
             </footer>
 

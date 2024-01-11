@@ -85,7 +85,7 @@ const MagazineDetail = () => {
             <div className='w-full bg-[#C0CDE2] flex flex-col items-center py-20 gap-y-12'>
 
                 <div className='flex flex-col justify-center items-center gap-y-6'>
-                    <h1 className='text-charcoal font-soligant text-2xl lg:text-3xl'>Website Challange</h1>
+                    <h1 className='text-charcoal font-soligant text-2xl lg:text-3xl'>Website Challenge</h1>
                     <p className='text-charcoal text-xs lg:text-sm w-60 lg:w-[32.5rem] text-center'>
                         Our task for this website was weaving together aesthetics, accessibility, and engaging information. Our focus was on simplifying content, ensuring an attractive and user-friendly experience tailored for enthusiasts of travel, culinary delights, and lifestyle.
                     </p>

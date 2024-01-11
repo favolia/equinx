@@ -26,20 +26,20 @@ const AkioDetail = () => {
 
             <header className='w-full h-[165vh] lg:h-[200vh] flex items-end relative text-white'>
                 <div className='bg-[#D8E0E2] flex justify-center lg:justify-between items-end pb-10 lg:pb-20 w-full h-[110vh] lg:h-screen px-6 lg:pl-6 lg:pr-16'>
-                    <div className='-translate-y-12 text-charcoal hidden lg:flex flex-col gap-y-4'>
+                    <div className='-translate-y-12 text-charcoal hidden lg:flex flex-col gap-y-4 z-10'>
                         <h1 className='text-6xl font-soligant'>Akio</h1>
                         <div className='w-[17rem] h-36 bg-[url(/assets/images/quokkabottles-2S9FFzGKK1A-unsplash.png)] rounded-small bg-cover bg-center'></div>
                     </div>
 
-                    <div className='flex flex-col items-center justify-center lg:justify-start lg:items-end gap-y-10 lg:gap-y-10 text-charcoal'>
-                        <h1 className='text-3xl lg:text-6xl self-start font-soligant'>About</h1>
+                    <div className='flex flex-col items-center justify-center lg:justify-start lg:items-end gap-y-10 lg:gap-y-10 text-charcoal z-10'>
+                        <h1 className='text-3xl lg:text-6xl lg:self-start font-soligant'>About</h1>
                         <p className='text-center lg:text-left w-72 lg:w-64 xl:w-72 text-sm'>
                             Akio is a small business specializing in craft-focused ventures, passionately dedicated to the production of exquisite drinkware and water bottle accessories.
                         </p>
                         <div className='lg:hidden'>
                             <div className='w-[17rem] h-40 bg-[url(/assets/images/quokkabottles-2S9FFzGKK1A-unsplash.png)] rounded-small bg-cover bg-center'></div>
                         </div>
-                        <ButtonOutline style={'bg-cream text-charcoal border-none w-36 z-30'} href='https://interior-ds.vercel.app/' />
+                        <ButtonOutline style={'bg-cream text-charcoal border-none w-36 z-30'} href='https://akio-ds.vercel.app/' />
                     </div>
 
                 </div>
@@ -83,11 +83,11 @@ const AkioDetail = () => {
             <div className='w-full bg-[#D8E0E2] flex flex-col items-center py-20 gap-y-12'>
 
                 <div className='flex flex-col justify-center items-center gap-y-6'>
-                    <h1 className='text-charcoal font-soligant text-2xl lg:text-3xl'>Website Challange</h1>
+                    <h1 className='text-charcoal font-soligant text-2xl lg:text-3xl'>Website Challenge</h1>
                     <p className='text-charcoal text-xs lg:text-sm w-60 lg:w-[32.5rem] text-center'>
                         The challenge in developing website for Akio involved creating a seamless platform for customers to easily access, smoothly make purchases, and acquire detailed product information. Ensuring user-friendly navigation, a smooth buying experience, and comprehensive product details.
                     </p>
-                    <Link href='https://interior-ds.vercel.app/' className='py-2 px-14 rounded-small text-sm bg-cream'>
+                    <Link href='https://akio-ds.vercel.app/' className='py-2 px-14 rounded-small text-sm bg-cream'>
                         Visit Site
                     </Link>
                 </div>
@@ -171,7 +171,7 @@ const AkioDetail = () => {
                 </div>
 
                 <div className='w-full flex justify-center lg:justify-between items-center text-charcoal px-4'>
-                    <ButtonOutline href='https://interior-ds.vercel.app/' color='black' />
+                    <ButtonOutline href='https://akio-ds.vercel.app/' color='black' />
                     <p className='hidden lg:block font-soligant text-lg'>Catalog 01</p>
                 </div>
 
