@@ -15,7 +15,7 @@ const Navbar = ({ background, withMenu = false, iconColor, padding, paddingWhenS
 
     return (
         <>
-            <div className={cn(`${isStatic ? paddingWhenStatic : ''} ${isFixed ? 'fixed top-4 duration-500' : 'fixed -top-full duration-1000'} ${isStatic ? 'static' : ''} delay-0 w-full transition-all ease-in-out z-50`, padding)}>
+            <div className={cn(`hidden lg:flex ${isStatic ? paddingWhenStatic : ''} ${isFixed ? 'fixed top-4 duration-500' : 'fixed -top-full duration-1000'} ${isStatic ? 'static' : ''} delay-0 w-full transition-all ease-in-out z-50`, padding)}>
                 <nav className={cn(`bg-coffe text-white hidden lg:flex justify-between items-center relative py-4 px-10 rounded-[15px]`, background)}>
                     <ul className='text-sm z-20 flex gap-x-8'>
                         <li>

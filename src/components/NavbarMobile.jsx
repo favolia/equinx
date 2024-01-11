@@ -18,7 +18,7 @@ const NavbarMobile = ({ style, withMenu = false, padding = '', whiteWhenScroll =
 
     return (
         <>
-            <div className={cn(`${show ? 'hidden' : ''} lg:hidden ${isFixed ? paddingWhenScroll+' fixed top-2 duration-500' : 'fixed -top-full duration-1000'} ${isStatic ? '!static' : ''} delay-0 w-full transition-all ease-in-out !z-[9999]`, padding)}>
+            <div className={cn(`${show ? 'hidden' : ''} lg:hidden ${isFixed ? paddingWhenScroll : ''} ${isFixed ? ' fixed top-2 duration-500' : 'fixed -top-full duration-1000'} ${isStatic ? '!static' : ''} delay-0 w-full transition-all ease-in-out !z-[9999]`, padding)}>
                 <nav className={cn(`${show ? 'shadow-lg' : ''} ${whiteWhenScroll && scroll ? 'bg-white/5' : ''} transition duration-300 flex justify-between items-center`, style)}>
                     <Link href='/' className={`${show ? 'text-coffe' : ''} font-humane text-2xl tracking-wider font-semibold transition duration-300`}>EQUINX</Link>
 
