@@ -2,11 +2,12 @@ import Navbar from '@/components/Navbar'
 import NavbarMobile from '@/components/NavbarMobile'
 import React from 'react'
 import Link from "next/link";
-import StarRing from '@/components/ui/StarRing';
 import ButtonStar from '@/components/ui/ButtonStar';
 import { IoMdMail } from 'react-icons/io';
 
+
 const About = () => {
+
     return (
         <main className='bg-ocean-mist min-h-screen lg:h-screen lg:max-h-screen lg:min-h-max flex flex-col w-full pt-4 pb-4 lg:pb-0 overflow-x-hidden lg:overflow-hidden'>
             <div className='w-full px-4 mb-8 xl:mb-10'>
