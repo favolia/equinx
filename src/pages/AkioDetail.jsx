@@ -12,7 +12,9 @@ const AkioDetail = () => {
 
     return (
         <main className='w-full bg-[#3F646B]'>
-            <Navbar background={`bg-[#D8E0E2] text-charcoal`} iconColor={'text-white'} paddingWhenStatic={'py-4'} padding={`px-3 lg:px-4`} />
+            <div className='hidden lg:block py-4'>
+                <Navbar background={`bg-[#D8E0E2] text-charcoal`} iconColor={'text-white'} padding={`px-3 lg:px-4`} />
+            </div>
             <NavbarMobile withMenu style={'text-white backdrop-blur-2xl rounded-small py-2 px-5'} padding='px-3 py-2' />
 
             <header className='w-full h-[165vh] lg:h-[200vh] flex items-end relative text-white'>

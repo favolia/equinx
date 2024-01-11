@@ -14,7 +14,9 @@ const InteriorDetail = () => {
     const scroll = useScrollPosition()
     return (
         <main className='w-full bg-chocolate-milk'>
-            <Navbar background={`bg-[#C7B19C] text-charcoal`} iconColor={'text-white'} paddingWhenStatic={'py-4'} padding={`px-3 lg:px-4`} />
+            <div className='hidden lg:block py-4'>
+                <Navbar background={`bg-[#C7B19C] text-charcoal`} iconColor={'text-white'} paddingWhenStatic={'py-4'} padding={`px-3 lg:px-4`} />
+            </div>
             <NavbarMobile withMenu style={'text-white backdrop-blur-2xl rounded-small py-2 px-5'} padding='px-3 py-2' />
 
             <header className='w-full h-[165vh] lg:h-[200vh] flex items-end relative text-white'>

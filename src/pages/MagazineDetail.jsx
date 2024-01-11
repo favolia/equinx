@@ -14,7 +14,9 @@ const MagazineDetail = () => {
     const scroll = useScrollPosition()
     return (
         <main className='w-full bg-[#465367]'>
-            <Navbar background={`bg-[#C0CDE2] text-charcoal`} iconColor={'text-white'} paddingWhenStatic={'py-4'} padding={`px-3 lg:px-4`} />
+            <div className='hidden lg:block py-4'>
+                <Navbar background={`bg-[#C0CDE2] text-charcoal`} iconColor={'text-white'} paddingWhenStatic={'py-4'} padding={`px-3 lg:px-4`} />
+            </div>
             <NavbarMobile withMenu style={'text-white backdrop-blur-2xl rounded-small py-2 px-5'} padding='px-3 py-2' />
 
 
