@@ -31,8 +31,8 @@ const Home = () => {
             <main className='w-full'>
                 <header className='header-anchor w-full h-screen flex lg:flex flex-col justify-between bg-[url(/assets/images/Hero.jpg)] bg-cover bg-left lg:bg-center pt-4'>
                     <span className={scroll > 200 ? '' : 'hidden'}></span>
-                    <Navbar background={`bg-white/5 backdrop-blur-2xl`} padding={`px-3 lg:px-4`} />
-                    <NavbarMobile withMenu style={'text-white backdrop-blur-2xl rounded-small py-2 bg-white/5 px-5'} paddingWhenScroll='pt-3' padding='px-3' />
+                    <Navbar iconColor={'text-[#6F5730]'} background={`text-charcoal bg-white/5 backdrop-blur-2xl`} padding={`px-3 lg:px-4`} />
+                    <NavbarMobile withMenu logoColor='text-[#6F5730]' style={'text-white backdrop-blur-2xl rounded-small py-2 bg-white/5 px-5'} paddingWhenScroll='pt-3' padding='px-3' />
 
                     {/* <div className={`px-3 lg:px-4 ${scroll > 500 ? 'fixed top-4 duration-500' : '-top-full duration-1000'} delay-0 w-full transition-all ease-in-out z-50`}>
                         <Navbar background={`bg-white/5 backdrop-blur-2xl`} />
