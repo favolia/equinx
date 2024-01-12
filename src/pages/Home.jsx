@@ -175,7 +175,8 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className='w-full flex flex-col justify-between items-center gap-y-12 lg:gap-y-0 lg:h-[150vh] px-2 lg:pl-6 lg:pr-4 pt-10 pb-16 lg:pt-20 lg:pb-28 bg-camel'>
+                {/* hidden */}
+                <div className='hidden flexm w-full flex-col justify-between items-center gap-y-12 lg:gap-y-0 lg:h-[150vh] px-2 lg:pl-6 lg:pr-4 pt-10 pb-16 lg:pt-20 lg:pb-28 bg-camel'>
 
                     <div className='w-full flex flex-col gap-y-10 lg:flex-row justify-between items-center'
                         data-aos="fade-up"
