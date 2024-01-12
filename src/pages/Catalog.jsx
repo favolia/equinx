@@ -52,10 +52,10 @@ const Catalog = () => {
                 <Link href={'/restaurant-detail'} className='hidden lg:flex w-full h-full bg-[url(/assets/images/toa-heftiba-uhlTPoH2Eb0-unsplash.jpg)] bg-cover bg-center relative'>
                     <h3 className='absolute top-3 left-4 text-white text-[14px] lg:text-[16px]'>Restaurant</h3>
                 </Link>
-                <Link href={'/megazine-detail'} className='hidden lg:flex w-full h-full bg-[url(/assets/images/david-van-dijk-3LTht2nxd34-unsplash.jpg)] bg-cover bg-center relative'>
+                <Link href={'/magazine-detail'} className='hidden lg:flex w-full h-full bg-[url(/assets/images/david-van-dijk-3LTht2nxd34-unsplash.jpg)] bg-cover bg-center relative'>
                     <h3 className='absolute top-3 left-4 text-white text-[14px] lg:text-[16px]'>Magazine</h3>
                 </Link>
-                <Link href={'#'} className='hidden lg:flex w-full h-full bg-[url(/assets/images/karolina-grabowska-BgrHbgtn_b0-unsplash.jpg)] bg-cover bg-center relative'>
+                <Link href={'https://glowing-ds.vercel.app/'} target='_blank' className='hidden lg:flex w-full h-full bg-[url(/assets/images/karolina-grabowska-BgrHbgtn_b0-unsplash.jpg)] bg-cover bg-center relative'>
                     <h3 className='absolute top-3 left-4 text-white text-[14px] lg:text-[16px]'>Glowing</h3>
                 </Link>
             </div>
