@@ -28,8 +28,8 @@ const humane = localFont({
 })
 
 export const metadata = {
-  title: 'Main',
-  description: 'main',
+  title: 'EquinxCreative',
+  description: 'EquinxCreative web',
 }
 
 export default function RootLayout({ children }) {

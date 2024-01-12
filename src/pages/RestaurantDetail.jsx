@@ -1,17 +1,14 @@
-'use client';
 import NavbarMobile from '@/components/NavbarMobile'
 import React from 'react'
 import Image from "next/image";
 import Link from "next/link";
 import ButtonOutline from '@/components/ui/ButtonOutline';
-import { PiHouseFill } from "react-icons/pi";
 import PageIdRounded from '@/components/ui/PageIdRounded';
 import Navbar from '@/components/Navbar';
-import { useScrollPosition } from '@/hooks/useScrollPosition';
 import ButtonListHorizontal from '@/components/ButtonListHorizontal';
+import BackHome from '@/components/ui/BackHome';
 
 const RestaurantDetail = () => {
-    const scroll = useScrollPosition()
 
     return (
         <main className='w-full bg-[#7C6842]'>
@@ -27,8 +24,8 @@ const RestaurantDetail = () => {
                         <div className='w-[17rem] h-36 bg-[url(/assets/restaurant/getty-images-HgOfijrEWt0-unsplash.jpg)] rounded-small bg-cover bg-center'></div>
                     </div>
 
-                    <div className='flex flex-col items-center justify-center lg:justify-start lg:items-end gap-y-10 lg:gap-y-10 text-charcoal'>
-                        <h1 className='text-3xl lg:text-6xl lg:self-start font-soligant'>About</h1>
+                    <div className='flex flex-col items-center justify-center lg:justify-start lg:items-start gap-y-10 lg:gap-y-10 text-charcoal'>
+                        <h1 className='text-3xl lg:text-6xl font-soligant'>About</h1>
                         <p className='text-center lg:text-left w-72 lg:w-72 text-sm'>
                             Restaurant is a dining venue with a Japanese concept, offering a diverse menu that blends both Japanese and Western cuisines. Delight in options for all palates, including special vegan selections for plant-based patrons
                         </p>
@@ -192,19 +189,13 @@ const RestaurantDetail = () => {
                     </div>
                 </div>
 
-                <div className='h-72 lg:h-[30rem] w-full bg-[url(/assets/restaurant/katelyn-perry-8gvg4nouS3k-unsplash.jpg)] bg-cover bg-center mt-3 relative'>
-                    <Link href={'/'} className='absolute bottom-20 right-20 lg:right-40 w-44 h-11 flex rounded-full gap-x-2 justify-start items-center bg-cream px-2'>
-                        <div className='bg-coppertone h-8 w-8 flex justify-center items-center text-white rounded-full'>
-                            <PiHouseFill />
-                        </div>
-                        <div className='text-xs flex flex-col justify-start items-start h-8'>
-                            <p>Back To Home</p>
-                            <p className='font-light'>EQUINX</p>
-                        </div>
-                    </Link>
+                <Link href={'/ceramics-detail'} className='h-72 lg:h-[30rem] w-full bg-[url(/assets/restaurant/katelyn-perry-8gvg4nouS3k-unsplash.jpg)] bg-cover bg-center mt-3 relative'>
+                    <div className='absolute bottom-20 right-20 lg:right-40'>
+                        <BackHome />
+                    </div>
 
                     <PageIdRounded isDefault={false} text='/02' />
-                </div>
+                </Link>
             </footer>
 
         </main>

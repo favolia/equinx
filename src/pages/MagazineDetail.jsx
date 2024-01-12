@@ -9,6 +9,7 @@ import PageIdRounded from '@/components/ui/PageIdRounded';
 import Navbar from '@/components/Navbar';
 import { useScrollPosition } from '@/hooks/useScrollPosition';
 import ButtonListHorizontal from '@/components/ButtonListHorizontal';
+import BackHome from '@/components/ui/BackHome';
 
 const MagazineDetail = () => {
     const scroll = useScrollPosition()
@@ -19,7 +20,6 @@ const MagazineDetail = () => {
             </div>
             <NavbarMobile withMenu style={'text-white backdrop-blur-2xl rounded-small py-2 px-5'} padding='px-3 py-2' />
 
-
             <header className='w-full h-[165vh] lg:h-[200vh] flex items-end relative text-white'>
                 <div className='bg-[#C0CDE2] flex justify-center lg:justify-between items-end pb-10 lg:pb-20 w-full h-[110vh] lg:h-screen px-6 lg:pl-6 lg:pr-16'>
                     <div className='-translate-y-12 text-charcoal hidden lg:flex flex-col gap-y-4'>
@@ -27,8 +27,8 @@ const MagazineDetail = () => {
                         <div className='w-[17rem] h-36 bg-[url(/assets/megazine/sebin-thomas-OdBFUurPHjo-unsplash.jpg)] rounded-small bg-cover bg-center'></div>
                     </div>
 
-                    <div className='flex flex-col items-center justify-center lg:justify-start lg:items-end gap-y-10 lg:gap-y-10 text-charcoal'>
-                        <h1 className='text-3xl lg:text-6xl font-soligant lg:self-start'>About</h1>
+                    <div className='flex flex-col items-center justify-center lg:justify-start lg:items-start gap-y-10 lg:gap-y-10 text-charcoal'>
+                        <h1 className='text-3xl lg:text-6xl font-soligant'>About</h1>
                         <p className='text-center lg:text-left w-72 lg:w-64 text-sm'>
                             Magazine is a monthly magazine that explore the realms of travel, lifestyle, nature and trendy hotspots through our travel magazine. guiding you through captivating destinations, culinary delights
                         </p>
@@ -192,19 +192,13 @@ const MagazineDetail = () => {
                     </div>
                 </div>
 
-                <div className='h-72 lg:h-[30rem] w-full bg-[url(/assets/megazine/maryam-sicard-MHl9tSeUkl4-unsplash.jpg)] bg-cover bg-center mt-3 relative'>
-                    <Link href={'/'} className='absolute bottom-20 right-20 lg:right-40 w-44 h-11 flex rounded-full gap-x-2 justify-start items-center bg-cream px-2'>
-                        <div className='bg-coppertone h-8 w-8 flex justify-center items-center text-white rounded-full'>
-                            <PiHouseFill />
-                        </div>
-                        <div className='text-xs flex flex-col justify-start items-start h-8'>
-                            <p>Back To Home</p>
-                            <p className='font-light'>EQUINX</p>
-                        </div>
-                    </Link>
+                <Link href={'/restaurant-detail'} className='h-72 lg:h-[30rem] w-full bg-[url(/assets/megazine/maryam-sicard-MHl9tSeUkl4-unsplash.jpg)] bg-cover bg-center mt-3 relative'>
+                    <div className='absolute bottom-20 right-20 lg:right-40'>
+                        <BackHome />
+                    </div>
 
                     <PageIdRounded isDefault={false} text='/04' />
-                </div>
+                </Link>
             </footer>
 
         </main>

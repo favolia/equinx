@@ -19,15 +19,15 @@ const Navbar = ({ background, withMenu = false, iconColor, padding, paddingWhenS
                 <nav className={cn(`bg-coffe text-white hidden lg:flex justify-between items-center relative py-4 xl:py-5 px-10 rounded-[15px]`, background)}>
                     <ul className='text-sm z-20 flex gap-x-8'>
                         <li>
-                            <Link href='/'>Home</Link>
+                            <Link href='/catalog'>Catalogue</Link>
                         </li>
                         <li>
-                            <Link href='/catalog'>Catalogue</Link>
+                            <Link href='/showcase'>Showcase</Link>
                         </li>
                     </ul>
 
                     <div className='logo-mid absolute left-0 top-0 w-full h-full flex justify-center items-center'>
-                        <Link href={'/'} className={cn(`font-humane text-2xl tracking-wide font-semibold`, iconColor)}>EQUINX</Link>
+                        <Link href={'/'} className={cn(`font-humane text-[1.7rem] tracking-wide font-semibold`, iconColor)}>EQUINX</Link>
                     </div>
 
                     <ul className='text-sm z-20 flex gap-x-8'>
