@@ -23,22 +23,22 @@ const Menu = ({ show, toggleShow, className }) => {
 
                 <div className='flex h-full justify-between pl-6 pr-12'>
                     <ul className={`${show ? 'opacity-100 transition-all !duration-500 !delay-[600ms]' : ''} opacity-0 transition-all duration-500 ease-out font-soligant text-4xl flex flex-col gap-y-11`}>
-                        <li>
+                        <li onClick={() => toggleShow(false)}>
                             <Link href={'/'}>
                                 Home
                             </Link>
                         </li>
-                        <li>
+                        <li onClick={() => toggleShow(false)}>
                             <Link href={'/catalog'}>
                                 Catalogue
                             </Link>
                         </li>
-                        <li>
+                        <li onClick={() => toggleShow(false)}>
                             <Link href={'/about'}>
                                 About
                             </Link>
                         </li>
-                        <li>
+                        <li onClick={() => toggleShow(false)}>
                             <Link href={'/contact-us'}>
                                 Contact
                             </Link>
@@ -50,19 +50,19 @@ const Menu = ({ show, toggleShow, className }) => {
                         </div>
 
                         <ul className={`${show ? 'opacity-100 transition-all !duration-1000 !delay-700' : ''} opacity-0 transition-all duration-500 ease-out flex flex-col justify-start gap-y-2`}>
-                            <li>
+                            <li onClick={() => toggleShow(false)}>
                                 <Link href={'/akio-detail'}>Akio</Link>
                             </li>
-                            <li>
+                            <li onClick={() => toggleShow(false)}>
                                 <Link href={'/ceramics-detail'}>Ceramics</Link>
                             </li>
-                            <li>
+                            <li onClick={() => toggleShow(false)}>
                                 <Link href={'/interior-detail'}>Interior</Link>
                             </li>
-                            <li>
+                            <li onClick={() => toggleShow(false)}>
                                 <Link href={'/restaurant-detail'}>Restaurant</Link>
                             </li>
-                            <li>
+                            <li onClick={() => toggleShow(false)}>
                                 <Link href={'/magazine-detail'}>Magazine</Link>
                             </li>
                         </ul>
