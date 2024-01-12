@@ -9,7 +9,7 @@ const Catalog = () => {
         <main className='h-screen flex flex-col w-full bg-sand pt-4 text-charcoal overflow-y-auto'>
             <div className='w-full px-4'>
                 <Navbar />
-                <NavbarMobile />
+                <NavbarMobile withMenu />
             </div>
 
             <div className=''>
