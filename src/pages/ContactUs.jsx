@@ -11,7 +11,7 @@ const ContactUs = () => {
         <main className='min-h-screen lg:h-screen w-full flex flex-col lg:flex-row text-white'>
             <div className='w-full h-full bg-sky-blue pb-28 lg:pb-3'>
                 <div className='block w-full p-4 lg:hidden'>
-                        <NavbarMobile withMenu style={'text-white rounded-small'} paddingWhenScroll='px-4' />
+                    <NavbarMobile withMenu style={'text-white rounded-small'} paddingWhenScroll='px-4' />
                 </div>
 
                 <div className='w-full hidden lg:flex flex-col pt-6 pl-12 pr-5'>
@@ -42,9 +42,9 @@ const ContactUs = () => {
                     </div>
 
                     <div className='lg:px-10 mt-10'>
-                        <Link href={'mailto:Equinx000@gmail.com'}>
+                        <Link href={'mailto:equinxcreative@gmail.com'}>
                             <h1 className='text-2xl lg:text-5xl xl:text-6xl font-light pb-2 lg:pb-5 border-b border-b-white w-fit'>
-                                Equinx000@gmail.com
+                                Equinxcreative@gmail.com
                             </h1>
                         </Link>
                     </div>

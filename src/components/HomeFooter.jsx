@@ -61,7 +61,7 @@ const HomeFooter = () => {
                     data-aos-delay='500'
                     data-aos-anchor='.footer-center-anchor'
                     data-aos-easing="ease-in-out">
-                    <ButtonOutline href='mailto:Equinx000@gmail.com' text='Equinx000@gmail.com' color='black' style={'rounded-full text-xs w-40 lg:w-48 lg:text-sm text-charcoal'} />
+                    <ButtonOutline href='mailto:equinxcreative@gmail.com' text='Equinxcreative@gmail.com' color='black' style={'rounded-full text-xs w-40 lg:w-48 lg:text-sm text-charcoal'} />
                 </div>
                 <h2 className='text-sm lg:text-xl font-soligant text-left'
                     data-aos="fade-up"
