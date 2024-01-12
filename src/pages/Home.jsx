@@ -106,7 +106,7 @@ const Home = () => {
 
                 </header>
 
-                <div className='w-full bg-coffe text-white pt-10 pb-16 lg:pt-14 lg:pb-40 px-4 lg:px-0'>
+                <div className='w-full bg-coffe text-white pt-10 pb-16 lg:pt-14 lg:pb-16 xl:pb-0 px-4 lg:px-0'>
                     <div className='w-full text-sm lg:text-lg flex justify-between items-center lg:items-start lg:px-8 relative'
                         data-aos="fade-up"
                         data-aos-duration={500}
@@ -257,7 +257,7 @@ const Home = () => {
 
                 <div className='w-full h-[50rem] lg:h-[260vh] bg-coffe flex justify-center items-center lg:items-end relative'>
 
-                    <div className='absolute top-0 left-0 h-full w-full pt-16 lg:pt-10 lg:pb-16 lg:flex flex-col justify-center'>
+                    <div className='absolute top-0 left-0 h-full w-full pt-16 lg:pt-0 lg:pb-16 lg:flex flex-col justify-center'>
                         <div className='w-full flex flex-col justify-center gap-y-5 lg:gap-y-2 items-center px-4 lg:px-14'>
                             <h1 className='lg:hidden text-3xl text-center lg:text-start text-white font-abril_fatface w-64 -translate-x-3'>Highlighted Projects</h1>
 
