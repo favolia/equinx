@@ -25,14 +25,14 @@ const RestaurantDetail = () => {
                     </div>
 
                     <div className='flex flex-col items-center justify-center lg:justify-start lg:items-start gap-y-10 lg:gap-y-10 text-charcoal'>
-                        <h1 className='text-3xl lg:text-6xl font-soligant'>About</h1>
-                        <p className='text-center lg:text-left w-72 lg:w-72 text-sm'>
+                        <h1 className='text-3xl lg:text-6xl font-soligant z-10'>About</h1>
+                        <p className='text-center lg:text-left w-72 lg:w-72 text-sm z-10'>
                             Restaurant is a dining venue with a Japanese concept, offering a diverse menu that blends both Japanese and Western cuisines. Delight in options for all palates, including special vegan selections for plant-based patrons
                         </p>
                         <div className='lg:hidden'>
                             <div className='w-[17rem] h-40 bg-[url(/assets/restaurant/getty-images-HgOfijrEWt0-unsplash.jpg)] rounded-small bg-cover bg-center'></div>
                         </div>
-                        <ButtonOutline style={'bg-cream text-charcoal border-none w-36 z-30'} href='https://interior-ds.vercel.app/' />
+                        <ButtonOutline style={'bg-cream text-charcoal border-none w-36 z-10'} href='https://interior-ds.vercel.app/' />
                     </div>
 
                 </div>

@@ -26,14 +26,14 @@ const AkioDetail = () => {
                     </div>
 
                     <div className='flex flex-col items-center justify-center lg:justify-start lg:items-start gap-y-10 lg:gap-y-10 text-charcoal z-10'>
-                        <h1 className='text-3xl lg:text-6xl font-soligant'>About</h1>
-                        <p className='text-center lg:text-left w-72 lg:w-64 xl:w-72 text-sm'>
+                        <h1 className='text-3xl lg:text-6xl font-soligant z-10'>About</h1>
+                        <p className='text-center lg:text-left w-72 lg:w-64 xl:w-72 text-sm z-10'>
                             Akio is a small business specializing in craft-focused ventures, passionately dedicated to the production of exquisite drinkware and water bottle accessories.
                         </p>
                         <div className='lg:hidden'>
                             <div className='w-[17rem] h-40 bg-[url(/assets/images/quokkabottles-2S9FFzGKK1A-unsplash.png)] rounded-small bg-cover bg-center'></div>
                         </div>
-                        <ButtonOutline style={'bg-cream text-charcoal border-none w-36 z-30'} href='https://akio-ds.vercel.app/' />
+                        <ButtonOutline style={'bg-cream text-charcoal border-none w-36 z-10'} href='https://akio-ds.vercel.app/' />
                     </div>
 
                 </div>

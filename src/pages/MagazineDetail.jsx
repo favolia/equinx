@@ -28,14 +28,14 @@ const MagazineDetail = () => {
                     </div>
 
                     <div className='flex flex-col items-center justify-center lg:justify-start lg:items-start gap-y-10 lg:gap-y-10 text-charcoal'>
-                        <h1 className='text-3xl lg:text-6xl font-soligant'>About</h1>
-                        <p className='text-center lg:text-left w-72 lg:w-64 text-sm'>
+                        <h1 className='text-3xl lg:text-6xl font-soligant z-10'>About</h1>
+                        <p className='text-center lg:text-left w-72 lg:w-64 text-sm z-10'>
                             Magazine is a monthly magazine that explore the realms of travel, lifestyle, nature and trendy hotspots through our travel magazine. guiding you through captivating destinations, culinary delights
                         </p>
                         <div className='lg:hidden'>
                             <div className='w-[17rem] h-40 bg-[url(/assets/megazine/sebin-thomas-OdBFUurPHjo-unsplash.jpg)] rounded-small bg-cover bg-center'></div>
                         </div>
-                        <ButtonOutline style={'bg-cream text-charcoal border-none w-36 z-30'} href='https://interior-ds.vercel.app/' />
+                        <ButtonOutline style={'bg-cream text-charcoal border-none w-36 z-10'} href='https://interior-ds.vercel.app/' />
                     </div>
 
                 </div>
