@@ -255,9 +255,9 @@ const Home = () => {
 
                 </div>
 
-                <div className='w-full h-[50rem] lg:h-[240vh] xl:h-[220vh] bg-coffe flex justify-center items-center lg:items-end relative'>
+                <div className='w-full h-[50rem] lg:min-h-[240vh] xl:min-h-[220vh] bg-coffe flex justify-center items-center lg:items-end relative'>
 
-                    <div className='absolute top-0 left-0 h-full w-full pt-16 lg:pt-0 lg:flex flex-col justify-center'>
+                    <div className='absolute top-0 left-0 h-full w-full pt-16 lg:pt-0 lg:flex flex-col justify-center lg:pb-5 xl:pb-3'>
                         <div className='w-full flex flex-col justify-center gap-y-5 lg:gap-y-2 items-center px-4 lg:px-14'>
                             <h1 className='lg:hidden text-3xl text-center lg:text-start text-white font-abril_fatface w-64 -translate-x-3'>Highlighted Projects</h1>
 

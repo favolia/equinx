@@ -24,13 +24,13 @@ const Menu = ({ show, toggleShow, className }) => {
                 <div className='flex h-full justify-between pl-6 pr-12'>
                     <ul className={`${show ? 'opacity-100 transition-all !duration-500 !delay-[600ms]' : ''} opacity-0 transition-all duration-500 ease-out font-soligant text-4xl flex flex-col gap-y-11`}>
                         <li onClick={() => toggleShow(false)}>
-                            <Link href={'/'}>
-                                Home
+                            <Link href={'/catalog'}>
+                                Catalogue
                             </Link>
                         </li>
                         <li onClick={() => toggleShow(false)}>
-                            <Link href={'/catalog'}>
-                                Catalogue
+                            <Link href={'/showcase'}>
+                                Showcase
                             </Link>
                         </li>
                         <li onClick={() => toggleShow(false)}>
